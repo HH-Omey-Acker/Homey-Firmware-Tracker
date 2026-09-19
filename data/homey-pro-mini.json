@@ -1,59 +1,5 @@
 [
   {
-    "version": "13.5.0-rc.4",
-    "date": "2026-08-31",
-    "dateSource": "official",
-    "description": "<p><strong>Core</strong></p>\n<ul>\n<li>Updates translations.</li>\n<li>Fixes a Zone staying active after a nested Zone was deleted.</li>\n<li>Fixes a Zone staying active because of a power cycle.</li>\n<li>Fixes Homey losing its name when the setup was run again.</li>\n</ul>\n<p><strong>Flow</strong></p>\n<ul>\n<li>Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X\" and \"when a variable becomes less than X\".</li>\n<li>Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X for Y minutes/seconds\" and \"when a variable becomes less than X for Y minutes/seconds\".</li>\n</ul>\n<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes dim level reading slightly too high on devices that use Level Control.</li>\n</ul>\n<p><strong>Z-Wave</strong></p>\n<ul>\n<li>Fixes firmware updates being offered to devices they don't apply to.</li>\n<li>Fixes Fibaro FGS-101 pairing issue.</li>\n</ul>\n<p><strong>Zigbee</strong></p>\n<ul>\n<li>Updates various components to the latest version.</li>\n<li>Various minor improvements.</li>\n</ul>\n<p><strong>Thread</strong></p>\n<ul>\n<li>Updates Thread to v1.4.</li>\n</ul>\n<p><strong>BLE</strong></p>\n<ul>\n<li>Fixes a number of issues that could cause BLE to stop working as expected until a reboot is performed.</li>\n</ul>\n<p><strong>Apps</strong></p>\n<ul>\n<li>Improves stability of Python apps by handling errors during inter-process communication.</li>\n<li>Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.</li>\n</ul>\n<p><strong>Users</strong></p>\n<ul>\n<li>Fixes user Flow cards not listing users whose account is disabled.</li>\n</ul>",
-    "descriptionText": "Core \n \n- Updates translations.\n- Fixes a Zone staying active after a nested Zone was deleted.\n- Fixes a Zone staying active because of a power cycle.\n- Fixes Homey losing its name when the setup was run again.\n Flow \n \n- Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X\" and \"when a variable becomes less than X\".\n- Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X for Y minutes/seconds\" and \"when a variable becomes less than X for Y minutes/seconds\".\n Matter \n \n- Fixes dim level reading slightly too high on devices that use Level Control.\n Z-Wave \n \n- Fixes firmware updates being offered to devices they don't apply to.\n- Fixes Fibaro FGS-101 pairing issue.\n Zigbee \n \n- Updates various components to the latest version.\n- Various minor improvements.\n Thread \n \n- Updates Thread to v1.4.\n BLE \n \n- Fixes a number of issues that could cause BLE to stop working as expected until a reboot is performed.\n Apps \n \n- Improves stability of Python apps by handling errors during inter-process communication.\n- Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.\n Users \n \n- Fixes user Flow cards not listing users whose account is disabled.",
-    "channel": "beta",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
-    "version": "13.5.0",
-    "date": "2026-09-07",
-    "dateSource": "official",
-    "description": "<p><strong>Core</strong></p>\n<ul>\n<li>Updates translations.</li>\n<li>Fixes a Zone staying active after a nested Zone was deleted.</li>\n<li>Fixes a Zone staying active because of a power cycle.</li>\n<li>Fixes Homey losing its name when the setup was run again.</li>\n</ul>\n<p><strong>Flow</strong></p>\n<ul>\n<li>Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X\" and \"when a variable becomes less than X\".</li>\n<li>Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X for Y minutes/seconds\" and \"when a variable becomes less than X for Y minutes/seconds\".</li>\n</ul>\n<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes dim level reading slightly too high on devices that use Level Control.</li>\n</ul>\n<p><strong>Z-Wave</strong></p>\n<ul>\n<li>Fixes firmware updates being offered to devices they don't apply to.</li>\n<li>Fixes Fibaro FGS-101 pairing issue.</li>\n</ul>\n<p><strong>Zigbee</strong></p>\n<ul>\n<li>Updates various components to the latest version.</li>\n<li>Various minor improvements.</li>\n</ul>\n<p><strong>Thread</strong></p>\n<ul>\n<li>Updates Thread to v1.4.</li>\n</ul>\n<p><strong>BLE</strong></p>\n<ul>\n<li>Fixes a number of issues that could cause BLE to stop working as expected until a reboot is performed.</li>\n</ul>\n<p><strong>Apps</strong></p>\n<ul>\n<li>Improves stability of Python apps by handling errors during inter-process communication.</li>\n<li>Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.</li>\n</ul>\n<p><strong>Users</strong></p>\n<ul>\n<li>Fixes user Flow cards not listing users whose account is disabled.</li>\n</ul>",
-    "descriptionText": "Core \n \n- Updates translations.\n- Fixes a Zone staying active after a nested Zone was deleted.\n- Fixes a Zone staying active because of a power cycle.\n- Fixes Homey losing its name when the setup was run again.\n Flow \n \n- Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X\" and \"when a variable becomes less than X\".\n- Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X for Y minutes/seconds\" and \"when a variable becomes less than X for Y minutes/seconds\".\n Matter \n \n- Fixes dim level reading slightly too high on devices that use Level Control.\n Z-Wave \n \n- Fixes firmware updates being offered to devices they don't apply to.\n- Fixes Fibaro FGS-101 pairing issue.\n Zigbee \n \n- Updates various components to the latest version.\n- Various minor improvements.\n Thread \n \n- Updates Thread to v1.4.\n BLE \n \n- Fixes a number of issues that could cause BLE to stop working as expected until a reboot is performed.\n Apps \n \n- Improves stability of Python apps by handling errors during inter-process communication.\n- Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.\n Users \n \n- Fixes user Flow cards not listing users whose account is disabled.",
-    "channel": "stable",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
-    "version": "13.4.1-rc.3",
-    "date": "2026-08-16",
-    "dateSource": "discovered",
-    "description": "<p><strong>Z-Wave</strong></p>\n<ul>\n<li>Fixes various issues with (multi channel) associations on older devices.</li>\n</ul>",
-    "descriptionText": "Z-Wave \n \n- Fixes various issues with (multi channel) associations on older devices.",
-    "channel": "beta",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
-    "version": "13.4.1-rc.2",
-    "date": "2026-08-15",
-    "dateSource": "discovered",
-    "description": "<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes an issue with missing Flow card translations.</li>\n</ul>",
-    "descriptionText": "Matter \n \n- Fixes an issue with missing Flow card translations.",
-    "channel": "beta",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
-    "version": "13.4.1-rc.1",
-    "date": "2026-08-14",
-    "dateSource": "discovered",
-    "description": "<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes an issue where 21-digit pairing codes could not be used when adding a device.</li>\n<li>Decreases the priority to use the \"Generic Switch\" device type to use as the Homey Device's device class.</li>\n<li>Improved device class assignment for bridges.</li>\n<li>Adds \"start\", \"stop\", \"resume\", and \"pause\" Flow cards for \"operational state\" actions.</li>\n<li>Adds \"Go to charging dock\" Flow card for robot vacuum cleaners.</li>\n</ul>",
-    "descriptionText": "Matter \n \n- Fixes an issue where 21-digit pairing codes could not be used when adding a device.\n- Decreases the priority to use the \"Generic Switch\" device type to use as the Homey Device's device class.\n- Improved device class assignment for bridges.\n- Adds \"start\", \"stop\", \"resume\", and \"pause\" Flow cards for \"operational state\" actions.\n- Adds \"Go to charging dock\" Flow card for robot vacuum cleaners.",
-    "channel": "beta",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
-    "version": "13.4.1",
-    "date": "2026-08-17",
-    "dateSource": "discovered",
-    "description": "<p><strong>Security</strong></p>\n<ul>\n<li>This release includes an important security fix. We recommend keeping your Homey up to date.</li>\n</ul>\n<p><strong>Z-Wave</strong></p>\n<ul>\n<li>Fixes various issues with (multi channel) associations on older devices.</li>\n</ul>\n<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes an issue where 21-digit pairing codes could not be used when adding a device.</li>\n<li>Decreases the priority to use the \"Generic Switch\" device type to use as the Homey Device's device class.</li>\n<li>Improved device class assignment for bridges.</li>\n<li>Adds \"start\", \"stop\", \"resume\", and \"pause\" Flow cards for \"operational state\" actions.</li>\n<li>Adds \"Go to charging dock\" Flow card for robot vacuum cleaners.</li>\n</ul>",
-    "descriptionText": "Security \n \n- This release includes an important security fix. We recommend keeping your Homey up to date.\n Z-Wave \n \n- Fixes various issues with (multi channel) associations on older devices.\n Matter \n \n- Fixes an issue where 21-digit pairing codes could not be used when adding a device.\n- Decreases the priority to use the \"Generic Switch\" device type to use as the Homey Device's device class.\n- Improved device class assignment for bridges.\n- Adds \"start\", \"stop\", \"resume\", and \"pause\" Flow cards for \"operational state\" actions.\n- Adds \"Go to charging dock\" Flow card for robot vacuum cleaners.",
-    "channel": "stable",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
     "version": "13.4.0-rc.8",
     "date": "2026-09-19",
     "dateSource": "discovered",
@@ -1800,15 +1746,6 @@
     "firstSeenAt": "2026-09-19T14:42:34.389Z"
   },
   {
-    "version": "10.0.0-rc.142",
-    "date": "2023-07-27",
-    "dateSource": "official",
-    "description": "<p><strong>Matter</strong></p><ul><li>Fixes a layout issue in the add a Matter device views.</li><li>Fixes an issue that could cause a Matter device to be incorrectly removed after a failed pair attempt.</li></ul><p><strong>Core</strong></p><ul><li>Increase max number of timeline notifications to 250.</li></ul>",
-    "descriptionText": "Matter \n \n- Fixes a layout issue in the add a Matter device views.\n- Fixes an issue that could cause a Matter device to be incorrectly removed after a failed pair attempt.\n Core \n \n- Increase max number of timeline notifications to 250.",
-    "channel": "beta",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
     "version": "10.0.0-rc.139",
     "date": "2026-09-19",
     "dateSource": "discovered",
@@ -1836,30 +1773,12 @@
     "firstSeenAt": "2026-09-19T14:42:34.389Z"
   },
   {
-    "version": "10.0.0-rc.122",
-    "date": "2023-06-30",
-    "dateSource": "officilal",
-    "description": "<p><strong>BLE</strong></p><ul><li>Fixed an issue that could cause various BLE communication issues.</li></ul><p><strong>OTA</strong></p><ul><li>Improve stability of downloading OTA updates.</li></ul><p><strong>Z-Wave</strong></p><ul><li>Update firmware of Z-Wave to latest version</li><li>Clarified Z-Wave error messages to explain the actual problem to the user</li><li>Notify user if a device is very \"chatty\" on the Z-Wave network</li><li>Fixes an issue where multiple Z-Wave backups were made.</li></ul><p><strong>Flows</strong></p><ul><li>Fixes an issue where autocomplete items did not show their names.</li><li>Fixes an issue where flows with the sunrise card could not be saved.</li></ul><p><strong>System</strong></p><ul><li>Fixes an issue where backups and updates were not run at the correct times.</li></ul>",
-    "descriptionText": "BLE \n \n- Fixed an issue that could cause various BLE communication issues.\n OTA \n \n- Improve stability of downloading OTA updates.\n Z-Wave \n \n- Update firmware of Z-Wave to latest version\n- Clarified Z-Wave error messages to explain the actual problem to the user\n- Notify user if a device is very \"chatty\" on the Z-Wave network\n- Fixes an issue where multiple Z-Wave backups were made.\n Flows \n \n- Fixes an issue where autocomplete items did not show their names.\n- Fixes an issue where flows with the sunrise card could not be saved.\n System \n \n- Fixes an issue where backups and updates were not run at the correct times.",
-    "channel": "stable",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
     "version": "10.0.0-rc.121",
     "date": "2026-09-19",
     "dateSource": "discovered",
     "description": "<p><strong>Z-Wave</strong></p><ul><li>Fixes an issue where multiple Z-Wave backups were made.</li><li>Update firmware of Z-Wave to the latest version.</li><li>Clarified Z-Wave error messages to explain the actual problem to the user.</li><li>Notify user if a device is very \"chatty\" on the Z-Wave network.</li></ul><p><strong>Flows</strong></p><ul><li>Fixes an issue where autocomplete items did not show their names.</li><li>Fixes an issue where flows with the sunrise card could not be saved.</li></ul><p><strong>System</strong></p><ul><li>Fixes an issue where backups and updates were not run at the correct times.</li><li>Fixed an issue where Homey Pro's ethernet address would not be reported correctly in some cases.</li></ul>",
     "descriptionText": "Z-Wave \n \n- Fixes an issue where multiple Z-Wave backups were made.\n- Update firmware of Z-Wave to the latest version.\n- Clarified Z-Wave error messages to explain the actual problem to the user.\n- Notify user if a device is very \"chatty\" on the Z-Wave network.\n Flows \n \n- Fixes an issue where autocomplete items did not show their names.\n- Fixes an issue where flows with the sunrise card could not be saved.\n System \n \n- Fixes an issue where backups and updates were not run at the correct times.\n- Fixed an issue where Homey Pro's ethernet address would not be reported correctly in some cases.",
     "channel": "beta",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
-    "version": "10.0.0-rc.118",
-    "date": "2023-06-27",
-    "dateSource": "official",
-    "description": "<p><strong>System</strong></p><ul><li>Fixes an issue where apps with added permissions would not auto-update.</li><li>Fixes an issue where backups were not scheduled.</li><li>Fixes an issue where the title of the disable/enable guest flow card was unclear.</li><li>Fixes an issue where push messages could be sent to disabled users.</li><li>Fixes where some flow cards where inadvertently causing rate limits.</li><li>Fixes an issue that causes USB realtek network driver loading to fail.</li><li>Fixes an issue that causes Broadcom 43455 driver loading to fail.</li><li>Fixes an issue where originator of Flows was not set correctly.</li><li>Fixes an issue where ZWave and Zigbee firmware could not be updated simultaneously.</li><li>Fixes an issue where the flow card for running a flow every X minutes/days etc would run incorrectly.</li><li>Fixes an issue where an app could crash when it supplied an Image stream.</li><li>Fixes an issue where Homey could lockup because of a kernel crash.</li><li>Fixes an issue where Any Alarm goes of in x minutes would not run reliably.</li></ul><p><strong>Z-Wave</strong></p><ul><li>Fixes an issue that could result in a crash when Z-Wave Satellite mode could not start correctly.</li><li>Added support for satellite mode.</li></ul><p><strong>Matter</strong></p><ul><li>Added beta support for Matter. For more information read:&nbsp;Matter (Beta) for Homey Pro (Early 2023).</li><li>Fixes some issues that could cause pairing a Matter device to fail.</li></ul><p><strong>Apps</strong></p><ul><li>Fixes an issue where it was not possible for apps to override zone activity for a capability.</li><li>Fixes an issue where some Flow cards were not generated for apps when the card device argument filter had multiple capabilities.</li><li>Fixes an issue that caused mDNS hostnames to not resolve to their respective IP addresses.</li><li>Fixes an issue that could result in a \"Capability Not Getable\" error.</li></ul><p><strong>Backups</strong></p><ul><li>Fixes an issue that could cause multiple backups to be created in one night.</li></ul><p><strong>Setup</strong></p><ul><li>Fixes an issue that could result in a failure when fetching a long list of Wi-Fi SSIDs.</li></ul><p><strong>BLE</strong></p><ul><li>Fixes an issue where discovery could not be performed.</li></ul><p><strong>Notifications</strong></p><ul><li>Fixes an issue where images would not be loaded in push notifications.</li></ul><p><strong>Discovery</strong></p><ul><li>Fixes an issue where DNS lookup of mDns discovery results failed.</li></ul>",
-    "descriptionText": "System \n \n- Fixes an issue where apps with added permissions would not auto-update.\n- Fixes an issue where backups were not scheduled.\n- Fixes an issue where the title of the disable/enable guest flow card was unclear.\n- Fixes an issue where push messages could be sent to disabled users.\n- Fixes where some flow cards where inadvertently causing rate limits.\n- Fixes an issue that causes USB realtek network driver loading to fail.\n- Fixes an issue that causes Broadcom 43455 driver loading to fail.\n- Fixes an issue where originator of Flows was not set correctly.\n- Fixes an issue where ZWave and Zigbee firmware could not be updated simultaneously.\n- Fixes an issue where the flow card for running a flow every X minutes/days etc would run incorrectly.\n- Fixes an issue where an app could crash when it supplied an Image stream.\n- Fixes an issue where Homey could lockup because of a kernel crash.\n- Fixes an issue where Any Alarm goes of in x minutes would not run reliably.\n Z-Wave \n \n- Fixes an issue that could result in a crash when Z-Wave Satellite mode could not start correctly.\n- Added support for satellite mode.\n Matter \n \n- Added beta support for Matter. For more information read: Matter (Beta) for Homey Pro (Early 2023).\n- Fixes some issues that could cause pairing a Matter device to fail.\n Apps \n \n- Fixes an issue where it was not possible for apps to override zone activity for a capability.\n- Fixes an issue where some Flow cards were not generated for apps when the card device argument filter had multiple capabilities.\n- Fixes an issue that caused mDNS hostnames to not resolve to their respective IP addresses.\n- Fixes an issue that could result in a \"Capability Not Getable\" error.\n Backups \n \n- Fixes an issue that could cause multiple backups to be created in one night.\n Setup \n \n- Fixes an issue that could result in a failure when fetching a long list of Wi-Fi SSIDs.\n BLE \n \n- Fixes an issue where discovery could not be performed.\n Notifications \n \n- Fixes an issue where images would not be loaded in push notifications.\n Discovery \n \n- Fixes an issue where DNS lookup of mDns discovery results failed.",
-    "channel": "stable",
     "firstSeenAt": "2026-09-19T14:42:34.389Z"
   },
   {
@@ -1941,15 +1860,6 @@
     "description": "<p><strong>Apps</strong></p><ul><li>Fixed an issue where images would not load when running an app inside Docker during development.</li></ul>",
     "descriptionText": "Apps \n \n- Fixed an issue where images would not load when running an app inside Docker during development.",
     "channel": "beta",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
-    "version": "10.0.0-rc.98",
-    "date": "2023-05-05",
-    "dateSource": "official",
-    "description": "<p><strong>Apps</strong></p><ul><li>Fixed an issue where developers would receive a crash report when an app has been killed.</li></ul>",
-    "descriptionText": "Apps \n \n- Fixed an issue where developers would receive a crash report when an app has been killed.",
-    "channel": "stable",
     "firstSeenAt": "2026-09-19T14:42:34.389Z"
   },
   {
@@ -2547,6 +2457,105 @@
     "firstSeenAt": "2026-09-19T14:42:34.389Z"
   },
   {
+    "version": "13.5.0",
+    "date": "2026-09-07",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p>\n<ul>\n<li>Updates translations.</li>\n<li>Fixes a Zone staying active after a nested Zone was deleted.</li>\n<li>Fixes a Zone staying active because of a power cycle.</li>\n<li>Fixes Homey losing its name when the setup was run again.</li>\n</ul>\n<p><strong>Flow</strong></p>\n<ul>\n<li>Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X\" and \"when a variable becomes less than X\".</li>\n<li>Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X for Y minutes/seconds\" and \"when a variable becomes less than X for Y minutes/seconds\".</li>\n</ul>\n<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes dim level reading slightly too high on devices that use Level Control.</li>\n</ul>\n<p><strong>Z-Wave</strong></p>\n<ul>\n<li>Fixes firmware updates being offered to devices they don't apply to.</li>\n<li>Fixes Fibaro FGS-101 pairing issue.</li>\n</ul>\n<p><strong>Zigbee</strong></p>\n<ul>\n<li>Updates various components to the latest version.</li>\n<li>Various minor improvements.</li>\n</ul>\n<p><strong>Thread</strong></p>\n<ul>\n<li>Updates Thread to v1.4.</li>\n</ul>\n<p><strong>BLE</strong></p>\n<ul>\n<li>Fixes a number of issues that could cause BLE to stop working as expected until a reboot is performed.</li>\n</ul>\n<p><strong>Apps</strong></p>\n<ul>\n<li>Improves stability of Python apps by handling errors during inter-process communication.</li>\n<li>Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.</li>\n</ul>\n<p><strong>Users</strong></p>\n<ul>\n<li>Fixes user Flow cards not listing users whose account is disabled.</li>\n</ul>",
+    "descriptionText": "Core \n \n- Updates translations.\n- Fixes a Zone staying active after a nested Zone was deleted.\n- Fixes a Zone staying active because of a power cycle.\n- Fixes Homey losing its name when the setup was run again.\n Flow \n \n- Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X\" and \"when a variable becomes less than X\".\n- Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X for Y minutes/seconds\" and \"when a variable becomes less than X for Y minutes/seconds\".\n Matter \n \n- Fixes dim level reading slightly too high on devices that use Level Control.\n Z-Wave \n \n- Fixes firmware updates being offered to devices they don't apply to.\n- Fixes Fibaro FGS-101 pairing issue.\n Zigbee \n \n- Updates various components to the latest version.\n- Various minor improvements.\n Thread \n \n- Updates Thread to v1.4.\n BLE \n \n- Fixes a number of issues that could cause BLE to stop working as expected until a reboot is performed.\n Apps \n \n- Improves stability of Python apps by handling errors during inter-process communication.\n- Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.\n Users \n \n- Fixes user Flow cards not listing users whose account is disabled.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "13.5.0-rc.4",
+    "date": "2026-08-31",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p>\n<ul>\n<li>Updates translations.</li>\n<li>Fixes a Zone staying active after a nested Zone was deleted.</li>\n<li>Fixes a Zone staying active because of a power cycle.</li>\n<li>Fixes Homey losing its name when the setup was run again.</li>\n</ul>\n<p><strong>Flow</strong></p>\n<ul>\n<li>Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X\" and \"when a variable becomes less than X\".</li>\n<li>Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X for Y minutes/seconds\" and \"when a variable becomes less than X for Y minutes/seconds\".</li>\n</ul>\n<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes dim level reading slightly too high on devices that use Level Control.</li>\n</ul>\n<p><strong>Z-Wave</strong></p>\n<ul>\n<li>Fixes firmware updates being offered to devices they don't apply to.</li>\n<li>Fixes Fibaro FGS-101 pairing issue.</li>\n</ul>\n<p><strong>Zigbee</strong></p>\n<ul>\n<li>Updates various components to the latest version.</li>\n<li>Various minor improvements.</li>\n</ul>\n<p><strong>Thread</strong></p>\n<ul>\n<li>Updates Thread to v1.4.</li>\n</ul>\n<p><strong>BLE</strong></p>\n<ul>\n<li>Fixes a number of issues that could cause BLE to stop working as expected until a reboot is performed.</li>\n</ul>\n<p><strong>Apps</strong></p>\n<ul>\n<li>Improves stability of Python apps by handling errors during inter-process communication.</li>\n<li>Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.</li>\n</ul>\n<p><strong>Users</strong></p>\n<ul>\n<li>Fixes user Flow cards not listing users whose account is disabled.</li>\n</ul>",
+    "descriptionText": "Core \n \n- Updates translations.\n- Fixes a Zone staying active after a nested Zone was deleted.\n- Fixes a Zone staying active because of a power cycle.\n- Fixes Homey losing its name when the setup was run again.\n Flow \n \n- Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X\" and \"when a variable becomes less than X\".\n- Adds Flow cards for numeric Logic variables \"when a variable becomes greater than X for Y minutes/seconds\" and \"when a variable becomes less than X for Y minutes/seconds\".\n Matter \n \n- Fixes dim level reading slightly too high on devices that use Level Control.\n Z-Wave \n \n- Fixes firmware updates being offered to devices they don't apply to.\n- Fixes Fibaro FGS-101 pairing issue.\n Zigbee \n \n- Updates various components to the latest version.\n- Various minor improvements.\n Thread \n \n- Updates Thread to v1.4.\n BLE \n \n- Fixes a number of issues that could cause BLE to stop working as expected until a reboot is performed.\n Apps \n \n- Improves stability of Python apps by handling errors during inter-process communication.\n- Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.\n Users \n \n- Fixes user Flow cards not listing users whose account is disabled.",
+    "channel": "beta",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "13.4.1",
+    "date": "2026-08-17",
+    "dateSource": "discovered",
+    "description": "<p><strong>Security</strong></p>\n<ul>\n<li>This release includes an important security fix. We recommend keeping your Homey up to date.</li>\n</ul>\n<p><strong>Z-Wave</strong></p>\n<ul>\n<li>Fixes various issues with (multi channel) associations on older devices.</li>\n</ul>\n<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes an issue where 21-digit pairing codes could not be used when adding a device.</li>\n<li>Decreases the priority to use the \"Generic Switch\" device type to use as the Homey Device's device class.</li>\n<li>Improved device class assignment for bridges.</li>\n<li>Adds \"start\", \"stop\", \"resume\", and \"pause\" Flow cards for \"operational state\" actions.</li>\n<li>Adds \"Go to charging dock\" Flow card for robot vacuum cleaners.</li>\n</ul>",
+    "descriptionText": "Security \n \n- This release includes an important security fix. We recommend keeping your Homey up to date.\n Z-Wave \n \n- Fixes various issues with (multi channel) associations on older devices.\n Matter \n \n- Fixes an issue where 21-digit pairing codes could not be used when adding a device.\n- Decreases the priority to use the \"Generic Switch\" device type to use as the Homey Device's device class.\n- Improved device class assignment for bridges.\n- Adds \"start\", \"stop\", \"resume\", and \"pause\" Flow cards for \"operational state\" actions.\n- Adds \"Go to charging dock\" Flow card for robot vacuum cleaners.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "13.4.1-rc.3",
+    "date": "2026-08-16",
+    "dateSource": "discovered",
+    "description": "<p><strong>Z-Wave</strong></p>\n<ul>\n<li>Fixes various issues with (multi channel) associations on older devices.</li>\n</ul>",
+    "descriptionText": "Z-Wave \n \n- Fixes various issues with (multi channel) associations on older devices.",
+    "channel": "beta",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "13.4.1-rc.2",
+    "date": "2026-08-15",
+    "dateSource": "discovered",
+    "description": "<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes an issue with missing Flow card translations.</li>\n</ul>",
+    "descriptionText": "Matter \n \n- Fixes an issue with missing Flow card translations.",
+    "channel": "beta",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "13.4.1-rc.1",
+    "date": "2026-08-14",
+    "dateSource": "discovered",
+    "description": "<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes an issue where 21-digit pairing codes could not be used when adding a device.</li>\n<li>Decreases the priority to use the \"Generic Switch\" device type to use as the Homey Device's device class.</li>\n<li>Improved device class assignment for bridges.</li>\n<li>Adds \"start\", \"stop\", \"resume\", and \"pause\" Flow cards for \"operational state\" actions.</li>\n<li>Adds \"Go to charging dock\" Flow card for robot vacuum cleaners.</li>\n</ul>",
+    "descriptionText": "Matter \n \n- Fixes an issue where 21-digit pairing codes could not be used when adding a device.\n- Decreases the priority to use the \"Generic Switch\" device type to use as the Homey Device's device class.\n- Improved device class assignment for bridges.\n- Adds \"start\", \"stop\", \"resume\", and \"pause\" Flow cards for \"operational state\" actions.\n- Adds \"Go to charging dock\" Flow card for robot vacuum cleaners.",
+    "channel": "beta",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "10.0.0",
+    "date": "2023-07-31",
+    "dateSource": "official",
+    "description": "<p>This release marks the end of the Homey Pro (Early 2023) Early Access period. </p>\n<p>Although this is the first stable firmware release, our work is never done. We continue our effort to solve issues and complete new features such as:</p>\n<ul>\n<li>Support for additional Matter device types (e.g. thermostats, window coverings, and more).</li>\n<li>Matter over Thread (Matter over Wi-Fi is already supported).</li>\n<li>Satellite Mode for Zigbee (Z-Wave, 433 MHz, and IR are already supported).</li>\n<li>Port Forwarding.</li>\n</ul>\n<p>Special thanks to everyone who has been with us during the Early Access period and provided a lot of valuable feedback. It has made, and still makes, a huge difference and got us to where we are now.</p>\n<p>If you have feedback or experience any issues, please let us know through our regular support channels.</p>",
+    "descriptionText": "This release marks the end of the Homey Pro (Early 2023) Early Access period. \n Although this is the first stable firmware release, our work is never done. We continue our effort to solve issues and complete new features such as:\n \n- Support for additional Matter device types (e.g. thermostats, window coverings, and more).\n- Matter over Thread (Matter over Wi-Fi is already supported).\n- Satellite Mode for Zigbee (Z-Wave, 433 MHz, and IR are already supported).\n- Port Forwarding.\n Special thanks to everyone who has been with us during the Early Access period and provided a lot of valuable feedback. It has made, and still makes, a huge difference and got us to where we are now.\n If you have feedback or experience any issues, please let us know through our regular support channels.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "10.0.0-rc.142",
+    "date": "2023-07-27",
+    "dateSource": "official",
+    "description": "<p><strong>Matter</strong></p><ul><li>Fixes a layout issue in the add a Matter device views.</li><li>Fixes an issue that could cause a Matter device to be incorrectly removed after a failed pair attempt.</li></ul><p><strong>Core</strong></p><ul><li>Increase max number of timeline notifications to 250.</li></ul>",
+    "descriptionText": "Matter \n \n- Fixes a layout issue in the add a Matter device views.\n- Fixes an issue that could cause a Matter device to be incorrectly removed after a failed pair attempt.\n Core \n \n- Increase max number of timeline notifications to 250.",
+    "channel": "beta",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "10.0.0-rc.122",
+    "date": "2023-06-30",
+    "dateSource": "officilal",
+    "description": "<p><strong>BLE</strong></p><ul><li>Fixed an issue that could cause various BLE communication issues.</li></ul><p><strong>OTA</strong></p><ul><li>Improve stability of downloading OTA updates.</li></ul><p><strong>Z-Wave</strong></p><ul><li>Update firmware of Z-Wave to latest version</li><li>Clarified Z-Wave error messages to explain the actual problem to the user</li><li>Notify user if a device is very \"chatty\" on the Z-Wave network</li><li>Fixes an issue where multiple Z-Wave backups were made.</li></ul><p><strong>Flows</strong></p><ul><li>Fixes an issue where autocomplete items did not show their names.</li><li>Fixes an issue where flows with the sunrise card could not be saved.</li></ul><p><strong>System</strong></p><ul><li>Fixes an issue where backups and updates were not run at the correct times.</li></ul>",
+    "descriptionText": "BLE \n \n- Fixed an issue that could cause various BLE communication issues.\n OTA \n \n- Improve stability of downloading OTA updates.\n Z-Wave \n \n- Update firmware of Z-Wave to latest version\n- Clarified Z-Wave error messages to explain the actual problem to the user\n- Notify user if a device is very \"chatty\" on the Z-Wave network\n- Fixes an issue where multiple Z-Wave backups were made.\n Flows \n \n- Fixes an issue where autocomplete items did not show their names.\n- Fixes an issue where flows with the sunrise card could not be saved.\n System \n \n- Fixes an issue where backups and updates were not run at the correct times.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "10.0.0-rc.118",
+    "date": "2023-06-27",
+    "dateSource": "official",
+    "description": "<p><strong>System</strong></p><ul><li>Fixes an issue where apps with added permissions would not auto-update.</li><li>Fixes an issue where backups were not scheduled.</li><li>Fixes an issue where the title of the disable/enable guest flow card was unclear.</li><li>Fixes an issue where push messages could be sent to disabled users.</li><li>Fixes where some flow cards where inadvertently causing rate limits.</li><li>Fixes an issue that causes USB realtek network driver loading to fail.</li><li>Fixes an issue that causes Broadcom 43455 driver loading to fail.</li><li>Fixes an issue where originator of Flows was not set correctly.</li><li>Fixes an issue where ZWave and Zigbee firmware could not be updated simultaneously.</li><li>Fixes an issue where the flow card for running a flow every X minutes/days etc would run incorrectly.</li><li>Fixes an issue where an app could crash when it supplied an Image stream.</li><li>Fixes an issue where Homey could lockup because of a kernel crash.</li><li>Fixes an issue where Any Alarm goes of in x minutes would not run reliably.</li></ul><p><strong>Z-Wave</strong></p><ul><li>Fixes an issue that could result in a crash when Z-Wave Satellite mode could not start correctly.</li><li>Added support for satellite mode.</li></ul><p><strong>Matter</strong></p><ul><li>Added beta support for Matter. For more information read:&nbsp;Matter (Beta) for Homey Pro (Early 2023).</li><li>Fixes some issues that could cause pairing a Matter device to fail.</li></ul><p><strong>Apps</strong></p><ul><li>Fixes an issue where it was not possible for apps to override zone activity for a capability.</li><li>Fixes an issue where some Flow cards were not generated for apps when the card device argument filter had multiple capabilities.</li><li>Fixes an issue that caused mDNS hostnames to not resolve to their respective IP addresses.</li><li>Fixes an issue that could result in a \"Capability Not Getable\" error.</li></ul><p><strong>Backups</strong></p><ul><li>Fixes an issue that could cause multiple backups to be created in one night.</li></ul><p><strong>Setup</strong></p><ul><li>Fixes an issue that could result in a failure when fetching a long list of Wi-Fi SSIDs.</li></ul><p><strong>BLE</strong></p><ul><li>Fixes an issue where discovery could not be performed.</li></ul><p><strong>Notifications</strong></p><ul><li>Fixes an issue where images would not be loaded in push notifications.</li></ul><p><strong>Discovery</strong></p><ul><li>Fixes an issue where DNS lookup of mDns discovery results failed.</li></ul>",
+    "descriptionText": "System \n \n- Fixes an issue where apps with added permissions would not auto-update.\n- Fixes an issue where backups were not scheduled.\n- Fixes an issue where the title of the disable/enable guest flow card was unclear.\n- Fixes an issue where push messages could be sent to disabled users.\n- Fixes where some flow cards where inadvertently causing rate limits.\n- Fixes an issue that causes USB realtek network driver loading to fail.\n- Fixes an issue that causes Broadcom 43455 driver loading to fail.\n- Fixes an issue where originator of Flows was not set correctly.\n- Fixes an issue where ZWave and Zigbee firmware could not be updated simultaneously.\n- Fixes an issue where the flow card for running a flow every X minutes/days etc would run incorrectly.\n- Fixes an issue where an app could crash when it supplied an Image stream.\n- Fixes an issue where Homey could lockup because of a kernel crash.\n- Fixes an issue where Any Alarm goes of in x minutes would not run reliably.\n Z-Wave \n \n- Fixes an issue that could result in a crash when Z-Wave Satellite mode could not start correctly.\n- Added support for satellite mode.\n Matter \n \n- Added beta support for Matter. For more information read: Matter (Beta) for Homey Pro (Early 2023).\n- Fixes some issues that could cause pairing a Matter device to fail.\n Apps \n \n- Fixes an issue where it was not possible for apps to override zone activity for a capability.\n- Fixes an issue where some Flow cards were not generated for apps when the card device argument filter had multiple capabilities.\n- Fixes an issue that caused mDNS hostnames to not resolve to their respective IP addresses.\n- Fixes an issue that could result in a \"Capability Not Getable\" error.\n Backups \n \n- Fixes an issue that could cause multiple backups to be created in one night.\n Setup \n \n- Fixes an issue that could result in a failure when fetching a long list of Wi-Fi SSIDs.\n BLE \n \n- Fixes an issue where discovery could not be performed.\n Notifications \n \n- Fixes an issue where images would not be loaded in push notifications.\n Discovery \n \n- Fixes an issue where DNS lookup of mDns discovery results failed.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
+    "version": "10.0.0-rc.98",
+    "date": "2023-05-05",
+    "dateSource": "official",
+    "description": "<p><strong>Apps</strong></p><ul><li>Fixed an issue where developers would receive a crash report when an app has been killed.</li></ul>",
+    "descriptionText": "Apps \n \n- Fixed an issue where developers would receive a crash report when an app has been killed.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:34.389Z"
+  },
+  {
     "version": "10.0.0-rc.8",
     "date": "2023-01-09",
     "dateSource": "official",
@@ -2615,15 +2624,6 @@
     "dateSource": "official",
     "description": "<p>This is the first Release Candidate!</p>",
     "descriptionText": "This is the first Release Candidate!",
-    "channel": "stable",
-    "firstSeenAt": "2026-09-19T14:42:34.389Z"
-  },
-  {
-    "version": "10.0.0",
-    "date": "2023-07-31",
-    "dateSource": "official",
-    "description": "<p>This release marks the end of the Homey Pro (Early 2023) Early Access period. </p>\n<p>Although this is the first stable firmware release, our work is never done. We continue our effort to solve issues and complete new features such as:</p>\n<ul>\n<li>Support for additional Matter device types (e.g. thermostats, window coverings, and more).</li>\n<li>Matter over Thread (Matter over Wi-Fi is already supported).</li>\n<li>Satellite Mode for Zigbee (Z-Wave, 433 MHz, and IR are already supported).</li>\n<li>Port Forwarding.</li>\n</ul>\n<p>Special thanks to everyone who has been with us during the Early Access period and provided a lot of valuable feedback. It has made, and still makes, a huge difference and got us to where we are now.</p>\n<p>If you have feedback or experience any issues, please let us know through our regular support channels.</p>",
-    "descriptionText": "This release marks the end of the Homey Pro (Early 2023) Early Access period. \n Although this is the first stable firmware release, our work is never done. We continue our effort to solve issues and complete new features such as:\n \n- Support for additional Matter device types (e.g. thermostats, window coverings, and more).\n- Matter over Thread (Matter over Wi-Fi is already supported).\n- Satellite Mode for Zigbee (Z-Wave, 433 MHz, and IR are already supported).\n- Port Forwarding.\n Special thanks to everyone who has been with us during the Early Access period and provided a lot of valuable feedback. It has made, and still makes, a huge difference and got us to where we are now.\n If you have feedback or experience any issues, please let us know through our regular support channels.",
     "channel": "stable",
     "firstSeenAt": "2026-09-19T14:42:34.389Z"
   }
