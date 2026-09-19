@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Homey Firmware &amp; Version Tracker</title>
+<meta name="description" content="Unofficial changelog tracker for Homey Pro, Homey Pro (2016-2019), Homey Cloud, and the Homey Mobile &amp; Web apps." />
+<link rel="icon" href="data:," />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="page-header">
+  <div class="header-inner">
+    <div class="title-block">
+      <h1>Homey Firmware &amp; Version Tracker</h1>
+      <p class="subtitle">Unofficial changelog archive, refreshed automatically from Athom's own update feeds.</p>
+    </div>
+    <div class="search-wrap">
+      <label class="visually-hidden" for="search">Search versions and changelogs</label>
+      <input id="search" type="search" placeholder="Search version numbers or changelog text&hellip;" autocomplete="off" />
+      <span id="search-count" class="search-count" aria-live="polite"></span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Homey product">
+  <!-- tab buttons injected by app.js -->
+</nav>
+
+<main id="panels"></main>
+
+<footer class="page-footer">
+  <p>
+    Data pulled from Athom's public changelog feeds and wiki pages, not an official Athom product.
+    Version dates marked <span class="badge badge-discovered">discovered</span> are the date this tracker first saw
+    that version (Athom doesn't publish an official release date for that source); dates marked
+    <span class="badge badge-official">official</span> come straight from Athom's own API.
+    Last updated: <span id="last-updated">&ndash;</span>.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

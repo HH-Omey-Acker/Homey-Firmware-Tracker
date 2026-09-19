@@ -1,0 +1,17 @@
+{
+  "name": "homey-firmware-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tracks firmware/version changelogs for Homey Pro, Homey Pro (2016-2019), Homey Cloud, Homey Mobile App and Homey Web App, and publishes them as a static searchable site via GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-all.mjs",
+    "scrape:install": "playwright install --with-deps chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

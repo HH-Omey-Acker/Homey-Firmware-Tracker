@@ -1,0 +1,1802 @@
+[
+  {
+    "version": "1.18.8",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved recovery from failed app updates by showing a retry dialog instead of leaving a blank page.</li>\n</ul>",
+    "descriptionText": "- Improved recovery from failed app updates by showing a retry dialog instead of leaving a blank page.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.18.7",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved device firmware updates in device settings with detailed status messages.</li>\n<li>Fixed firmware update progress not refreshing in device settings.</li>\n</ul>",
+    "descriptionText": "- Improved device firmware updates in device settings with detailed status messages.\n- Fixed firmware update progress not refreshing in device settings.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.18.6",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where pressing Space in the HomeyScript editor in Advanced Flow activated canvas panning instead of inserting spaces.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where pressing Space in the HomeyScript editor in Advanced Flow activated canvas panning instead of inserting spaces.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.18.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added an update button to app settings, showing new permissions before confirming an app update.</li>\n<li>Fixed device controls for camera snapshots not refreshing correctly after the camera stream reconnects.</li>\n<li>Fixed device controls not displaying the correct status for devices with enum indicator override.</li>\n<li>Fixed some numeric device values not displaying correctly as a percentage.</li>\n<li>Fixed camera snapshots not matching the aspect ratio used in the Homey Mobile App.</li>\n</ul>",
+    "descriptionText": "- Added an update button to app settings, showing new permissions before confirming an app update.\n- Fixed device controls for camera snapshots not refreshing correctly after the camera stream reconnects.\n- Fixed device controls not displaying the correct status for devices with enum indicator override.\n- Fixed some numeric device values not displaying correctly as a percentage.\n- Fixed camera snapshots not matching the aspect ratio used in the Homey Mobile App.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.18.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved editing of Logic variables, with immediate updates and more reliable handling of rapid changes and failed saves.</li>\n<li>Fixed device tiles appearing off for devices that do not report their current state.</li>\n<li>Fixed the Homey Premium indicator being hidden on locked device tiles.</li>\n<li>Fixed an issue where pressing Enter did not submit some dialogs, including Logic variables, HomeyScript, and device settings.</li>\n</ul>",
+    "descriptionText": "- Improved editing of Logic variables, with immediate updates and more reliable handling of rapid changes and failed saves.\n- Fixed device tiles appearing off for devices that do not report their current state.\n- Fixed the Homey Premium indicator being hidden on locked device tiles.\n- Fixed an issue where pressing Enter did not submit some dialogs, including Logic variables, HomeyScript, and device settings.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.18.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>The main menu now includes text labels and clearer active states, making navigation easier.</li>\n<li>Improved keyboard navigation and focus visibility throughout the main menu.</li>\n<li>Fixed device tiles showing an incorrect state or color for lights with multiple capability instances.</li>\n<li>Device tile previews now update immediately when changing the device class or Quick Action.</li>\n<li>Fixed an issue where some Advanced Flow fields retained their previous search when reopened.</li>\n</ul>",
+    "descriptionText": "- The main menu now includes text labels and clearer active states, making navigation easier.\n- Improved keyboard navigation and focus visibility throughout the main menu.\n- Fixed device tiles showing an incorrect state or color for lights with multiple capability instances.\n- Device tile previews now update immediately when changing the device class or Quick Action.\n- Fixed an issue where some Advanced Flow fields retained their previous search when reopened.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.18.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>The global Add button has been replaced with dedicated Add menus for Devices, Flows, and Scripts, making it easier to create devices, zones, Flows, Advanced Flows, folders, and scripts from the relevant section.</li>\n<li>Improved the appearance of Flow and Mood cards in dark mode.</li>\n<li>Fixed an issue where searching by device, app, or zone name did not always return matching Insights.</li>\n<li>Fixed an issue where device controls could appear empty or show the wrong device after switching devices.</li>\n<li>Fixed an issue where device selectors containing many devices could not be scrolled.</li>\n<li>Fixed an issue where thermostat tiles displayed the target temperature instead of the measured temperature while idle.</li>\n<li>Fixed an issue where numeric fields did not preserve a value of zero.</li>\n<li>Fixed an issue where long status text could overflow device tiles.</li>\n<li>Fixed an issue where favorite device tiles could appear at the wrong size.</li>\n<li>Fixed an issue where the Add Device screen could fail while app information was still loading.</li>\n</ul>",
+    "descriptionText": "- The global Add button has been replaced with dedicated Add menus for Devices, Flows, and Scripts, making it easier to create devices, zones, Flows, Advanced Flows, folders, and scripts from the relevant section.\n- Improved the appearance of Flow and Mood cards in dark mode.\n- Fixed an issue where searching by device, app, or zone name did not always return matching Insights.\n- Fixed an issue where device controls could appear empty or show the wrong device after switching devices.\n- Fixed an issue where device selectors containing many devices could not be scrolled.\n- Fixed an issue where thermostat tiles displayed the target temperature instead of the measured temperature while idle.\n- Fixed an issue where numeric fields did not preserve a value of zero.\n- Fixed an issue where long status text could overflow device tiles.\n- Fixed an issue where favorite device tiles could appear at the wrong size.\n- Fixed an issue where the Add Device screen could fail while app information was still loading.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.18.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where some Flow cards where not visible.</li>\n<li>Fixed an issue where some dark mode colors had a bad contrast for the new device tile.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where some Flow cards where not visible.\n- Fixed an issue where some dark mode colors had a bad contrast for the new device tile.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.18.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Quick Actions now live behind a button in the top-right corner of each device tile, while tapping the tile directly opens the device controls.</li>\n<li>The status indicator has moved to the bottom of the tile, creating more room for useful information such as textual indicators or media playback details.</li>\n</ul>",
+    "descriptionText": "- Quick Actions now live behind a button in the top-right corner of each device tile, while tapping the tile directly opens the device controls.\n- The status indicator has moved to the bottom of the tile, creating more room for useful information such as textual indicators or media playback details.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.17.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where it was not possible to replace an Advanced Flow card for a Flow created by Homey's MCP.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where it was not possible to replace an Advanced Flow card for a Flow created by Homey's MCP.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.17.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add support for device firmware updates on the settings page.</li>\n</ul>",
+    "descriptionText": "- Add support for device firmware updates on the settings page.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.16.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where a local user could not be created.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where a local user could not be created.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.16.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved the web app’s overall look and feel.</li>\n</ul>",
+    "descriptionText": "- Improved the web app’s overall look and feel.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.16.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add support for hidden devices.</li>\n<li>Fixed an issue where dropdowns would auto close on open in Safari.</li>\n</ul>",
+    "descriptionText": "- Add support for hidden devices.\n- Fixed an issue where dropdowns would auto close on open in Safari.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.15.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improve reconnection logic.</li>\n<li>Add experimental command palette under ctrl+k or cmd+k on Mac.</li>\n</ul>",
+    "descriptionText": "- Improve reconnection logic.\n- Add experimental command palette under ctrl+k or cmd+k on Mac.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.15.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where number variables would not display 0 values correctly.</li>\n<li>Fixed an issue where number variables used 43 instead of 42. The universe should be stable again..</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where number variables would not display 0 values correctly.\n- Fixed an issue where number variables used 43 instead of 42. The universe should be stable again..",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.15.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add support for saving and testing a standard Flow without a trigger.</li>\n</ul>",
+    "descriptionText": "- Add support for saving and testing a standard Flow without a trigger.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.15.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for Zone sorting.</li>\n<li>Added the option to filter Flows by Mood.</li>\n<li>Installed apps are now sorted alphabetically in the device search.</li>\n<li>Fixed an issue where image example tag showed as null.</li>\n<li>Fixed an issue where boolean example tag showed as true.</li>\n<li>Fixed an issue where code formatting in the updates changelog was not displayed correctly.</li>\n</ul>",
+    "descriptionText": "- Added support for Zone sorting.\n- Added the option to filter Flows by Mood.\n- Installed apps are now sorted alphabetically in the device search.\n- Fixed an issue where image example tag showed as null.\n- Fixed an issue where boolean example tag showed as true.\n- Fixed an issue where code formatting in the updates changelog was not displayed correctly.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.15.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add device last seen at to the devices table overview.</li>\n<li>Add camera title to the fullscreen camera view.</li>\n<li>Update default zone icon.</li>\n</ul>",
+    "descriptionText": "- Add device last seen at to the devices table overview.\n- Add camera title to the fullscreen camera view.\n- Update default zone icon.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.15.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add support for Arabic language.</li>\n<li>Add new capability icons.</li>\n</ul>",
+    "descriptionText": "- Add support for Arabic language.\n- Add new capability icons.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.14.7",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Increased timeouts for memory and storage info requests.</li>\n</ul>",
+    "descriptionText": "- Increased timeouts for memory and storage info requests.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.14.6",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed a visual issue for the device slider.</li>\n</ul>",
+    "descriptionText": "- Fixed a visual issue for the device slider.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.14.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where it was not possible to clear insights logs entries.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where it was not possible to clear insights logs entries.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.14.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the device status was not visible in the devices table.</li>\n<li>Fixed an issue where it was not possible to delete insights logs.</li>\n<li>Fixed an issue where the Flow card search was missing results.</li>\n<li>Fixed an issue where an unwanted error was shown on closing the device controls when a camera was open.</li>\n<li>Fixed an issue where tokens were missing from the predefined logic Flow cards</li>\n<li>Added percentage tooltip to device controls slider.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the device status was not visible in the devices table.\n- Fixed an issue where it was not possible to delete insights logs.\n- Fixed an issue where the Flow card search was missing results.\n- Fixed an issue where an unwanted error was shown on closing the device controls when a camera was open.\n- Fixed an issue where tokens were missing from the predefined logic Flow cards\n- Added percentage tooltip to device controls slider.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.14.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where updates didn't load properly for Homey Pro 2019.</li>\n<li>Fixed an issue where Advanced Flow would crash on Mood cards.</li>\n<li>Fixed an issue where the owner name of a Flow token was not visible.</li>\n<li>Fixed an issue where the owner name of a Insights log was not visible in the tooltip of a log.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where updates didn't load properly for Homey Pro 2019.\n- Fixed an issue where Advanced Flow would crash on Mood cards.\n- Fixed an issue where the owner name of a Flow token was not visible.\n- Fixed an issue where the owner name of a Insights log was not visible in the tooltip of a log.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.14.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Update locales.</li>\n</ul>",
+    "descriptionText": "- Update locales.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.14.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Update version check for local users feature.</li>\n</ul>",
+    "descriptionText": "- Update version check for local users feature.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.14.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add support for local users.</li>\n</ul>",
+    "descriptionText": "- Add support for local users.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.13.8",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the new variable dialog would crash.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the new variable dialog would crash.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.13.7",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Update locales.</li>\n</ul>",
+    "descriptionText": "- Update locales.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.13.6",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Update locales.</li>\n</ul>",
+    "descriptionText": "- Update locales.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.13.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add local user configuration to Family &amp; Guest.</li>\n</ul>",
+    "descriptionText": "- Add local user configuration to Family & Guest.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.13.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where some Flow cards were displayed as missing for Homey Pro 2019.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where some Flow cards were displayed as missing for Homey Pro 2019.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.13.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where moving a zone would not update on drag and drop.</li>\n<li>Fixed an issue where is was not possible to enable/disable Advanced Flow's for Homey Pro 2019.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where moving a zone would not update on drag and drop.\n- Fixed an issue where is was not possible to enable/disable Advanced Flow's for Homey Pro 2019.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.13.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the devices page would crash (cannot read .getable).</li>\n<li>Fixed an issue where HomeyScript Advanced Flow card actions weren't testable for Homey Pro 2019.</li>\n<li>Fixed an issue where the Flow test overlay for tags would crash.</li>\n<li>Fixed an issue where invalid dates would show up on sensor hover in the device controls.</li>\n<li>Fixed an issue where app search would crash on search if drivers were not present yet.</li>\n<li>Fixed an issue where the Advanced Flow redo button didn't work.</li>\n<li>Fixed an issue where the web app would crash on device deletion when the device timeline was open.</li>\n<li>Increased diagnostics report timeout.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the devices page would crash (cannot read .getable).\n- Fixed an issue where HomeyScript Advanced Flow card actions weren't testable for Homey Pro 2019.\n- Fixed an issue where the Flow test overlay for tags would crash.\n- Fixed an issue where invalid dates would show up on sensor hover in the device controls.\n- Fixed an issue where app search would crash on search if drivers were not present yet.\n- Fixed an issue where the Advanced Flow redo button didn't work.\n- Fixed an issue where the web app would crash on device deletion when the device timeline was open.\n- Increased diagnostics report timeout.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.13.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where no insights data was showing up for the Homey Pro 2019.</li>\n<li>Fixed an issue where avatars were not showing up in the notifications timeline.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where no insights data was showing up for the Homey Pro 2019.\n- Fixed an issue where avatars were not showing up in the notifications timeline.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.13.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Update from athom-api to homey-api.</li>\n</ul>",
+    "descriptionText": "- Update from athom-api to homey-api.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.12.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Update from athom-api to homey-api.</li>\n</ul>",
+    "descriptionText": "- Update from athom-api to homey-api.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.35",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add Flow and Advanced Flow import/export in alt mode context menu's.</li>\n</ul>",
+    "descriptionText": "- Add Flow and Advanced Flow import/export in alt mode context menu's.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.34",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where emtpy sections would appear in the Flow card explorer.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where emtpy sections would appear in the Flow card explorer.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.33",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added new device icons.</li>\n<li>Added pre generated logic cards for weather and energy.</li>\n</ul>",
+    "descriptionText": "- Added new device icons.\n- Added pre generated logic cards for weather and energy.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.32",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the Flow card picker would crash.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the Flow card picker would crash.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.31",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the Flow multiselect argument would autoscroll unwanted on selecting an item (for real now).</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the Flow multiselect argument would autoscroll unwanted on selecting an item (for real now).",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.30",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the Flow multiselect argument would autoscroll unwanted on selecting an item.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the Flow multiselect argument would autoscroll unwanted on selecting an item.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.29",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add support for multiselect Flow argument.</li>\n</ul>",
+    "descriptionText": "- Add support for multiselect Flow argument.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.28",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added new device icons.</li>\n<li>Added zone activity indicator to device tile.</li>\n<li>Battery indicator now shows by default.</li>\n<li>Fixed an issue where google translate would break the Advanced Flow editor.</li>\n</ul>",
+    "descriptionText": "- Added new device icons.\n- Added zone activity indicator to device tile.\n- Battery indicator now shows by default.\n- Fixed an issue where google translate would break the Advanced Flow editor.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.27",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added prefilled logic cards for numeric device tags.</li>\n</ul>",
+    "descriptionText": "- Added prefilled logic cards for numeric device tags.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.26",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where grouped devices would not hide on update events.</li>\n<li>Use group property to hide devices.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where grouped devices would not hide on update events.\n- Use group property to hide devices.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.25",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for evcharger capabilties.</li>\n</ul>",
+    "descriptionText": "- Added support for evcharger capabilties.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.24",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for device groups.</li>\n</ul>",
+    "descriptionText": "- Added support for device groups.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.23",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add support for target temperature device indicator.</li>\n</ul>",
+    "descriptionText": "- Add support for target temperature device indicator.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.22",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add support for Homey Pro mini.</li>\n</ul>",
+    "descriptionText": "- Add support for Homey Pro mini.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.21",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Updated color for equalizer indicator.</li>\n<li>Updated colors for Advanced Flow notes.</li>\n<li>Add support for string indicator.</li>\n<li>Add support for device note.</li>\n<li>Prevent tag input for some Flow cards.</li>\n</ul>",
+    "descriptionText": "- Updated color for equalizer indicator.\n- Updated colors for Advanced Flow notes.\n- Add support for string indicator.\n- Add support for device note.\n- Prevent tag input for some Flow cards.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.20",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add disabled user error message.</li>\n</ul>",
+    "descriptionText": "- Add disabled user error message.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.19",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added the zone name of a device to the token picker.</li>\n</ul>",
+    "descriptionText": "- Added the zone name of a device to the token picker.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.18",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the device indicator was changed unintentionally when saving settings.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the device indicator was changed unintentionally when saving settings.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.17",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added new icons for sensor capabilities.</li>\n</ul>",
+    "descriptionText": "- Added new icons for sensor capabilities.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.16",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added technologies section to add device dialog containing basic and virtual drivers.</li>\n<li>Added Homey Bridge required screen when trying to pair devices that require Homey Bridge on cloud.</li>\n<li>Fixed an issue with scrollbar styling in Advanced Flow.</li>\n</ul>",
+    "descriptionText": "- Added technologies section to add device dialog containing basic and virtual drivers.\n- Added Homey Bridge required screen when trying to pair devices that require Homey Bridge on cloud.\n- Fixed an issue with scrollbar styling in Advanced Flow.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.15",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Show an empty state for devices.</li>\n<li>Fixed an issue where Advanced Flow number arguments were not validated.</li>\n<li>Fixed an issue in HomeyScript where the editor would shift to the right on overflow.</li>\n<li>Fixed an issue with scrollbars in large device tiles.</li>\n<li>Fixed an issue where a translation was missing from the device context menu.</li>\n</ul>",
+    "descriptionText": "- Show an empty state for devices.\n- Fixed an issue where Advanced Flow number arguments were not validated.\n- Fixed an issue in HomeyScript where the editor would shift to the right on overflow.\n- Fixed an issue with scrollbars in large device tiles.\n- Fixed an issue where a translation was missing from the device context menu.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.14",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<p><em>No release notes.</em></p>",
+    "descriptionText": "No release notes.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.13",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the pairing view would not return the error to the app on Homey.createDevice.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the pairing view would not return the error to the app on Homey.createDevice.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.12",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Show an error placeholder when the media component fails to load the image.</li>\n<li>Fixed an issue where the thermostat decimals were incorrect.</li>\n</ul>",
+    "descriptionText": "- Show an error placeholder when the media component fails to load the image.\n- Fixed an issue where the thermostat decimals were incorrect.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.11",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where removing matter nodes resulted in a crash.</li>\n<li>Added a search bar when adding devices.</li>\n<li>Added new device icons.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where removing matter nodes resulted in a crash.\n- Added a search bar when adding devices.\n- Added new device icons.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.10",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where empty device setting categories would show.</li>\n<li>Added New Zone option to context menu of zones.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where empty device setting categories would show.\n- Added New Zone option to context menu of zones.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.9",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Reduced error logging.</li>\n</ul>",
+    "descriptionText": "- Reduced error logging.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.8",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where device settings were sometimes unavailable.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where device settings were sometimes unavailable.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.7",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where some dialogs would close unintentionally.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where some dialogs would close unintentionally.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.6",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where it was not possible to set the default virtual class.</li>\n<li>Fixed an issue where the custom toast message was not shown after saving device settings.</li>\n<li>Fixed an issue where the status indicator was selectable when it should not be selectable.</li>\n<li>Fixed an issue where the color picker in the Flow editor did not support darkmode.</li>\n<li>Fixed an issue where it was not possible to select text for readonly fields in device settings.</li>\n<li>Added new icons for the settings overview.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where it was not possible to set the default virtual class.\n- Fixed an issue where the custom toast message was not shown after saving device settings.\n- Fixed an issue where the status indicator was selectable when it should not be selectable.\n- Fixed an issue where the color picker in the Flow editor did not support darkmode.\n- Fixed an issue where it was not possible to select text for readonly fields in device settings.\n- Added new icons for the settings overview.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fix missing korean language</li>\n</ul>",
+    "descriptionText": "- Fix missing korean language",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add support for new virtual classes</li>\n<li>Add support for korean language</li>\n</ul>",
+    "descriptionText": "- Add support for new virtual classes\n- Add support for korean language",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fix alarm indicator color.</li>\n</ul>",
+    "descriptionText": "- Fix alarm indicator color.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.11.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Updated the device settings design to align with the mobile app.</li>\n<li>Added the option to set the device status indicator from device settings.</li>\n<li>Added the option to set the device icon from device settings.</li>\n<li>Added the option to set the device name from device settings.</li>\n<li>Added the option to set the device zone from device settings.</li>\n<li>Added the option to set what's plugged in from device settings.</li>\n</ul>",
+    "descriptionText": "- Updated the device settings design to align with the mobile app.\n- Added the option to set the device status indicator from device settings.\n- Added the option to set the device icon from device settings.\n- Added the option to set the device name from device settings.\n- Added the option to set the device zone from device settings.\n- Added the option to set what's plugged in from device settings.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.10.8",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add experimental check for moods 2019</li>\n</ul>",
+    "descriptionText": "- Add experimental check for moods 2019",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.10.7",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the yes/no dropdown would display behind the new logic variable dialog.</li>\n<li>Added error notification for camera component if the image fails to load.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the yes/no dropdown would display behind the new logic variable dialog.\n- Added error notification for camera component if the image fails to load.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.10.6",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for Mood origin in the device timeline.</li>\n<li>Always show the camera tab first in the device controls.</li>\n<li>Preserve camera image aspect ratio.</li>\n</ul>",
+    "descriptionText": "- Added support for Mood origin in the device timeline.\n- Always show the camera tab first in the device controls.\n- Preserve camera image aspect ratio.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.10.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fix missing translation in general settings.</li>\n</ul>",
+    "descriptionText": "- Fix missing translation in general settings.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.10.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added more device icon overrides.</li>\n<li>Added request a new brand to the devices search.</li>\n<li>Added popular Flow cards hightlight.</li>\n</ul>",
+    "descriptionText": "- Added more device icon overrides.\n- Added request a new brand to the devices search.\n- Added popular Flow cards hightlight.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.10.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<p><em>No release notes.</em></p>",
+    "descriptionText": "No release notes.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.10.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<p><em>No release notes.</em></p>",
+    "descriptionText": "No release notes.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.10.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<p><em>No release notes.</em></p>",
+    "descriptionText": "No release notes.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.10.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for Moods.</li>\n<li>Added support for new HomeyScript version.</li>\n</ul>",
+    "descriptionText": "- Added support for Moods.\n- Added support for new HomeyScript version.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.77",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Allow the web app to connect with a Homey via port forwarding.</li>\n</ul>",
+    "descriptionText": "- Allow the web app to connect with a Homey via port forwarding.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.76",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Make thermostat colors inline with the mobile app.</li>\n<li>Added new zone icons.</li>\n<li>Fixed some darkmode color issues.</li>\n</ul>",
+    "descriptionText": "- Make thermostat colors inline with the mobile app.\n- Added new zone icons.\n- Fixed some darkmode color issues.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.75",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where it was not possible to add new API keys.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where it was not possible to add new API keys.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.74",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the scroll bars were not visible in the Advanced Flow editor.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the scroll bars were not visible in the Advanced Flow editor.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.73",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added Matter pairing.</li>\n</ul>",
+    "descriptionText": "- Added Matter pairing.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.72",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where it not always displayed the latest Homey update correctly.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where it not always displayed the latest Homey update correctly.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.71",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where some Advanced Flows were not included in the pinned device search.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where some Advanced Flows were not included in the pinned device search.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.70",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the large device tile separator was not visible in darkmode.</li>\n<li>Fixed an issue where a Flow card could not be properly tested for a migrated Flow from a Homey Pro 2019 backup.</li>\n<li>Fixed an issue where the Flow card picker would not be confined to the max window size.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the large device tile separator was not visible in darkmode.\n- Fixed an issue where a Flow card could not be properly tested for a migrated Flow from a Homey Pro 2019 backup.\n- Fixed an issue where the Flow card picker would not be confined to the max window size.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.69",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where apps were not sorted correctly in device pairing.</li>\n<li>Fixed an issue where measure temperature was visible in the thermostat UI component even if the capability did not exist.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where apps were not sorted correctly in device pairing.\n- Fixed an issue where measure temperature was visible in the thermostat UI component even if the capability did not exist.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.68",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fix swedish translation for weather.</li>\n</ul>",
+    "descriptionText": "- Fix swedish translation for weather.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.67",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Made the device tile number indicator green for power capabilities (measure_power).</li>\n<li>The device tile number indicator will now always be ceiled to the nearest integer for power capabilities (measure_power).</li>\n</ul>",
+    "descriptionText": "- Made the device tile number indicator green for power capabilities (measure_power).\n- The device tile number indicator will now always be ceiled to the nearest integer for power capabilities (measure_power).",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.66",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the device indicator would have a white background which did not match the device tile.</li>\n<li>Fixed an issue where the device warning would not show.</li>\n<li>Fixed an issue where the device table would crash.</li>\n<li>Added the last known capability value as the token value for device capability tokens in the token picker.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the device indicator would have a white background which did not match the device tile.\n- Fixed an issue where the device warning would not show.\n- Fixed an issue where the device table would crash.\n- Added the last known capability value as the token value for device capability tokens in the token picker.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.65",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added new dialog for features requiring a Homey Premium subscription.</li>\n<li>Added new locked labels for features requiring a Homey Premium subscription.</li>\n<li>Fixed the devices list view styling for locked devices.</li>\n<li>Updated colors for device tiles.</li>\n<li>Updated darkmode color scheme.</li>\n</ul>",
+    "descriptionText": "- Added new dialog for features requiring a Homey Premium subscription.\n- Added new locked labels for features requiring a Homey Premium subscription.\n- Fixed the devices list view styling for locked devices.\n- Updated colors for device tiles.\n- Updated darkmode color scheme.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.64",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the device context menu was missing a translation for a button quick action.</li>\n<li>Fixed an issue where the device media component would flicker when viewing the device table.</li>\n<li>Fixed an issue where it was not possible to click in the device renaming input field in the device table.</li>\n<li>Fixed an issue where the device renaming input field would not unfocus when clicked outside.</li>\n<li>Added more padding to the apple touch icon.</li>\n<li>Added the log selection on insights to the url so selections can be bookmarked.</li>\n<li>Updated translations for weather on home screen.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the device context menu was missing a translation for a button quick action.\n- Fixed an issue where the device media component would flicker when viewing the device table.\n- Fixed an issue where it was not possible to click in the device renaming input field in the device table.\n- Fixed an issue where the device renaming input field would not unfocus when clicked outside.\n- Added more padding to the apple touch icon.\n- Added the log selection on insights to the url so selections can be bookmarked.\n- Updated translations for weather on home screen.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.63",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Add back weather condition on the home page.</li>\n</ul>",
+    "descriptionText": "- Add back weather condition on the home page.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.62",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Removed Energy from the navigation.</li>\n<li>Removed beta label from devices.</li>\n<li>Fixed an issue with the Norwegian translation for show more under memory/storage settings.</li>\n</ul>",
+    "descriptionText": "- Removed Energy from the navigation.\n- Removed beta label from devices.\n- Fixed an issue with the Norwegian translation for show more under memory/storage settings.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.61",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where it was not possible to switch capabilities for the picker device UI component.</li>\n<li>Fixed an issue where the placeholder for the Flow text argument was misaligned on Safari.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where it was not possible to switch capabilities for the picker device UI component.\n- Fixed an issue where the placeholder for the Flow text argument was misaligned on Safari.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.60",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added a screen so users are directed to the mobile app when trying to pair a Matter device.</li>\n</ul>",
+    "descriptionText": "- Added a screen so users are directed to the mobile app when trying to pair a Matter device.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.59",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Updated translations.</li>\n<li>Fixed an issue where it was not possible to accept invites if the user had no Homeys.</li>\n<li>Fixed an issue where Logic variables where not aplhabetically sorted.</li>\n</ul>",
+    "descriptionText": "- Updated translations.\n- Fixed an issue where it was not possible to accept invites if the user had no Homeys.\n- Fixed an issue where Logic variables where not aplhabetically sorted.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.58",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the Insights filter would not match on uppercase letters.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the Insights filter would not match on uppercase letters.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.57",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added the option to filter Flows based on a device via the device context menu.</li>\n<li>Added the option to filter Insights logs based on a device via the device context menu.</li>\n<li>Fixed an issue where Insights log lines were not always accurate.</li>\n<li>Fixed an issue where the Insights navigation did not always reflect the correct device or app names.</li>\n</ul>",
+    "descriptionText": "- Added the option to filter Flows based on a device via the device context menu.\n- Added the option to filter Insights logs based on a device via the device context menu.\n- Fixed an issue where Insights log lines were not always accurate.\n- Fixed an issue where the Insights navigation did not always reflect the correct device or app names.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.56",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>New zone icons</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- New zone icons\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.55",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Location settings</li>\n<li>Empty screen for API Keys</li>\n<li>Default route for settings is now general</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Location settings\n- Empty screen for API Keys\n- Default route for settings is now general\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.54",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Translations for settings</li>\n</ul>\nChanged\n<ul>\n<li>Blue buttons to gradient buttons</li>\n<li>Update system colors</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\n \n- Translations for settings\nChanged\n \n- Blue buttons to gradient buttons\n- Update system colors\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.53",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>See detailed time information on time line item hover</li>\n</ul>\nChanged\n<ul>\n<li>Reduce select chevron size</li>\n<li>Add descriptive role option to select</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\n \n- See detailed time information on time line item hover\nChanged\n \n- Reduce select chevron size\n- Add descriptive role option to select\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.52",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Disable push option when timeline is disabled</li>\n</ul>\nFixed\n<ul>\n<li>Crash on timeline exerpt non string</li>\n<li>Experiments crash on no data</li>\n</ul>\nOther\n<ul>\n<li>Add dialog consistency</li>\n</ul>",
+    "descriptionText": "Added\nChanged\n \n- Disable push option when timeline is disabled\nFixed\n \n- Crash on timeline exerpt non string\n- Experiments crash on no data\nOther\n \n- Add dialog consistency",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.51",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Rebooting logic for cloud</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Rebooting logic for cloud\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.50",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Experiments</li>\n<li>Location</li>\n<li>Integrations</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Experiments\n- Location\n- Integrations\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.49",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Advanced Flow for cloud</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Advanced Flow for cloud\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.48",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Timeline settings</li>\n<li>New device icons</li>\n<li>Experiment enabled dialog</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Timeline settings\n- New device icons\n- Experiment enabled dialog\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.47",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Select option height not growing</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Select option height not growing\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.46",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Experiments</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Experiments\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.45",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Remove coming soon from led ring</li>\n<li>Always show the off screensaver option at the bottom</li>\n</ul>\nFixed\n<ul>\n<li>Ledring brightness slider not working on Safari</li>\n<li>Users table spacing</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\n \n- Remove coming soon from led ring\n- Always show the off screensaver option at the bottom\nFixed\n \n- Ledring brightness slider not working on Safari\n- Users table spacing\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.44",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Remove coming soon from users</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Remove coming soon from users\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.43",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Language settings</li>\n</ul>\nChanged\nFixed\n<ul>\n<li>Users table name overflow</li>\n</ul>\nOther",
+    "descriptionText": "Added\n \n- Language settings\nChanged\nFixed\n \n- Users table name overflow\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.42",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Ledring brightness slider</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Ledring brightness slider\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.41",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>New device icons</li>\n<li>New accept invite page</li>\n</ul>\nChanged\n<ul>\n<li>Create invite dialog inline with new design</li>\n</ul>\nFixed\n<ul>\n<li>Users table box shadow for Safari</li>\n</ul>\nOther",
+    "descriptionText": "Added\n \n- New device icons\n- New accept invite page\nChanged\n \n- Create invite dialog inline with new design\nFixed\n \n- Users table box shadow for Safari\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.40",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Context menus closing unwanted</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Context menus closing unwanted\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.39",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Context menus not closing</li>\n<li>Create variable dialog layout</li>\n</ul>\nOther\n<ul>\n<li>Remove coming soon label from updates</li>\n</ul>",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Context menus not closing\n- Create variable dialog layout\nOther\n \n- Remove coming soon label from updates",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.38",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Family settings</li>\n</ul>\nChanged\n<ul>\n<li>Add scope checks for updates</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\n \n- Family settings\nChanged\n \n- Add scope checks for updates\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.37",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Error screen for updates</li>\n</ul>\nChanged\n<ul>\n<li>Improved reboot logic</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\n \n- Error screen for updates\nChanged\n \n- Improved reboot logic\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.36",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Crashed message tooltip to crashed status label</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Crashed message tooltip to crashed status label\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.35",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Toast on no updates</li>\n</ul>\nChanged\n<ul>\n<li>Open reboot button to everyone</li>\n</ul>\nFixed\n<ul>\n<li>Darkmode for pairing frame</li>\n<li>API key copy translation</li>\n<li>Homey switch lingering update screen</li>\n<li>Reboot bar border radius for Safari</li>\n<li>Stop ping previous Homey on Homey switch</li>\n</ul>\nOther",
+    "descriptionText": "Added\n \n- Toast on no updates\nChanged\n \n- Open reboot button to everyone\nFixed\n \n- Darkmode for pairing frame\n- API key copy translation\n- Homey switch lingering update screen\n- Reboot bar border radius for Safari\n- Stop ping previous Homey on Homey switch\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.34",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Swap memory to memory overview</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Swap memory to memory overview\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.33",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Updates feedback</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Updates feedback\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.32",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Log legend styles broken</li>\n<li>Argument range wrong background</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Log legend styles broken\n- Argument range wrong background\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.31",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Updates settings</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Updates settings\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.30",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Crash on missing system date</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Crash on missing system date\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.29",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Settings translations</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Settings translations\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.28",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Removed general heading from system settings</li>\n<li>Express sytem load in percentages</li>\n<li>Show model id on model name hover</li>\n</ul>\nFixed\n<ul>\n<li>Use _call for sendReport to bypass scopes bug for platform version 2</li>\n<li>Always enable Homey name input</li>\n<li>Use auto height after load for storage/memory</li>\n<li>Zone inactive last active color</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\n \n- Removed general heading from system settings\n- Express sytem load in percentages\n- Show model id on model name hover\nFixed\n \n- Use _call for sendReport to bypass scopes bug for platform version 2\n- Always enable Homey name input\n- Use auto height after load for storage/memory\n- Zone inactive last active color\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.27",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Help link for API keys</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Help link for API keys\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.26",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Logs crash</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Logs crash\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.25",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Peer deps</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Peer deps\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.24",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Crash on log not having units as a string</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Crash on log not having units as a string\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.23",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Replace all MacOS pointer event checks with isWebKit</li>\n</ul>\nFixed\n<ul>\n<li>Missing pointer on advanced flow cursor card crash</li>\n<li>Crash on log deletion when selected</li>\n<li>Unknown variable update crash</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\n \n- Replace all MacOS pointer event checks with isWebKit\nFixed\n \n- Missing pointer on advanced flow cursor card crash\n- Crash on log deletion when selected\n- Unknown variable update crash\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.22",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Only validate droptoken if the card has a droptoken</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Only validate droptoken if the card has a droptoken\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.21",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Darkmode Flow name</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Darkmode Flow name\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.20",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Darkmode searchfield colors</li>\n<li>Zone activity indicator</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Darkmode searchfield colors\n- Zone activity indicator\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.19",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\nOther\n<ul>\n<li>Update Sentry dsn</li>\n</ul>",
+    "descriptionText": "Added\nChanged\nFixed\nOther\n \n- Update Sentry dsn",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.18",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Checkbox select</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Checkbox select\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.17",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Saving buttons</li>\n<li>Select not working</li>\n<li>Spinner colors</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Saving buttons\n- Select not working\n- Spinner colors\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.16",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Reload page once js bundle not found</li>\n</ul>\nChanged\nFixed\n<ul>\n<li>Api keys dialog height</li>\n<li>Api keys only allow submit on at least one scope</li>\n<li>Logic dialog unable to save boolean variable</li>\n</ul>\nOther\n<ul>\n<li>Sentry improvements</li>\n</ul>",
+    "descriptionText": "Added\n \n- Reload page once js bundle not found\nChanged\nFixed\n \n- Api keys dialog height\n- Api keys only allow submit on at least one scope\n- Logic dialog unable to save boolean variable\nOther\n \n- Sentry improvements",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.15",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Scope check for API keys</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Scope check for API keys\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.14",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Permissions check for API keys</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Permissions check for API keys\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.13",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Some design inconsistencies in api keys</li>\n</ul>\nOther\n<ul>\n<li>Remove deprecated components</li>\n</ul>",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Some design inconsistencies in api keys\nOther\n \n- Remove deprecated components",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.12",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Use app id as ownername if app is missing for a log</li>\n</ul>\nChanged\n<ul>\n<li>Replace clipboard component in app diagnostics report dialog</li>\n<li>Replace fade with dialog resize in app diagnostics report dialog</li>\n<li>Decrease pairing dialog width</li>\n</ul>\nFixed\n<ul>\n<li>Icon button styling target</li>\n<li>App images for old pro</li>\n</ul>\nOther",
+    "descriptionText": "Added\n \n- Use app id as ownername if app is missing for a log\nChanged\n \n- Replace clipboard component in app diagnostics report dialog\n- Replace fade with dialog resize in app diagnostics report dialog\n- Decrease pairing dialog width\nFixed\n \n- Icon button styling target\n- App images for old pro\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.11",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Experimental API keys</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Experimental API keys\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.10",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Open app settings for everyone</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Open app settings for everyone\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.9",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Device settings placeholder</li>\n<li>Error message for app diagnostics report dialog</li>\n</ul>\nChanged\nFixed\n<ul>\n<li>Configure app darkmode</li>\n<li>Platform version check</li>\n<li>Prevent coming soon label shrink</li>\n<li>Stateless toggle ui component icons</li>\n</ul>\nOther",
+    "descriptionText": "Added\n \n- Device settings placeholder\n- Error message for app diagnostics report dialog\nChanged\nFixed\n \n- Configure app darkmode\n- Platform version check\n- Prevent coming soon label shrink\n- Stateless toggle ui component icons\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.8",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Hide some settings categories for cloud</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Hide some settings categories for cloud\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.7",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Flow drag drop</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Flow drag drop\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.6",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Safari press issue in subnav</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Safari press issue in subnav\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Improvements for settings page</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Improvements for settings page\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Logic logs not mergable on platform version 2</li>\n<li>Crash on no app images</li>\n<li>Linkable items in listbox</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Logic logs not mergable on platform version 2\n- Crash on no app images\n- Linkable items in listbox\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Indicator speaker crash</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Indicator speaker crash\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Checkbox crash</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Checkbox crash\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\nOther\n<ul>\n<li>App settings improvements</li>\n<li>Upgrade react-hook-form</li>\n</ul>",
+    "descriptionText": "Added\nChanged\nFixed\nOther\n \n- App settings improvements\n- Upgrade react-hook-form",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.9.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>App settings</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- App settings\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.24",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Homey Pro 2023 icon</li>\n</ul>\nChanged\n<ul>\n<li>Allow new lines in Flow card hint</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\n \n- Homey Pro 2023 icon\nChanged\n \n- Allow new lines in Flow card hint\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.23",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Wrong key for api v3 Flow tokens</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Wrong key for api v3 Flow tokens\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.22",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Hide SDK2 apps for platform version 2.</li>\n</ul>\nFixed\n<ul>\n<li>Crash on token missing owner name</li>\n</ul>\nOther\n<ul>\n<li>Add Sentry logging to check what is passed into userMe.favoriteDevices</li>\n</ul>",
+    "descriptionText": "Added\nChanged\n \n- Hide SDK2 apps for platform version 2.\nFixed\n \n- Crash on token missing owner name\nOther\n \n- Add Sentry logging to check what is passed into userMe.favoriteDevices",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.21",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Sort notifications by date</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Sort notifications by date\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.20",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Remove clear data from logs for cloud</li>\n</ul>\nFixed\n<ul>\n<li>Zone icon scale</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\n \n- Remove clear data from logs for cloud\nFixed\n \n- Zone icon scale\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.19",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Remove manager vdevice column from Flow card picker</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Remove manager vdevice column from Flow card picker\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.18",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Support API version 3</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Support API version 3\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.17",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<p><strong>Added</strong></p>\n<p><strong>Changed</strong></p>\n<ul>\n<li>Improved device color picker with click anywhere functionality to update color</li>\n<li>Improved device color picker with update only hue or saturation by pressing shift/cmd key</li>\n<li>Improved device color picker with selected color visible in drag button.</li>\n</ul>\n<p><strong>Fixed</strong></p>\n<ul>\n<li>Fixed device color picker for Firefox browser</li>\n</ul>\n<p><strong>Other</strong></p>",
+    "descriptionText": "Added \n Changed \n \n- Improved device color picker with click anywhere functionality to update color\n- Improved device color picker with update only hue or saturation by pressing shift/cmd key\n- Improved device color picker with selected color visible in drag button.\n Fixed \n \n- Fixed device color picker for Firefox browser\n Other",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.16",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<p><em>No release notes.</em></p>",
+    "descriptionText": "No release notes.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.15",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Enabled seamless check pairing screens</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Enabled seamless check pairing screens\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.14",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Support titleTrue/titleFalse for sensor booleans</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Support titleTrue/titleFalse for sensor booleans\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.13",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Safari 16 Advanced Flow grid not visible</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Safari 16 Advanced Flow grid not visible\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.12",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Remove free Advanced Flow logic</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Remove free Advanced Flow logic\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.11",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Device settings height animation (Safari 16)</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Device settings height animation (Safari 16)\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.10",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Device controls slide in animation (Safari 16)</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Device controls slide in animation (Safari 16)\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.9",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Free Advanced Flow weekend</li>\n</ul>\nChanged\nFixed\n<ul>\n<li>Redirect to new Advanced Flow after purchase</li>\n</ul>\nOther",
+    "descriptionText": "Added\n \n- Free Advanced Flow weekend\nChanged\nFixed\n \n- Redirect to new Advanced Flow after purchase\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.8",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Use correct key for driver for the new Homey Pro</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Use correct key for driver for the new Homey Pro\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.7",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Employee check for Advanced Flow (cloud)</li>\n<li>Hide programmatic trigger for Advanced Flow (cloud)</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Employee check for Advanced Flow (cloud)\n- Hide programmatic trigger for Advanced Flow (cloud)\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.6",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Notify on Advanced Flow start</li>\n</ul>\nChanged\nFixed\n<ul>\n<li>Disable mask composite on Safari 16 beta</li>\n</ul>\nOther",
+    "descriptionText": "Added\n \n- Notify on Advanced Flow start\nChanged\nFixed\n \n- Disable mask composite on Safari 16 beta\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Advanced Flow test form sending booleans as strings.</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Advanced Flow test form sending booleans as strings.\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Fix Homey version check throwing instead of returning false</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Fix Homey version check throwing instead of returning false\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Fix Homey version check for Homey versions with suffix.</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Fix Homey version check for Homey versions with suffix.\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Crash while dragging condition or action with local tokens (Standard Flow)</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Crash while dragging condition or action with local tokens (Standard Flow)\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>All/Any block darkmode text colors</li>\n</ul>\nFixed\n<ul>\n<li>Test from card directly into all card always continues</li>\n</ul>\nOther\n<ul>\n<li>Update locales</li>\n</ul>",
+    "descriptionText": "Added\nChanged\n \n- All/Any block darkmode text colors\nFixed\n \n- Test from card directly into all card always continues\nOther\n \n- Update locales",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.8.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Advanced Flow Release 🚀\nAdded\nChanged\n<ul>\n<li>Removed experimental check for Advanced Flow</li>\n</ul>\nFixed\n<ul>\n<li>Global search overlay not interactable when grid is visible</li>\n</ul>\nOther",
+    "descriptionText": "Advanced Flow Release 🚀\nAdded\nChanged\n \n- Removed experimental check for Advanced Flow\nFixed\n \n- Global search overlay not interactable when grid is visible\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.27",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Version check to access existing Advanced Flow's</li>\n<li>Template positions for all locales</li>\n</ul>\nChanged\n<ul>\n<li>Start polling after 2 minutes on purchase screen</li>\n<li>Advanced Flow icon in naming dialog</li>\n</ul>\nFixed\n<ul>\n<li>Test from here not working on All/Any-block</li>\n</ul>\nOther\n<ul>\n<li>Vertaging-block is now called Wacht-block</li>\n</ul>",
+    "descriptionText": "Added\n \n- Version check to access existing Advanced Flow's\n- Template positions for all locales\nChanged\n \n- Start polling after 2 minutes on purchase screen\n- Advanced Flow icon in naming dialog\nFixed\n \n- Test from here not working on All/Any-block\nOther\n \n- Vertaging-block is now called Wacht-block",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.26",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Check for licence to access Advanced Flow</li>\n<li>Check for version 8.0.0 to access Advanced Flow</li>\n<li>Advanced Flow template Flow (/homeys//flows/advanced/create?id=template)</li>\n</ul>\nChanged\n<ul>\n<li>Update HomeyScript docs url for Argument HomeyScript</li>\n</ul>\nFixed\n<ul>\n<li>Yes/No select not working inside context menu's</li>\n<li>Dont close overlay on pointer up outside of overlays when pointer down started inside overlays</li>\n<li>Hide create Advanced Flow from folder context menu for cloud</li>\n</ul>\nOther",
+    "descriptionText": "Added\n \n- Check for licence to access Advanced Flow\n- Check for version 8.0.0 to access Advanced Flow\n- Advanced Flow template Flow (/homeys//flows/advanced/create?id=template)\nChanged\n \n- Update HomeyScript docs url for Argument HomeyScript\nFixed\n \n- Yes/No select not working inside context menu's\n- Dont close overlay on pointer up outside of overlays when pointer down started inside overlays\n- Hide create Advanced Flow from folder context menu for cloud\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.25",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Ignore second double click for note card</li>\n<li>Dont ask for error token on source</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Ignore second double click for note card\n- Dont ask for error token on source\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.24",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Increase context menu max-height</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Increase context menu max-height\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.23",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\nOther\n<ul>\n<li>Lingohub update</li>\n</ul>",
+    "descriptionText": "Added\nChanged\nFixed\nOther\n \n- Lingohub update",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.22",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Increase argument text line-height for tokens</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Increase argument text line-height for tokens\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.21",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Advanced Flow icons for enabled/disabled</li>\n<li>Argument HomeyScript dimensions/visuals</li>\n<li>Argument HomeyScript play button animation</li>\n</ul>\nFixed\n<ul>\n<li>Remove 'Create Advanced Flow' from folder menu for cloud</li>\n<li>Only allow error droptokens if string token type is present in de droptokens array</li>\n</ul>\nOther\n<ul>\n<li>Update locales</li>\n</ul>",
+    "descriptionText": "Added\nChanged\n \n- Advanced Flow icons for enabled/disabled\n- Argument HomeyScript dimensions/visuals\n- Argument HomeyScript play button animation\nFixed\n \n- Remove 'Create Advanced Flow' from folder menu for cloud\n- Only allow error droptokens if string token type is present in de droptokens array\nOther\n \n- Update locales",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.20",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Unable to test argument HomeyScript</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Unable to test argument HomeyScript\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.19",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Translations for Advanced Flow</li>\n</ul>\nChanged\n<ul>\n<li>Option for HomeyScript argument without an additional argument</li>\n<li>Hide advanced cards from default Flows</li>\n</ul>\nFixed\n<ul>\n<li>Note card height snapping (Advanced Flow)</li>\n<li>Note card previous value shortly visible on blur (Advanced Flow)</li>\n<li>Hide step hint from number variable create dialog</li>\n<li>Removed dev check for add button note card option</li>\n<li>Unwanted horizontal scrollbars in context menu's (Safari)</li>\n</ul>\nOther\n<ul>\n<li>Update athom-api</li>\n</ul>",
+    "descriptionText": "Added\n \n- Translations for Advanced Flow\nChanged\n \n- Option for HomeyScript argument without an additional argument\n- Hide advanced cards from default Flows\nFixed\n \n- Note card height snapping (Advanced Flow)\n- Note card previous value shortly visible on blur (Advanced Flow)\n- Hide step hint from number variable create dialog\n- Removed dev check for add button note card option\n- Unwanted horizontal scrollbars in context menu's (Safari)\nOther\n \n- Update athom-api",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.18",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Note cards (Advanced Flow)</li>\n</ul>\nChanged\nFixed\n<ul>\n<li>Test bar masking (Advanced Flow)</li>\n<li>Test mode dark mode colors (Advanced Flow)</li>\n<li>Cursor card initially not appearing at correct position (Advanced Flow)</li>\n<li>Error outline on valid number (Variables button)</li>\n<li>Argument code editor caret out of sync with content (Advanced Flow)</li>\n</ul>\nOther",
+    "descriptionText": "Added\n \n- Note cards (Advanced Flow)\nChanged\nFixed\n \n- Test bar masking (Advanced Flow)\n- Test mode dark mode colors (Advanced Flow)\n- Cursor card initially not appearing at correct position (Advanced Flow)\n- Error outline on valid number (Variables button)\n- Argument code editor caret out of sync with content (Advanced Flow)\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.17",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Mask edges of scroll container (Advanced Flow)</li>\n<li>All card (Advanced Flow)</li>\n<li>Any card (Advanced Flow)</li>\n<li>Dark mode crosshairs (Advanced Flow)</li>\n<li>Argument code (requires private app for now)</li>\n<li>Show token icon with type for cards with droptoken</li>\n</ul>\nChanged\n<ul>\n<li>Mix Advanced Flow sorting with Flows</li>\n<li>Only render fixed drag layer when dragging</li>\n</ul>\nFixed\n<ul>\n<li>Flow folder update reverting on save (Advanced Flow)</li>\n<li>Crash on replace card (Advanced Flow)</li>\n<li>Prevent test update on navigating to different Advanced Flow</li>\n<li>Connection animation snap on test done (Advanced Flow)</li>\n<li>Fill trigger card connector on test (Advanced Flow)</li>\n<li>Flow card elapsed time (Advanced Flow)</li>\n</ul>\nOther\n<ul>\n<li>Remove homey offline detection listener (still needs a refetch on reconnect to ensure everything is in sync)</li>\n<li>Change deprecated way of defining routes</li>\n</ul>",
+    "descriptionText": "Added\n \n- Mask edges of scroll container (Advanced Flow)\n- All card (Advanced Flow)\n- Any card (Advanced Flow)\n- Dark mode crosshairs (Advanced Flow)\n- Argument code (requires private app for now)\n- Show token icon with type for cards with droptoken\nChanged\n \n- Mix Advanced Flow sorting with Flows\n- Only render fixed drag layer when dragging\nFixed\n \n- Flow folder update reverting on save (Advanced Flow)\n- Crash on replace card (Advanced Flow)\n- Prevent test update on navigating to different Advanced Flow\n- Connection animation snap on test done (Advanced Flow)\n- Fill trigger card connector on test (Advanced Flow)\n- Flow card elapsed time (Advanced Flow)\nOther\n \n- Remove homey offline detection listener (still needs a refetch on reconnect to ensure everything is in sync)\n- Change deprecated way of defining routes",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.16",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Display app controls right of apps</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Display app controls right of apps\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.15",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Make apps scrollable</li>\n<li>Add Advanced Flow origin to device timeline (Requires homey-client update)</li>\n</ul>\nFixed\nOther",
+    "descriptionText": "Added\nChanged\n \n- Make apps scrollable\n- Add Advanced Flow origin to device timeline (Requires homey-client update)\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.14",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\n<ul>\n<li>Spacebar drag scroll (Advanced Flow)</li>\n<li>Option to rename HomeyScript scripts via context menu (v3.3.0 in test)</li>\n</ul>\nChanged\nFixed\nOther",
+    "descriptionText": "Added\n \n- Spacebar drag scroll (Advanced Flow)\n- Option to rename HomeyScript scripts via context menu (v3.3.0 in test)\nChanged\nFixed\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.13",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\nFixed\n<ul>\n<li>Paste card tokens not always correctly replaced</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\nFixed\n \n- Paste card tokens not always correctly replaced\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  },
+  {
+    "version": "1.7.12",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "Added\nChanged\n<ul>\n<li>Increased token picker overlay width</li>\n</ul>\nFixed\n<ul>\n<li>Local tokens name always Unavailable</li>\n<li>Token hover animation horizontal scroll</li>\n</ul>\nOther",
+    "descriptionText": "Added\nChanged\n \n- Increased token picker overlay width\nFixed\n \n- Local tokens name always Unavailable\n- Token hover animation horizontal scroll\nOther",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:40.520Z"
+  }
+]

@@ -1,0 +1,55 @@
+name: Update Homey changelogs
+
+on:
+  schedule:
+    # Every 6 hours. Cron is UTC. Adjust to taste.
+    - cron: "17 */6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "package.json"
+      - ".github/workflows/update-firmware.yml"
+
+# Lets the workflow push its own commits back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: update-firmware
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium for Playwright
+        run: npx playwright install --with-deps chromium
+
+      - name: Fetch + scrape all Homey changelogs
+        run: npm run update
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "homey-firmware-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changelog changes to commit."
+          else
+            git commit -m "chore: refresh Homey changelogs [skip ci]"
+            git push
+          fi

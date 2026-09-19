@@ -1,0 +1,461 @@
+[
+  {
+    "version": "13.5.0",
+    "date": "2026-09-07",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li><p>Updates translations.</p></li><li><p>Fixes a Zone staying active after a nested Zone was deleted.<br></p></li></ul><p><strong>Flow</strong></p><ul><li><p>Adds Flow cards for numeric Logic variables “when a variable becomes greater than X” and “when a variable becomes less than X”.</p></li><li><p>Adds Flow cards for numeric Logic variables “when a variable becomes greater than X for Y minutes/seconds” and “when a variable becomes less than X for Y minutes/seconds”.<br><br></p></li></ul><p><strong>Z-Wave</strong></p><ul><li><p>Fixes firmware updates being offered to devices they don’t apply to.<br></p></li></ul><p><strong>BLE</strong></p><ul><li><p>Fixes a number of issues that could cause BLE to stop working.<br></p></li></ul><p><strong>Apps</strong></p><ul><li><p>Improves stability of Python apps by handling errors during inter-process communication.</p></li><li><p>Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.</p></li></ul><p><strong>Users</strong></p><ul><li><p>Fixes user Flow cards not listing users whose account is disabled.</p></li></ul>",
+    "descriptionText": "Core \n \n- Updates translations.\n- Fixes a Zone staying active after a nested Zone was deleted. \n Flow \n \n- Adds Flow cards for numeric Logic variables “when a variable becomes greater than X” and “when a variable becomes less than X”.\n- Adds Flow cards for numeric Logic variables “when a variable becomes greater than X for Y minutes/seconds” and “when a variable becomes less than X for Y minutes/seconds”. \n Z-Wave \n \n- Fixes firmware updates being offered to devices they don’t apply to. \n BLE \n \n- Fixes a number of issues that could cause BLE to stop working. \n Apps \n \n- Improves stability of Python apps by handling errors during inter-process communication.\n- Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.\n Users \n \n- Fixes user Flow cards not listing users whose account is disabled.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "13.4.0",
+    "date": "2026-07-27",
+    "dateSource": "official",
+    "description": "<p><strong>BLE</strong></p><ul><li><p>Adds support for subscribing to BLE advertisements for sensors without a constant connection, improving battery life and reliability.</p></li><li><p>Fixes an issue with ‘le-connection-abort-by-local’ error.</p></li><li><p>Fixes an issue where BLE sensors would stop updating.</p></li><li><p>Fixes an issue where BLE advertisements stopped coming.</p></li><li><p>Fixes an issue with ‘No peripheral found’ error.</p></li></ul><p><strong>Z-Wave</strong></p><ul><li><p>Fixes an issue that causes devices to get the wrong device class after pairing.</p></li></ul>",
+    "descriptionText": "BLE \n \n- Adds support for subscribing to BLE advertisements for sensors without a constant connection, improving battery life and reliability.\n- Fixes an issue with ‘le-connection-abort-by-local’ error.\n- Fixes an issue where BLE sensors would stop updating.\n- Fixes an issue where BLE advertisements stopped coming.\n- Fixes an issue with ‘No peripheral found’ error.\n Z-Wave \n \n- Fixes an issue that causes devices to get the wrong device class after pairing.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "13.2.1",
+    "date": "2026-06-01",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li><p>Updated translations.</p></li><li><p>Minor improvements and bug fixes.</p></li></ul><p><strong>Zigbee</strong></p><ul><li><p>Stability improvements.</p></li></ul><p><strong>Z-Wave</strong></p><ul><li><p>Fixes a number of issues introduced in v13.2.0.</p></li></ul>",
+    "descriptionText": "Core \n \n- Updated translations.\n- Minor improvements and bug fixes.\n Zigbee \n \n- Stability improvements.\n Z-Wave \n \n- Fixes a number of issues introduced in v13.2.0.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "13.2.0",
+    "date": "2026-05-20",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li><p>Updates translations.<br><br><strong>Zigbee</strong></p><p></p></li><li><p> Adds support for viewing routes in Developer Tools.</p></li></ul><p><strong>Z-Wave</strong></p><ul><li><p>Official Z-Wave certified implementation.</p></li><li><p>Updated Z-Wave chip firmware to version 7.21.6.</p></li><li><p>Added SmartStart support. Devices can be added by scanning a QR code or by entering the DSK.</p></li><li><p>Added support for controlling door locks and thermostat mode/setpoint from the default Z-Wave device.</p></li><li><p>Added S2 multicast security support.</p></li><li><p>S2 now grants all requested security keys (except S0) instead of only the highest.</p></li><li><p>S0 can be enabled from the advanced settings when pairing a default Z-Wave device. Disabled by default.</p></li><li><p>If security bootstrapping fails during pairing, the user is informed and the node will be removed.</p></li><li><p>Improved handling of multiple decryption attempts for multiple security keys.</p></li><li><p>Incoming messages with too low or no security level are now ignored.</p></li><li><p>Associations are now validated against the destination node’s supported security and command classes.</p></li><li><p>Return routes are correctly assigned when adding associations.</p></li><li><p>When a node is removed from the network, corresponding associations on other nodes are also removed.</p></li><li><p>Association group names are now retrieved from the node and shown in the device settings screen when not defined by the app.</p></li><li><p>Battery devices are now correctly and faster put back to sleep when there is no more data for them.</p></li><li><p>When changing settings of a battery device, an estimation is given for when the device will wake up. The result is shown in the timeline.</p></li><li><p>When changing settings or associations on battery devices, the result is shown in the timeline after the device wakes up.</p></li><li><p>If a device sends a Device Reset Locally notification, it is removed from Homey after verification.</p></li><li><p>Added Inclusion Controller support.</p></li><li><p>Improved Security S0 handling.</p></li><li><p>Improved Transport Service handling.</p><p><br><strong>Developer Tools</strong><br></p></li><li><p>Healing a Z-Wave node now also updates return routes for all association destinations.</p></li><li><p>Added ‘Update Z-Wave Routes’ feature that performs a neighbor discovery of all non-battery Z-Wave nodes and assigns new return routes when needed.</p></li><li><p>Added ‘Identify Z-Wave Node’ feature. The node will flash a light or make a sound.</p></li><li><p>Testing a Z-Wave node now sends a NOP command instead of BASIC GET.</p></li><li><p>The list of pending Z-Wave SmartStart inclusions is now shown and new entries can be added.</p></li><li><p>When the Z-Wave network is reset, a Device Reset Locally notification is sent to nodes in the Lifeline group.<br><br>Check the updated Z-Wave developer documentation here: https://apps.developer.homey.app/wireless/z-wave</p></li></ul>",
+    "descriptionText": "Core \n \n- Updates translations. Zigbee \n \n- Adds support for viewing routes in Developer Tools.\n Z-Wave \n \n- Official Z-Wave certified implementation.\n- Updated Z-Wave chip firmware to version 7.21.6.\n- Added SmartStart support. Devices can be added by scanning a QR code or by entering the DSK.\n- Added support for controlling door locks and thermostat mode/setpoint from the default Z-Wave device.\n- Added S2 multicast security support.\n- S2 now grants all requested security keys (except S0) instead of only the highest.\n- S0 can be enabled from the advanced settings when pairing a default Z-Wave device. Disabled by default.\n- If security bootstrapping fails during pairing, the user is informed and the node will be removed.\n- Improved handling of multiple decryption attempts for multiple security keys.\n- Incoming messages with too low or no security level are now ignored.\n- Associations are now validated against the destination node’s supported security and command classes.\n- Return routes are correctly assigned when adding associations.\n- When a node is removed from the network, corresponding associations on other nodes are also removed.\n- Association group names are now retrieved from the node and shown in the device settings screen when not defined by the app.\n- Battery devices are now correctly and faster put back to sleep when there is no more data for them.\n- When changing settings of a battery device, an estimation is given for when the device will wake up. The result is shown in the timeline.\n- When changing settings or associations on battery devices, the result is shown in the timeline after the device wakes up.\n- If a device sends a Device Reset Locally notification, it is removed from Homey after verification.\n- Added Inclusion Controller support.\n- Improved Security S0 handling.\n- Improved Transport Service handling.\n Developer Tools \n- Healing a Z-Wave node now also updates return routes for all association destinations.\n- Added ‘Update Z-Wave Routes’ feature that performs a neighbor discovery of all non-battery Z-Wave nodes and assigns new return routes when needed.\n- Added ‘Identify Z-Wave Node’ feature. The node will flash a light or make a sound.\n- Testing a Z-Wave node now sends a NOP command instead of BASIC GET.\n- The list of pending Z-Wave SmartStart inclusions is now shown and new entries can be added.\n- When the Z-Wave network is reset, a Device Reset Locally notification is sent to nodes in the Lifeline group. Check the updated Z-Wave developer documentation here: https://apps.developer.homey.app/wireless/z-wave",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "13.1.2",
+    "date": "2026-04-21",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li><p>Improved translations.</p></li></ul><p><strong>Apps</strong></p><ul><li><p>Fixed an issue where discovery conditions within the same inner array were evaluated as OR instead of AND.</p></li></ul><p><strong>Flow</strong></p><ul><li><p>Fixes missing “capability is true/false for duration” Flow cards.<br></p></li></ul><p><strong>Zigbee</strong></p><ul><li><p>Improved handling of IAS zone enrollment.<br></p></li></ul>",
+    "descriptionText": "Core \n \n- Improved translations.\n Apps \n \n- Fixed an issue where discovery conditions within the same inner array were evaluated as OR instead of AND.\n Flow \n \n- Fixes missing “capability is true/false for duration” Flow cards. \n Zigbee \n \n- Improved handling of IAS zone enrollment.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "13.1.0",
+    "date": "2026-03-30",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li><p>Updated locales.</p></li><li><p>Fixed an issue where the Homey name was not stored properly during setup.</p></li><li><p>Fixed an issue with bridges being disconnected while having a valid connection.</p></li><li><p>Fixed an issue that could prevent a disconnected Homey Bridge from being marked as unavailable.</p></li></ul><p><strong>Zigbee</strong></p><ul><li><p>Extended functionality of generic Zigbee devices (e.g. sensors, locks, window coverings, thermostats).</p></li><li><p>Improved handling of energy metering reports for generic Zigbee devices.</p></li></ul><p><strong>BLE</strong></p><ul><li><p>Fixes an issue where invalid BLE characteristic UUID’s could be returned.</p></li></ul><p><strong>Flow</strong></p><ul><li><p>Fixed correct step size for sunrise and sunset Flow triggers.</p></li></ul>",
+    "descriptionText": "Core \n \n- Updated locales.\n- Fixed an issue where the Homey name was not stored properly during setup.\n- Fixed an issue with bridges being disconnected while having a valid connection.\n- Fixed an issue that could prevent a disconnected Homey Bridge from being marked as unavailable.\n Zigbee \n \n- Extended functionality of generic Zigbee devices (e.g. sensors, locks, window coverings, thermostats).\n- Improved handling of energy metering reports for generic Zigbee devices.\n BLE \n \n- Fixes an issue where invalid BLE characteristic UUID’s could be returned.\n Flow \n \n- Fixed correct step size for sunrise and sunset Flow triggers.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "13.0.0",
+    "date": "2026-03-10",
+    "dateSource": "official",
+    "description": "<ul><li><p>Added support for the Python Apps SDK.</p></li></ul>",
+    "descriptionText": "- Added support for the Python Apps SDK.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "12.13.1",
+    "date": "2026-03-09",
+    "dateSource": "official",
+    "description": "<ul><li><p>Update translations</p></li></ul>",
+    "descriptionText": "- Update translations",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "12.13.0",
+    "date": "2026-03-05",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li><p>Updated translations.<br><br><strong>Apps</strong></p></li><li><p>Added target_power and target_power_mode capabilities for controlling devices like EV chargers and home batteries.<br><br><strong>Device</strong></p></li><li><p>Fixed capability values being set to slightly out-of-range values due to rounding order.</p></li><li><p>Fixed “last seen at” not updating correctly for some devices.<br><br><strong>Flow</strong></p></li><li><p>Added new multi-select Flow cards for “day/week/month and season is” conditions.</p></li></ul><p><strong>Bridge</strong></p><ul><li><p>Fixes an issue where a bridge was inadvertently set as unavailable</p></li></ul>",
+    "descriptionText": "Core \n \n- Updated translations. Apps \n- Added target_power and target_power_mode capabilities for controlling devices like EV chargers and home batteries. Device \n- Fixed capability values being set to slightly out-of-range values due to rounding order.\n- Fixed “last seen at” not updating correctly for some devices. Flow \n- Added new multi-select Flow cards for “day/week/month and season is” conditions.\n Bridge \n \n- Fixes an issue where a bridge was inadvertently set as unavailable",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "12.12.1",
+    "date": "2026-02-27",
+    "dateSource": "official",
+    "description": "<p>Fixes an issue with bridges disconnecting frequently</p>",
+    "descriptionText": "Fixes an issue with bridges disconnecting frequently",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "12.12.0",
+    "date": "2026-02-18",
+    "dateSource": "official",
+    "description": "<p><strong>Presence Flow Triggers</strong></p><ul><li><p>The \"first user arrives home\" and \"last user leaves home\" flow triggers now include the user's name as a token, enabling more personalized automations and notifications.</p></li></ul><p><strong>Zigbee Improvements</strong></p><ul><li><p>Devices that previously left the Zigbee network are automatically re-recognized when they start communicating again.</p></li><li><p>Zigbee device repair now supports replacing a device with a different compatible physical device (same model/manufacturer).</p></li><li><p>Added Zigbee diagnostic report for improved support diagnostics.</p></li><li><p>Homey Bridge ping is now available in Zigbee developer tools.</p></li><li><p>Homey Bridge automatically rejoins the Zigbee network on ready.</p></li></ul>Bug Fixes<ul><li><p><strong>Energy Dongle</strong>: Fixed an issue where total imported/exported energy (kWh) would incorrectly reset to 0 when receiving a frame without energy data.</p></li><li><p><strong>Sunrise/Sunset Triggers</strong>: Fixed incorrect scheduling for \"before sunrise\" or \"before sunset\" triggers — they now correctly schedule for the next day if the trigger time has already passed.</p></li><li><p><strong>Flow Conditions</strong>: When a flow condition card is not found, only that condition group fails — other condition groups in the same flow can still pass.</p></li><li><p><strong>App Settings</strong>: Fixed incorrect initial app settings being returned.</p></li><li><p><strong>Zigbee</strong>: Numerous stability fixes including proper node cleanup on device delete, correct IEEE address handling for bindings, improved error messages, and better state management during network reset and repair.</p></li><li><p><strong>Setup</strong>: Fixed a bug where duplicate users could be created during Homey setup.</p></li></ul>",
+    "descriptionText": "Presence Flow Triggers \n \n- The \"first user arrives home\" and \"last user leaves home\" flow triggers now include the user's name as a token, enabling more personalized automations and notifications.\n Zigbee Improvements \n \n- Devices that previously left the Zigbee network are automatically re-recognized when they start communicating again.\n- Zigbee device repair now supports replacing a device with a different compatible physical device (same model/manufacturer).\n- Added Zigbee diagnostic report for improved support diagnostics.\n- Homey Bridge ping is now available in Zigbee developer tools.\n- Homey Bridge automatically rejoins the Zigbee network on ready.\nBug Fixes \n- Energy Dongle : Fixed an issue where total imported/exported energy (kWh) would incorrectly reset to 0 when receiving a frame without energy data.\n- Sunrise/Sunset Triggers : Fixed incorrect scheduling for \"before sunrise\" or \"before sunset\" triggers — they now correctly schedule for the next day if the trigger time has already passed.\n- Flow Conditions : When a flow condition card is not found, only that condition group fails — other condition groups in the same flow can still pass.\n- App Settings : Fixed incorrect initial app settings being returned.\n- Zigbee : Numerous stability fixes including proper node cleanup on device delete, correct IEEE address handling for bindings, improved error messages, and better state management during network reset and repair.\n- Setup : Fixed a bug where duplicate users could be created during Homey setup.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "12.9.5",
+    "date": "2026-01-22",
+    "dateSource": "official",
+    "description": "<p>Homey Bridge</p><ul><li><p>Fixes an issue where a bridge reconnect could lead to ‘Coprocessor Not Connected’ errors</p></li></ul>",
+    "descriptionText": "Homey Bridge\n \n- Fixes an issue where a bridge reconnect could lead to ‘Coprocessor Not Connected’ errors",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "12.9.4",
+    "date": "2026-01-06",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes problem with initial app settings not being returned correctly</li><li>Fixes issue where version upgrades could trigger unnecessarily due to prerelease tags</li><li>Improves reliability of Homey backup imports by better handling of database operations</li></ul>",
+    "descriptionText": "- Fixes problem with initial app settings not being returned correctly\n- Fixes issue where version upgrades could trigger unnecessarily due to prerelease tags\n- Improves reliability of Homey backup imports by better handling of database operations",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.8.2",
+    "date": "2025-08-02",
+    "dateSource": "official",
+    "description": "<ul><li>Adds new Flow cards based on dynamic electricity prices.</li></ul>",
+    "descriptionText": "- Adds new Flow cards based on dynamic electricity prices.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.8.1",
+    "date": "2025-08-01",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes rescheduling time based Flows after moving to a new timezone.</li></ul>",
+    "descriptionText": "- Fixes rescheduling time based Flows after moving to a new timezone.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.7.1",
+    "date": "2025-07-01",
+    "dateSource": "official",
+    "description": "<ul><li>Adds built-in Flow cards for number capabilities \"when value becomes greater than X for Y minutes/seconds\" and \"when value becomes less than X for Y minutes/seconds\".</li><li>Adds Flow card that triggers on multiple days of the week.</li><li>Adds Flow card that triggers on multiple days of the week at a specific time.</li></ul>",
+    "descriptionText": "- Adds built-in Flow cards for number capabilities \"when value becomes greater than X for Y minutes/seconds\" and \"when value becomes less than X for Y minutes/seconds\".\n- Adds Flow card that triggers on multiple days of the week.\n- Adds Flow card that triggers on multiple days of the week at a specific time.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.5.2",
+    "date": "2025-05-02",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue with drivers being unavailable directly after adding a new device.</li><li>Updates Apps SDK to support latest Energy properties.</li><li>Fixes an issue that could prevent new energy properties being properly applied.</li><li>Adds fallback to “meter_power” capability for Home Batteries and EV chargers when “meterPowerImportedCapability” is not set.</li></ul>",
+    "descriptionText": "- Fixes an issue with drivers being unavailable directly after adding a new device.\n- Updates Apps SDK to support latest Energy properties.\n- Fixes an issue that could prevent new energy properties being properly applied.\n- Adds fallback to “meter_power” capability for Home Batteries and EV chargers when “meterPowerImportedCapability” is not set.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.5.1",
+    "date": "2025-05-01",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue with Homey Energy Dongle where some Landis + Gyr E360 meters wouldn’t work.</li><li>Fixes an issue with Homey Energy Dongle where some Iskra MT382 meters wouldn’t work.</li><li>Fixes an issue with Homey Energy Dongle where the energy usage of the current day was missing.</li><li>Adds a setting to Homey Energy Dongle to disable control data validation.</li></ul>",
+    "descriptionText": "- Fixes an issue with Homey Energy Dongle where some Landis + Gyr E360 meters wouldn’t work.\n- Fixes an issue with Homey Energy Dongle where some Iskra MT382 meters wouldn’t work.\n- Fixes an issue with Homey Energy Dongle where the energy usage of the current day was missing.\n- Adds a setting to Homey Energy Dongle to disable control data validation.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.4.1",
+    "date": "2025-04-01",
+    "dateSource": "official",
+    "description": "<ul><li>Adds support for critical push notifications</li></ul>",
+    "descriptionText": "- Adds support for critical push notifications",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.3.6",
+    "date": "2025-03-06",
+    "dateSource": "official",
+    "description": "<ul><li>Rollout of Homey Energy Dongle to all users</li></ul>",
+    "descriptionText": "- Rollout of Homey Energy Dongle to all users",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.3.5",
+    "date": "2025-03-05",
+    "dateSource": "official",
+    "description": "<ul><li>Improves translations</li><li>Fixes an issue with the discovery of the Homey Energy Dongle</li></ul>",
+    "descriptionText": "- Improves translations\n- Fixes an issue with the discovery of the Homey Energy Dongle",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.3.4",
+    "date": "2025-03-04",
+    "dateSource": "official",
+    "description": "<ul><li>Adds local API support for Homey Energy Dongle</li></ul>",
+    "descriptionText": "- Adds local API support for Homey Energy Dongle",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.3.3",
+    "date": "2025-03-03",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue with energy reports being outdated</li></ul>",
+    "descriptionText": "- Fixes an issue with energy reports being outdated",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.3.2",
+    "date": "2025-03-02",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue with Homey Energy Dongle cronjobs</li></ul>",
+    "descriptionText": "- Fixes an issue with Homey Energy Dongle cronjobs",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.3.1",
+    "date": "2025-03-01",
+    "dateSource": "official",
+    "description": "<ul><li>Adds support for energy reports</li><li>Adds support for Homey Energy Dongle</li><li>Adds ieeeAddress to Zigbee nodes</li><li>Adds support for userdata icons</li><li>Fixes an issue with Homeys being stuck in upgrading state</li></ul>",
+    "descriptionText": "- Adds support for energy reports\n- Adds support for Homey Energy Dongle\n- Adds ieeeAddress to Zigbee nodes\n- Adds support for userdata icons\n- Fixes an issue with Homeys being stuck in upgrading state",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2025.1.1",
+    "date": "2025-01-01",
+    "dateSource": "official",
+    "description": "<ul><li>Adds support for more zone activity capabilities</li><li>Adds support for sending push messages to all users</li><li>Fixes an issue with zone activity after deleting a device</li><li>Improves translations</li><li>Adds support for dashboard widgets</li></ul>",
+    "descriptionText": "- Adds support for more zone activity capabilities\n- Adds support for sending push messages to all users\n- Fixes an issue with zone activity after deleting a device\n- Improves translations\n- Adds support for dashboard widgets",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.11.2",
+    "date": "2024-11-02",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue with unpairing a Homey Bridge</li></ul>",
+    "descriptionText": "- Fixes an issue with unpairing a Homey Bridge",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.11.1",
+    "date": "2024-11-01",
+    "dateSource": "official",
+    "description": "<ul><li>Adds support for weather forecast</li><li>Adds frame validation settings for DSMR data</li><li>Improves translations</li><li>Updated UI text and hints across multiple languages</li></ul>",
+    "descriptionText": "- Adds support for weather forecast\n- Adds frame validation settings for DSMR data\n- Improves translations\n- Updated UI text and hints across multiple languages",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.10.1",
+    "date": "2024-10-01",
+    "dateSource": "official",
+    "description": "<ul><li>Adds support for MongoDB 8</li><li>Adds support for Energy Management</li><li>Better support for device configuration and validation</li><li>Better device state management</li><li>Improved logging and debugging capabilities</li></ul>",
+    "descriptionText": "- Adds support for MongoDB 8\n- Adds support for Energy Management\n- Better support for device configuration and validation\n- Better device state management\n- Improved logging and debugging capabilities",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.9.3",
+    "date": "2024-09-03",
+    "dateSource": "official",
+    "description": "<ul><li>Adds support for Dashboards</li></ul>",
+    "descriptionText": "- Adds support for Dashboards",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.9.2",
+    "date": "2024-09-02",
+    "dateSource": "official",
+    "description": "<ul><li>Improves rate limiting algorithm</li></ul>",
+    "descriptionText": "- Improves rate limiting algorithm",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.9.1",
+    "date": "2024-09-01",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue in formatting of Norwegian units</li></ul>",
+    "descriptionText": "- Fixes an issue in formatting of Norwegian units",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.8.1",
+    "date": "2024-08-01",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue with widget realtime events</li><li>Fixes an issue with filter for homealarm_state</li></ul>",
+    "descriptionText": "- Fixes an issue with widget realtime events\n- Fixes an issue with filter for homealarm_state",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.7.2",
+    "date": "2024-07-02",
+    "dateSource": "official",
+    "description": "<ul><li>Updates translations</li></ul>",
+    "descriptionText": "- Updates translations",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.7.1",
+    "date": "2024-07-01",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue where min and max temperature were unavailable</li><li>Improves Zigbee error handling</li><li>Adds support for Korean language</li></ul>",
+    "descriptionText": "- Fixes an issue where min and max temperature were unavailable\n- Improves Zigbee error handling\n- Adds support for Korean language",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.6.1",
+    "date": "2024-06-01",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue where a bridge could perform a factory reset after reboot.</li><li>Fixes an issue where Homey was missing virtual drivers after reboot.</li><li>Fixes an issue where Homey was missing system flow cards after reboot.</li></ul>",
+    "descriptionText": "- Fixes an issue where a bridge could perform a factory reset after reboot.\n- Fixes an issue where Homey was missing virtual drivers after reboot.\n- Fixes an issue where Homey was missing system flow cards after reboot.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.5.2",
+    "date": "2024-05-02",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue where crashed apps would not recover properly.</li><li>Fixes an issue with apps using too much resources.</li><li>Fixes an issue where a bridge could not be paired because it was already paired.</li><li>Updated confirm notifications to use yes/no instead of icons.</li><li>Fixes an issue where temperature would not be converted to Fahrenheit.</li><li>Fixes an issue where the “The season is” flow card would not take the user’s hemisphere into account.</li><li>Fixes an issue where capabilities were missing a uiComponent.</li><li>Adds support for creating Apps with Matter drivers without custom functionality. Homey Apps can now add pairing instructions and icons for Matter devices.</li><li>Adds 'Request Official App' view after adding an unknown Z-Wave or Zigbee device.</li><li>Fixes an issue where setting uiComponent to null would not work.</li></ul>",
+    "descriptionText": "- Fixes an issue where crashed apps would not recover properly.\n- Fixes an issue with apps using too much resources.\n- Fixes an issue where a bridge could not be paired because it was already paired.\n- Updated confirm notifications to use yes/no instead of icons.\n- Fixes an issue where temperature would not be converted to Fahrenheit.\n- Fixes an issue where the “The season is” flow card would not take the user’s hemisphere into account.\n- Fixes an issue where capabilities were missing a uiComponent.\n- Adds support for creating Apps with Matter drivers without custom functionality. Homey Apps can now add pairing instructions and icons for Matter devices.\n- Adds 'Request Official App' view after adding an unknown Z-Wave or Zigbee device.\n- Fixes an issue where setting uiComponent to null would not work.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.5.1",
+    "date": "2024-05-01",
+    "dateSource": "official",
+    "description": "<ul><li>Stops Homeys when they haven't been used for over a month.</li></ul>",
+    "descriptionText": "- Stops Homeys when they haven't been used for over a month.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.4.3",
+    "date": "2024-04-03",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes a problem where Homey incorrectly determined whether to use the imperial system or not.</li></ul>",
+    "descriptionText": "- Fixes a problem where Homey incorrectly determined whether to use the imperial system or not.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.4.2",
+    "date": "2024-04-02",
+    "dateSource": "official",
+    "description": "<ul><li>Stability improvements and bugfixes.</li></ul>",
+    "descriptionText": "- Stability improvements and bugfixes.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.4.1",
+    "date": "2024-04-01",
+    "dateSource": "official",
+    "description": "<ul><li>Stops Homeys when they haven't been used for over a month.</li></ul>",
+    "descriptionText": "- Stops Homeys when they haven't been used for over a month.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.2.1",
+    "date": "2024-02-01",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue where external URL fetch failed.</li></ul>",
+    "descriptionText": "- Fixes an issue where external URL fetch failed.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2024.1.1",
+    "date": "2024-01-01",
+    "dateSource": "official",
+    "description": "<ul><li>Adds a workaround for certain Aqara devices that will only report to Aqara Zigbee controllers.</li><li>Fixes an issue that caused Infrared & RF signal repetitions not to work as expected.</li></ul>",
+    "descriptionText": "- Adds a workaround for certain Aqara devices that will only report to Aqara Zigbee controllers.\n- Fixes an issue that caused Infrared & RF signal repetitions not to work as expected.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2023.12.2",
+    "date": "2023-12-02",
+    "dateSource": "official",
+    "description": "<ul><li>Prompt to install the correct Homey App when pairing a generic Zigbee device.</li><li>Prompt to install the correct Homey App when pairing a generic Z-Wave device.</li></ul>",
+    "descriptionText": "- Prompt to install the correct Homey App when pairing a generic Zigbee device.\n- Prompt to install the correct Homey App when pairing a generic Z-Wave device.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2023.12.1",
+    "date": "2023-12-01",
+    "dateSource": "official",
+    "description": "<ul><li>Don't block deleting Z-Wave devices when Homey Bridge is no longer connected.</li><li>Improve diagnostic report readability.</li><li>Fixes an issue where Homey Bridge was said to be disconnected when it wasn't.</li><li>Fixes an issue with pairing Aqara Zigbee devices.</li></ul>",
+    "descriptionText": "- Don't block deleting Z-Wave devices when Homey Bridge is no longer connected.\n- Improve diagnostic report readability.\n- Fixes an issue where Homey Bridge was said to be disconnected when it wasn't.\n- Fixes an issue with pairing Aqara Zigbee devices.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2023.11.2",
+    "date": "2023-11-02",
+    "dateSource": "official",
+    "description": "<ul><li>Adds support for new email campaigns</li></ul>",
+    "descriptionText": "- Adds support for new email campaigns",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2023.11.1",
+    "date": "2023-11-01",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue where a Zone could become its own parent.</li><li>Improves warning message when the Zigbee chip is being flashed.</li><li>Improves the error messages when the Z-Wave chip is unavailable.</li><li>Fixes an issue with the styling of the Z-Wave unpair screen.</li><li>Fixes an issue with the link to a Zigbee Knowledge Base article.</li><li>Fixes an issue where 'last person went to sleep' was triggered twice.</li><li>Adds support for energy reporting for basic Z-Wave and Zigbee devices.</li><li>Adds support for longer IR and 433 commands.</li><li>Adds support for Z-Wave command class meter v6</li><li>Fixes an issue where cloud applications could get an error while trying to save settings.</li><li>Fixes an issue where unavailable and locked devices where still active in a zone.</li></ul>",
+    "descriptionText": "- Fixes an issue where a Zone could become its own parent.\n- Improves warning message when the Zigbee chip is being flashed.\n- Improves the error messages when the Z-Wave chip is unavailable.\n- Fixes an issue with the styling of the Z-Wave unpair screen.\n- Fixes an issue with the link to a Zigbee Knowledge Base article.\n- Fixes an issue where 'last person went to sleep' was triggered twice.\n- Adds support for energy reporting for basic Z-Wave and Zigbee devices.\n- Adds support for longer IR and 433 commands.\n- Adds support for Z-Wave command class meter v6\n- Fixes an issue where cloud applications could get an error while trying to save settings.\n- Fixes an issue where unavailable and locked devices where still active in a zone.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2023.9.1",
+    "date": "2023-09-01",
+    "dateSource": "official",
+    "description": "<ul><li>Fixes an issue with time between flow cards not running on proper time.</li><li>Fixes an issue with setting the sleep state of disabled users.</li><li>Fixes an issue where thermostat subcapabilities where not rendered correctly.</li><li>Fixes an issue with dutch translations for zone activity flow cards.</li><li>Fixes an issue with an undefined error while autocompleting flow cards.</li><li>Improves the Z-Wave network spam detection.</li><li>Fixes Danish and Italian translations for some flow cards.</li></ul>",
+    "descriptionText": "- Fixes an issue with time between flow cards not running on proper time.\n- Fixes an issue with setting the sleep state of disabled users.\n- Fixes an issue where thermostat subcapabilities where not rendered correctly.\n- Fixes an issue with dutch translations for zone activity flow cards.\n- Fixes an issue with an undefined error while autocompleting flow cards.\n- Improves the Z-Wave network spam detection.\n- Fixes Danish and Italian translations for some flow cards.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2023.7.2",
+    "date": "2023-07-02",
+    "dateSource": "official",
+    "description": "<ul><li>Adds changelog support 😀</li><li>Fixes an issue with cleanup of old apps.</li><li>Fixes an issue with cleanup of old push tokens.</li><li>Adds support for keeping track of inactive Homeys.</li></ul>",
+    "descriptionText": "- Adds changelog support 😀\n- Fixes an issue with cleanup of old apps.\n- Fixes an issue with cleanup of old push tokens.\n- Adds support for keeping track of inactive Homeys.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2023.7.1",
+    "date": "2023-07-01",
+    "dateSource": "official",
+    "description": "<ul><li>Adds a better explanation for Z-Wave problems.</li><li>Adds support for detecting spamming Z-Wave devices.</li><li>Fixes an issue with apps not being able to override zone activity.</li><li>Fixes an issue with flow card filters.</li><li>Fixes a text issue with enabling guest users.</li><li>Fixes an issue with sending push messages to disabled users.</li><li>Fixes an issue with Z-Wave cronjobs not being deleted.</li><li>Adds token examples for weather.</li><li>Add support for dim duration.</li><li>Fixes an issue where images were not being passed correctly when testing an advanced flow.</li><li>Fixes an issue with the title of shared flows being absent.</li></ul>",
+    "descriptionText": "- Adds a better explanation for Z-Wave problems.\n- Adds support for detecting spamming Z-Wave devices.\n- Fixes an issue with apps not being able to override zone activity.\n- Fixes an issue with flow card filters.\n- Fixes a text issue with enabling guest users.\n- Fixes an issue with sending push messages to disabled users.\n- Fixes an issue with Z-Wave cronjobs not being deleted.\n- Adds token examples for weather.\n- Add support for dim duration.\n- Fixes an issue where images were not being passed correctly when testing an advanced flow.\n- Fixes an issue with the title of shared flows being absent.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  },
+  {
+    "version": "2023.6.1",
+    "date": "2023-06-01",
+    "dateSource": "official",
+    "description": "<ul><li>Adds Advanced Flow support for Homey Cloud 🎉.</li><li>Fixes an issue with Homeys upgrading too fast.</li><li>Fixes an issue where a capability was not gettable.</li></ul>",
+    "descriptionText": "- Adds Advanced Flow support for Homey Cloud 🎉.\n- Fixes an issue with Homeys upgrading too fast.\n- Fixes an issue where a capability was not gettable.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-19T14:42:36.184Z"
+  }
+]

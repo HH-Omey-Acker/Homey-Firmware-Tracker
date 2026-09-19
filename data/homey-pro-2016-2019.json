@@ -1,0 +1,137 @@
+[
+  {
+    "version": "13.5.1",
+    "date": "2026-09-14",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li>Updated translations.</li><li>Minor improvements.</li></ul>",
+    "descriptionText": "Core \n \n- Updated translations.\n- Minor improvements.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.5.0",
+    "date": "2026-09-07",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li>Updated translations.</li><li>Fixes a Zone staying active in certain situations.</li></ul><p><strong>Users</strong></p><ul><li>Fixes user Flow cards not throwing an error for disabled users.</li></ul><p><strong>Apps</strong></p><ul><li>Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.</li></ul>",
+    "descriptionText": "Core \n \n- Updated translations.\n- Fixes a Zone staying active in certain situations.\n Users \n \n- Fixes user Flow cards not throwing an error for disabled users.\n Apps \n \n- Fixes an issue with the pin input pair templates that could cause focus to jump to the wrong input field.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.4.1",
+    "date": "2026-08-17",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li>Updated translations.</li><li>Minor improvements and bug fixes.</li></ul><p><strong>Z-Wave</strong></p><ul><li>Fixes various issues with (multi channel) associations on older devices.</li></ul>",
+    "descriptionText": "Core \n \n- Updated translations.\n- Minor improvements and bug fixes.\n Z-Wave \n \n- Fixes various issues with (multi channel) associations on older devices.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.2.4",
+    "date": "2026-07-22",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li>Updated translations.</li></ul><p><strong>Z-Wave</strong></p><ul><li>Improved debug logging.</li></ul>",
+    "descriptionText": "Core \n \n- Updated translations.\n Z-Wave \n \n- Improved debug logging.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.2.3",
+    "date": "2026-06-24",
+    "dateSource": "official",
+    "description": "<p><strong>Z-Wave</strong></p><ul><li>Fixed an issue with Z-Wave devices not reporting correctly.</li></ul>",
+    "descriptionText": "Z-Wave \n \n- Fixed an issue with Z-Wave devices not reporting correctly.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.2.2",
+    "date": "2026-06-05",
+    "dateSource": "official",
+    "description": "<p><strong>Z-Wave</strong></p><ul><li>Various fixes for bugs introduced in v13.2.1.</li></ul><p><strong>Apps</strong></p><ul><li>Fixed an issue that could cause an &#34;&#34;incompatible_app_runtime_nodejs&#34; error.</li></ul>",
+    "descriptionText": "Z-Wave \n \n- Various fixes for bugs introduced in v13.2.1.\n Apps \n \n- Fixed an issue that could cause an &#34;&#34;incompatible_app_runtime_nodejs&#34; error.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.2.1",
+    "date": "2026-05-27",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li>Updates translations.</li><li>Minor improvements and bug fixes.</li></ul>",
+    "descriptionText": "Core \n \n- Updates translations.\n- Minor improvements and bug fixes.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.2.0",
+    "date": "2026-05-20",
+    "dateSource": "official",
+    "description": "<p><strong>Z-Wave</strong></p><ul><li>Aligned association groups behavior as described in the developer documentation.</li><li>Minor fixes and improvements.</li></ul>",
+    "descriptionText": "Z-Wave \n \n- Aligned association groups behavior as described in the developer documentation.\n- Minor fixes and improvements.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.1.2",
+    "date": "2026-04-20",
+    "dateSource": "official",
+    "description": "<p><strong>Apps</strong></p><ul><li>Fixed an issue where discovery conditions within the same inner array were evaluated as OR instead of AND.</li></ul><p><strong>Zigbee</strong></p><ul><li>Improved handling of IAS zone enrollment.</li></ul>",
+    "descriptionText": "Apps \n \n- Fixed an issue where discovery conditions within the same inner array were evaluated as OR instead of AND.\n Zigbee \n \n- Improved handling of IAS zone enrollment.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.1.0",
+    "date": "2026-03-30",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li>Updated translations.</li><li>Minor bug fixes and improvements.</li></ul>",
+    "descriptionText": "Core \n \n- Updated translations.\n- Minor bug fixes and improvements.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "13.0.0",
+    "date": "2026-03-10",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li>Updated translations.</li><li>Minor bug fixes and improvements.</li></ul>",
+    "descriptionText": "Core \n \n- Updated translations.\n- Minor bug fixes and improvements.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "12.13.0",
+    "date": "2026-03-09",
+    "dateSource": "official",
+    "description": "<p><strong>App</strong></p><ul><li>Added &#34;target_power&#34; and &#34;target_power_mode&#34; capabilities for controlling devices like EV chargers and home batteries.</li></ul><p><strong>Device</strong></p><ul><li>Fixed capability values being set to slightly out-of-range values due to rounding order.</li><li>Fixed &#34;last seen at&#34; not updating correctly for some devices.</li></ul><p><strong>Dashboards</strong></p><ul><li>Fixed an issue that could cause certain Widgets to not load properly.</li></ul>",
+    "descriptionText": "App \n \n- Added &#34;target_power&#34; and &#34;target_power_mode&#34; capabilities for controlling devices like EV chargers and home batteries.\n Device \n \n- Fixed capability values being set to slightly out-of-range values due to rounding order.\n- Fixed &#34;last seen at&#34; not updating correctly for some devices.\n Dashboards \n \n- Fixed an issue that could cause certain Widgets to not load properly.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "12.11.0",
+    "date": "2026-02-02",
+    "dateSource": "official",
+    "description": "<p><strong>Apps</strong></p> <ul><li>Updates Apps SDK to the latest version.</li><li>Adds support for new capabilities.</li> </ul><p><strong>Backups</strong></p> <ul> <li>Allows restoring specific versions of Homey apps from a backup.</li></ul>",
+    "descriptionText": "Apps \n \n- Updates Apps SDK to the latest version.\n- Adds support for new capabilities.\n \n Backups \n \n- Allows restoring specific versions of Homey apps from a backup.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "12.10.0",
+    "date": "2025-12-15",
+    "dateSource": "official",
+    "description": "<p><strong>Z-Wave</strong></p> <ul> <li>Fixes issue in Z-Wave that could cause a lot of traffic to be generated causing some Fibaro devices to potentially become unavailable.</li> </ul>",
+    "descriptionText": "Z-Wave \n \n- Fixes issue in Z-Wave that could cause a lot of traffic to be generated causing some Fibaro devices to potentially become unavailable.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  },
+  {
+    "version": "12.9.0",
+    "date": "2025-11-24",
+    "dateSource": "official",
+    "description": "<p><strong>Apps</strong></p><ul><li>Increases allowed memory usage.</li><li>Updates Node.js version to v22 (learn more).</li></ul>",
+    "descriptionText": "Apps \n \n- Increases allowed memory usage.\n- Updates Node.js version to v22 (learn more).",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-09-19T14:42:34.981Z"
+  }
+]

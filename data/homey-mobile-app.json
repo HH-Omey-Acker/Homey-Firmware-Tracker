@@ -1,0 +1,632 @@
+[
+  {
+    "version": "10.1.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added pull-down search for apps, logic and dashboards.</li>\n\n\n\n<li>Fixed missing Thread settings for Homey Self-Hosted Server.</li>\n\n\n\n<li>Improved Energy, widget, and device status behavior.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added pull-down search for apps, logic and dashboards.\n- Fixed missing Thread settings for Homey Self-Hosted Server.\n- Improved Energy, widget, and device status behavior.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "10.1.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Solar Forecasting: See your expected solar production and fine-tune forecasts for your solar setup. </li>\n\n\n\n<li>Energy feed-in pricing: Configure your feed-in rate and see what the energy you export is worth.<br><br>Note: Solar Forecasting and Energy feed-in pricing are available on Homey Cloud, Homey Pro (2023 – 2026), and Homey Pro mini running Homey OS 13.4.0 or later.</li>\n\n\n\n<li>Various fixes: Improved reconnect behavior and notifications, plus fixes across Dashboards, search, and device tiles.</li>\n\n\n\n<li>Fixed an issue that could prevent backups from being restored on Homey Pro mini.</li>\n</ul>",
+    "descriptionText": "- Solar Forecasting: See your expected solar production and fine-tune forecasts for your solar setup. \n- Energy feed-in pricing: Configure your feed-in rate and see what the energy you export is worth. Note: Solar Forecasting and Energy feed-in pricing are available on Homey Cloud, Homey Pro (2023 – 2026), and Homey Pro mini running Homey OS 13.4.0 or later.\n- Various fixes: Improved reconnect behavior and notifications, plus fixes across Dashboards, search, and device tiles.\n- Fixed an issue that could prevent backups from being restored on Homey Pro mini.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "10.0.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>✨ Introducing Device Quick Actions: Device tiles now show quick actions, status, and context menus.<br><br>— Quick Actions now live behind a button in the top-right corner of each device tile, while tapping the tile directly opens the device controls.<br>— The status indicator has moved to the bottom of the tile, creating more room for useful information such as textual indicators or media playback details.<br><br>Note: Changing the default Quick Action is available for Homey Cloud, Homey Pro (2023 — 2026), Homey Pro mini, and Homey Pro (2016 — 2019) from Homey OS firmware version v13.2.1.</li>\n\n\n\n<li>Updated navigation headers and top bar buttons for setup Flows and sheets.</li>\n\n\n\n<li>Added context menus for Flow, Mood, and dashboard widget tiles.</li>\n\n\n\n<li>Fixed overlay menu, and prompt behavior issues.</li>\n</ul>",
+    "descriptionText": "- ✨ Introducing Device Quick Actions: Device tiles now show quick actions, status, and context menus. — Quick Actions now live behind a button in the top-right corner of each device tile, while tapping the tile directly opens the device controls. — The status indicator has moved to the bottom of the tile, creating more room for useful information such as textual indicators or media playback details. Note: Changing the default Quick Action is available for Homey Cloud, Homey Pro (2023 — 2026), Homey Pro mini, and Homey Pro (2016 — 2019) from Homey OS firmware version v13.2.1.\n- Updated navigation headers and top bar buttons for setup Flows and sheets.\n- Added context menus for Flow, Mood, and dashboard widget tiles.\n- Fixed overlay menu, and prompt behavior issues.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.10.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Updated Energy chart rendering.</li>\n\n\n\n<li>Added last-seen warning for devices.</li>\n\n\n\n<li>Fixed keyboard dismissal timing after prompt fade-out.</li>\n\n\n\n<li>Fixed reconnect controller abort issue.</li>\n</ul>",
+    "descriptionText": "- Updated Energy chart rendering.\n- Added last-seen warning for devices.\n- Fixed keyboard dismissal timing after prompt fade-out.\n- Fixed reconnect controller abort issue.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.10.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for over-the-air device firmware updates. Available on Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud, requires firmware version v13.2.0.</li>\n\n\n\n<li>Fixed font rendering and font weight issues, including improvements for Arabic text.</li>\n\n\n\n<li>Fixed dashboard behavior and reliability issues.</li>\n\n\n\n<li>Improved dialog behavior and permission handling, including wake prompts for firmware updates.</li>\n</ul>",
+    "descriptionText": "- Added support for over-the-air device firmware updates. Available on Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud, requires firmware version v13.2.0.\n- Fixed font rendering and font weight issues, including improvements for Arabic text.\n- Fixed dashboard behavior and reliability issues.\n- Improved dialog behavior and permission handling, including wake prompts for firmware updates.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.9.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>You can now hide devices in the Devices tab. Available on Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud, requires firmware version v12.13.0.</li>\n\n\n\n<li>Improved deeplinking and added linking from insights app widgets.</li>\n\n\n\n<li>Fixed several issues in energy and insights graphs.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- You can now hide devices in the Devices tab. Available on Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud, requires firmware version v12.13.0.\n- Improved deeplinking and added linking from insights app widgets.\n- Fixed several issues in energy and insights graphs.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.8.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added the ability to sort zones in the Devices tab.</li>\n\n\n\n<li>Battery status is now visible in the Devices tab for supported devices.</li>\n\n\n\n<li>Fixed several issues in Energy.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added the ability to sort zones in the Devices tab.\n- Battery status is now visible in the Devices tab for supported devices.\n- Fixed several issues in Energy.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.7.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved WebRTC error handling to prevent unnecessary fallbacks and increase camera stability.</li>\n\n\n\n<li>Added support for dynamic energy pricing in Slovenia.</li>\n\n\n\n<li>Resolved issues with device controls sliders.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Improved WebRTC error handling to prevent unnecessary fallbacks and increase camera stability.\n- Added support for dynamic energy pricing in Slovenia.\n- Resolved issues with device controls sliders.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.7.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Faster and more future-proof: The Homey app now runs on a new internal architecture, resulting in improved performance, smoother interactions, and a more stable foundation for future features.</li>\n\n\n\n<li>Arabic language support: Added full support for Arabic, including right-to-left layouts where appropriate.</li>\n\n\n\n<li>Camera stability improvements: Improved error handling for camera streams, including fixes for fullscreen and playback issues on Android.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Faster and more future-proof: The Homey app now runs on a new internal architecture, resulting in improved performance, smoother interactions, and a more stable foundation for future features.\n- Arabic language support: Added full support for Arabic, including right-to-left layouts where appropriate.\n- Camera stability improvements: Improved error handling for camera streams, including fixes for fullscreen and playback issues on Android.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.6.7",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where the setup for Homey Self-Hosted Server created multiple instances.</li>\n\n\n\n<li>Fixed an issue with apps crashing on tablet devices.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where the setup for Homey Self-Hosted Server created multiple instances.\n- Fixed an issue with apps crashing on tablet devices.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.6.6",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for Homey Self-Hosted Server.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements</li>\n</ul>",
+    "descriptionText": "- Added support for Homey Self-Hosted Server.\n- Implemented minor stability and performance enhancements",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.6.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.6.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.6.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.6.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Adds support for dynamic pricing intervals that vary by region.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Adds support for dynamic pricing intervals that vary by region.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.6.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added camera streaming support in dashboard widgets.</li>\n\n\n\n<li>Fixed a visual issue when creating or editing Moods.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added camera streaming support in dashboard widgets.\n- Fixed a visual issue when creating or editing Moods.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.6.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added camera streaming support for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud, requires firmware version v12.7.0.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added camera streaming support for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud, requires firmware version v12.7.0.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.5.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>iOS: Fixed various issues related to iOS 26 compatibility.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- iOS: Fixed various issues related to iOS 26 compatibility.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.5.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.5.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Updated translations.</li>\n\n\n\n<li>Fixes issues with the dynamic electricity prices Dashboard widget.</li>\n\n\n\n<li>iOS: improved widgets for transparent mode.</li>\n</ul>",
+    "descriptionText": "- Updated translations.\n- Fixes issues with the dynamic electricity prices Dashboard widget.\n- iOS: improved widgets for transparent mode.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.5.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added dynamic pricing tariffs to Homey energy for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud, requires firmware version v12.5.3.</li>\n\n\n\n<li>New override icons available to customize your devices.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added dynamic pricing tariffs to Homey energy for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud, requires firmware version v12.5.3.\n- New override icons available to customize your devices.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.4.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for a new ‘Homey for Installers’ role, allowing installers to set up a Homey on behalf of clients.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added support for a new ‘Homey for Installers’ role, allowing installers to set up a Homey on behalf of clients.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.4.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved performance when loading Devices tab.</li>\n\n\n\n<li>Enhanced Energy graphs: better loading state, cursor, and scrubber behavior.</li>\n\n\n\n<li>Fixed issues with data loading, summary values, and crash on empty controls.</li>\n\n\n\n<li>UI tweaks: added “Self used” switch, refined pricing display, and updated visuals.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Improved performance when loading Devices tab.\n- Enhanced Energy graphs: better loading state, cursor, and scrubber behavior.\n- Fixed issues with data loading, summary values, and crash on empty controls.\n- UI tweaks: added “Self used” switch, refined pricing display, and updated visuals.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.4.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>New widgets to quickly control your Moods right on your home screen.</li>\n\n\n\n<li>New indicator for zone activity.</li>\n\n\n\n<li>Logic cards now auto-fill based on the selected device for easier flow creation.</li>\n\n\n\n<li>New override icons available to customize your devices.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- New widgets to quickly control your Moods right on your home screen.\n- New indicator for zone activity.\n- Logic cards now auto-fill based on the selected device for easier flow creation.\n- New override icons available to customize your devices.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.3.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added the ability to group devices (lights and window coverings) for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud.</li>\n\n\n\n<li>Improvements to the app’s core, including updated dependencies.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added the ability to group devices (lights and window coverings) for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud.\n- Improvements to the app’s core, including updated dependencies.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.2.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added Thread Support on iOS for Homey Pro (2023 — 2026) and Homey Pro mini.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added Thread Support on iOS for Homey Pro (2023 — 2026) and Homey Pro mini.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.2.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Minor improvements for the Homey Pro mini setup.</li>\n</ul>",
+    "descriptionText": "- Minor improvements for the Homey Pro mini setup.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.2.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Enabled support for Critical Push Notifications for Homey Pro (2016 — 2019).</li>\n</ul>",
+    "descriptionText": "- Enabled support for Critical Push Notifications for Homey Pro (2016 — 2019).",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.2.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue where Flows couldn’t be started manually.</li>\n\n\n\n<li>Added support for setting up Homey Pro mini.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue where Flows couldn’t be started manually.\n- Added support for setting up Homey Pro mini.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.2.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue that prevented scrolling in the Devices zone list.</li>\n\n\n\n<li>Added Home Screen Insights widget support (iOS 17 and above).</li>\n\n\n\n<li>Enabled support for Critical Push Notifications for Homey Pro (2023 — 2026) and Homey Pro mini.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue that prevented scrolling in the Devices zone list.\n- Added Home Screen Insights widget support (iOS 17 and above).\n- Enabled support for Critical Push Notifications for Homey Pro (2023 — 2026) and Homey Pro mini.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.2.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>⚡Introducing Homey Energy: Discover powerful features and insights into your home’s energy usage. Get real-time and historical data on electricity, gas, and water consumption. Monitor your solar energy production and track your efficiency with ease.<br><br>Note: Available for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud.<br><br>🔗 Learn more about this feature in the Knowledge Base.</li>\n</ul>",
+    "descriptionText": "- ⚡Introducing Homey Energy: Discover powerful features and insights into your home’s energy usage. Get real-time and historical data on electricity, gas, and water consumption. Monitor your solar energy production and track your efficiency with ease. Note: Available for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud. 🔗 Learn more about this feature in the Knowledge Base.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.1.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Permissions Overview: Added a screen to easily manage the Homey app’s permissions.</li>\n\n\n\n<li>Voice Assistant: Exclude devices from Google Home and Alexa, and select PIN-protected devices for Google Home.</li>\n\n\n\n<li>Newsletter: Added an option to subscribe to the Homey newsletter directly from the app.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Permissions Overview: Added a screen to easily manage the Homey app’s permissions.\n- Voice Assistant: Exclude devices from Google Home and Alexa, and select PIN-protected devices for Google Home.\n- Newsletter: Added an option to subscribe to the Homey newsletter directly from the app.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.0.5",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improves login with password managers and autocompletion.</li>\n\n\n\n<li>Fixes an issue with parts of the screen not press-able.</li>\n\n\n\n<li>Resolves minor issues with device controls.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Improves login with password managers and autocompletion.\n- Fixes an issue with parts of the screen not press-able.\n- Resolves minor issues with device controls.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.0.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added kiosk-mode and a Dashboard-shortcut widget for Dashboards.</li>\n\n\n\n<li>Fixes an issue with device pairing on Android 15 and higher.</li>\n\n\n\n<li>Fixes an issue with quick actions for buttons.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added kiosk-mode and a Dashboard-shortcut widget for Dashboards.\n- Fixes an issue with device pairing on Android 15 and higher.\n- Fixes an issue with quick actions for buttons.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.0.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added a sensor- and notes widget for Dashboards.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added a sensor- and notes widget for Dashboards.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.0.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Resolved a crash occurring in device controls.</li>\n\n\n\n<li>Corrected timeline display issues when using emojis.</li>\n\n\n\n<li>Addressed styling inconsistencies in the speaker widget.</li>\n\n\n\n<li>Fixed empty state issues in the Zone Controls widget.</li>\n\n\n\n<li>Resolved problems with virtual devices in the Zone Device widget.</li>\n\n\n\n<li>Enhanced keyboard support for iPads in landscape orientation.</li>\n\n\n\n<li>Introduced heater support to the thermostat widget and climate settings.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Resolved a crash occurring in device controls.\n- Corrected timeline display issues when using emojis.\n- Addressed styling inconsistencies in the speaker widget.\n- Fixed empty state issues in the Zone Controls widget.\n- Resolved problems with virtual devices in the Zone Device widget.\n- Enhanced keyboard support for iPads in landscape orientation.\n- Introduced heater support to the thermostat widget and climate settings.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.0.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixes an issue related to restoring one-time purchases.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Fixes an issue related to restoring one-time purchases.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "9.0.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>✨ Introducing Homey Dashboards! Create personalized dashboards with stylish widgets for easy smart home control. Manage devices, Flows, Moods, and more from one view on phones and tablets. <br><br>Note: Available for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud. Homey Pro (2016–2019) users can purchase it for €25.</li>\n</ul>",
+    "descriptionText": "- ✨ Introducing Homey Dashboards! Create personalized dashboards with stylish widgets for easy smart home control. Manage devices, Flows, Moods, and more from one view on phones and tablets. Note: Available for Homey Pro (2023 — 2026), Homey Pro mini and Homey Cloud. Homey Pro (2016–2019) users can purchase it for €25.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.4.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed issues with home/away detection and unavailable widgets.</li>\n\n\n\n<li>Updated icons for device capabilities.</li>\n\n\n\n<li>Added support for vibration, occupancy, and presence in zone activity.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Fixed issues with home/away detection and unavailable widgets.\n- Updated icons for device capabilities.\n- Added support for vibration, occupancy, and presence in zone activity.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.4.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.4.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed an issue preventing setup continuation when accessibility features were enabled.</li>\n\n\n\n<li>Corrected a UI issue when starting Flows with variables.</li>\n\n\n\n<li>Added dark and tinted icons for iOS 18.</li>\n\n\n\n<li>Resolved widget-related issues on iOS 18.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Fixed an issue preventing setup continuation when accessibility features were enabled.\n- Corrected a UI issue when starting Flows with variables.\n- Added dark and tinted icons for iOS 18.\n- Resolved widget-related issues on iOS 18.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.4.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Enhanced Device Personalization:&nbsp;Quickly set up and customize newly added devices by choosing zones, adjusting settings, and unlocking new Flow cards for automation.</li>\n\n\n\n<li>Offline Warning Notifications:&nbsp;Now receive push notifications when Homey Pro goes offline; configure this in the General settings.</li>\n\n\n\n<li>Matter Multi-Admin Mode:&nbsp;Support for Matter’s Multi-Admin feature enables devices to work seamlessly across multiple ecosystems simultaneously.</li>\n\n\n\n<li>Added a variety of new device icons.</li>\n\n\n\n<li>Fixed an issue with slider UI components in devices.</li>\n\n\n\n<li>Updated missing- and incorrect translations for multiple languages.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Enhanced Device Personalization: Quickly set up and customize newly added devices by choosing zones, adjusting settings, and unlocking new Flow cards for automation.\n- Offline Warning Notifications: Now receive push notifications when Homey Pro goes offline; configure this in the General settings.\n- Matter Multi-Admin Mode: Support for Matter’s Multi-Admin feature enables devices to work seamlessly across multiple ecosystems simultaneously.\n- Added a variety of new device icons.\n- Fixed an issue with slider UI components in devices.\n- Updated missing- and incorrect translations for multiple languages.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.3.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Resolved glitchy control behavior for range sliders in Flowcards.</li>\n\n\n\n<li>Fixed issue preventing access to advanced device settings for certain devices.</li>\n\n\n\n<li>Corrected repair option availability for devices that do not support repairs.</li>\n\n\n\n<li>Addressed crash issue in Moods when dealing with empty zones.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Resolved glitchy control behavior for range sliders in Flowcards.\n- Fixed issue preventing access to advanced device settings for certain devices.\n- Corrected repair option availability for devices that do not support repairs.\n- Addressed crash issue in Moods when dealing with empty zones.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.3.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for Moods as a one-time in-app purchase for Homey Pro (2016—2019), requires firmware version v11.0.0. </li>\n\n\n\n<li>Added language support for Korean.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added support for Moods as a one-time in-app purchase for Homey Pro (2016—2019), requires firmware version v11.0.0. \n- Added language support for Korean.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.2.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added an option to 'Sign in with Google' for easier and faster access.</li>\n\n\n\n<li>Updated missing- and incorrect translations for multiple languages.</li>\n\n\n\n<li>Fixed an issue with 'and' and 'or' conditions in Flows.</li>\n\n\n\n<li>Resolved issues with error messages in app settings.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added an option to 'Sign in with Google' for easier and faster access.\n- Updated missing- and incorrect translations for multiple languages.\n- Fixed an issue with 'and' and 'or' conditions in Flows.\n- Resolved issues with error messages in app settings.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.2.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.2.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added a hint text for variables in Logic Flowcards.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added a hint text for variables in Logic Flowcards.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.2.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>✨ Introducing Moods: With Moods, you can create and save your own lighting setups effortlessly. Dive into this new feature by simply tapping the ‘plus’ button in the mobile app on the devices tab to unveil the “New Mood” option.<br><br>Some points to note: <br>— Moods works with Homey Pro (2023 — 2026) firmware version 11.0.0 and later, as well as Homey Pro mini and Homey Cloud.<br>— Currently there is no support for Moods on Homey Pro (2016 - 2019).</li>\n\n\n\n<li>Added \"Refer a friend\": Homey Pro and Homey Premium users can introduce someone to Homey and gift them three months of Homey Premium for free.</li>\n\n\n\n<li>Resolved issues with the slider- and picker device components.</li>\n\n\n\n<li>Fixes an issue with \"missing owner name\" shown in Flowcards.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- ✨ Introducing Moods: With Moods, you can create and save your own lighting setups effortlessly. Dive into this new feature by simply tapping the ‘plus’ button in the mobile app on the devices tab to unveil the “New Mood” option. Some points to note: — Moods works with Homey Pro (2023 — 2026) firmware version 11.0.0 and later, as well as Homey Pro mini and Homey Cloud. — Currently there is no support for Moods on Homey Pro (2016 - 2019).\n- Added \"Refer a friend\": Homey Pro and Homey Premium users can introduce someone to Homey and gift them three months of Homey Premium for free.\n- Resolved issues with the slider- and picker device components.\n- Fixes an issue with \"missing owner name\" shown in Flowcards.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.1.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added the option to disable recently introduced device widgets directly from zone settings.</li>\n\n\n\n<li>Included short 'learn more' videos demonstrating specific widgets for users who do not yet own devices of that type. These videos can be easily dismissed from device zone settings.</li>\n\n\n\n<li>Resolved several issues with the slider device component.</li>\n\n\n\n<li>Resolved several issues with the picker device component.</li>\n\n\n\n<li>Fixed a bug where the search bar for certain Flowcards was missing on Android devices.</li>\n\n\n\n<li>Corrected an issue where the keyboard lacked dot/comma notation options for certain Flowcards.</li>\n\n\n\n<li>Addressed an issue where Flowcards did not display zone information on Homey.</li>\n\n\n\n<li>Fixed issues with manual app updates.</li>\n\n\n\n<li>Ensured app-insights are now available on Homey Pro (2019) devices.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Added the option to disable recently introduced device widgets directly from zone settings.\n- Included short 'learn more' videos demonstrating specific widgets for users who do not yet own devices of that type. These videos can be easily dismissed from device zone settings.\n- Resolved several issues with the slider device component.\n- Resolved several issues with the picker device component.\n- Fixed a bug where the search bar for certain Flowcards was missing on Android devices.\n- Corrected an issue where the keyboard lacked dot/comma notation options for certain Flowcards.\n- Addressed an issue where Flowcards did not display zone information on Homey.\n- Fixed issues with manual app updates.\n- Ensured app-insights are now available on Homey Pro (2019) devices.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.0.4",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<p>Note: This update marks the final version compatible with iOS 13.3.1 and earlier versions.</p>\n<ul>\n<li>Resolved a problem causing crashes in the climate widget for specific custom thermostat devices.</li>\n\n\n\n<li>Fixed an issue where the app overview could result in er</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "Note: This update marks the final version compatible with iOS 13.3.1 and earlier versions.\n \n- Resolved a problem causing crashes in the climate widget for specific custom thermostat devices.\n- Fixed an issue where the app overview could result in er\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.0.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Resolved a problem causing Homey to show an error when the weather service is offline or if there is no internet connection.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Resolved a problem causing Homey to show an error when the weather service is offline or if there is no internet connection.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.0.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Resolved a problem causing Climate controls to crash upon opening.</li>\n\n\n\n<li>Fixed an issue where Homey apps would occasionally fail to open.</li>\n\n\n\n<li>Improved stability issues related to connecting to Homey upon opening reopening the app.</li>\n\n\n\n<li>Implemented minor stability and performance enhancements.</li>\n</ul>",
+    "descriptionText": "- Resolved a problem causing Climate controls to crash upon opening.\n- Fixed an issue where Homey apps would occasionally fail to open.\n- Improved stability issues related to connecting to Homey upon opening reopening the app.\n- Implemented minor stability and performance enhancements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "8.0.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Experience faster startup speeds and seamless loading with the latest Homey app! We’ve overhauled crucial sections of the code connecting Homey to our mobile app, enhancing performance for both iOS and Android users.</li>\n\n\n\n<li>For Homey Pro (2023 — 2026) and Homey Pro mini users, the long-awaited port forwarding feature is now available! Simply navigate to ‘More’ → ‘Settings’ → ‘General’ to activate it.</li>\n\n\n\n<li>And for all Homey users with thermostat devices, you can now access the new Climate controls directly on your devices tab, alongside the Lights, Activity, Speakers, and Energy widgets.</li>\n</ul>",
+    "descriptionText": "- Experience faster startup speeds and seamless loading with the latest Homey app! We’ve overhauled crucial sections of the code connecting Homey to our mobile app, enhancing performance for both iOS and Android users.\n- For Homey Pro (2023 — 2026) and Homey Pro mini users, the long-awaited port forwarding feature is now available! Simply navigate to ‘More’ → ‘Settings’ → ‘General’ to activate it.\n- And for all Homey users with thermostat devices, you can now access the new Climate controls directly on your devices tab, alongside the Lights, Activity, Speakers, and Energy widgets.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.6.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Implemented improvements in (geofencing) presence detection functionality.</li>\n</ul>",
+    "descriptionText": "- Implemented improvements in (geofencing) presence detection functionality.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.6.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>We addressed a minor issue related to the incorrect display of Flow widgets.</li>\n</ul>",
+    "descriptionText": "- We addressed a minor issue related to the incorrect display of Flow widgets.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.6.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>We've enhanced the functionality of Flow widgets for iOS. With widgets, you can now control Flows on your Home Screen, Lock Screen, or Today View. Please ensure that your device is updated to iOS 17.0 or later.</li>\n\n\n\n<li>Addressed a certificate expiration issue that was causing instability in presence detection on Android.</li>\n</ul>",
+    "descriptionText": "- We've enhanced the functionality of Flow widgets for iOS. With widgets, you can now control Flows on your Home Screen, Lock Screen, or Today View. Please ensure that your device is updated to iOS 17.0 or later.\n- Addressed a certificate expiration issue that was causing instability in presence detection on Android.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.5.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>We've added search to Devices and Flows. To locate a particular device or Flow effortlessly, simply swipe down within the Devices or Flows overview, and a search bar will appear.</li>\n\n\n\n<li>Resolved an issue where the app would crash to the Home screen on Android.</li>\n\n\n\n<li>Minor stability and performance improvements.</li>\n</ul>",
+    "descriptionText": "- We've added search to Devices and Flows. To locate a particular device or Flow effortlessly, simply swipe down within the Devices or Flows overview, and a search bar will appear.\n- Resolved an issue where the app would crash to the Home screen on Android.\n- Minor stability and performance improvements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.5.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Resolved a problem where \"Experimental\" Homey apps would be overwritten when a new device was added.</li>\n\n\n\n<li>Fixed a glitch on some Android devices with range sliders inside the Flow editor.</li>\n\n\n\n<li>Improved switching between Flow folders and adding or removing new folders. </li>\n\n\n\n<li>Resolved an issue with 'Over the Air' updates on 'experimental' Homey Pro firmware.</li>\n\n\n\n<li>Minor stability and performance improvements.</li>\n</ul>",
+    "descriptionText": "- Resolved a problem where \"Experimental\" Homey apps would be overwritten when a new device was added.\n- Fixed a glitch on some Android devices with range sliders inside the Flow editor.\n- Improved switching between Flow folders and adding or removing new folders. \n- Resolved an issue with 'Over the Air' updates on 'experimental' Homey Pro firmware.\n- Minor stability and performance improvements.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.5.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Homey not only controls your home but also monitors it. With your most recent update we are adding Insights to the mobile app. View insights using the new Insights icon in a device and view the data Homey has been gathering about your devices.<br>🔗 Learn more about this new feature on our blog: https://homey.app/en-us/blog/introducing-insights-for-mobile/</li>\n\n\n\n<li>Enhanced device pairing by resolving multiple bugs and improving clarity for non-Homey Pro users, especially when a Homey Bridge is necessary for specific device pairings.</li>\n\n\n\n<li>Enhanced the user experience for Homey Premium and Pro Backups subscriptions screens by including informative videos showcasing their respective features.</li>\n\n\n\n<li>Resolved a problem related to deleting empty zones within devices.</li>\n\n\n\n<li>Improved the functionality of Flowcard sliders for range arguments on Android devices.</li>\n\n\n\n<li>Changing the Flowcard group (or/else) will now reactivate the save button in the Flow.</li>\n\n\n\n<li>When creating a folder within another folder, Flows now automatically select the current folder.</li>\n\n\n\n<li>Successfully addressed a dependency issue, resolving a particular Android crash.</li>\n</ul>",
+    "descriptionText": "- Homey not only controls your home but also monitors it. With your most recent update we are adding Insights to the mobile app. View insights using the new Insights icon in a device and view the data Homey has been gathering about your devices. 🔗 Learn more about this new feature on our blog: https://homey.app/en-us/blog/introducing-insights-for-mobile/\n- Enhanced device pairing by resolving multiple bugs and improving clarity for non-Homey Pro users, especially when a Homey Bridge is necessary for specific device pairings.\n- Enhanced the user experience for Homey Premium and Pro Backups subscriptions screens by including informative videos showcasing their respective features.\n- Resolved a problem related to deleting empty zones within devices.\n- Improved the functionality of Flowcard sliders for range arguments on Android devices.\n- Changing the Flowcard group (or/else) will now reactivate the save button in the Flow.\n- When creating a folder within another folder, Flows now automatically select the current folder.\n- Successfully addressed a dependency issue, resolving a particular Android crash.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.4.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Resolved an issue where the simultaneous use of a backup or an OTA update, along with an experimental Homey version, could cause an infinite download progress bar.</li>\n\n\n\n<li>Fixed a problem preventing users from saving a Flow when a card changed groups, while maintaining the same order.</li>\n\n\n\n<li>Corrected the range slider appearance for Flow cards on Android devices.</li>\n\n\n\n<li>Enhanced the visibility of the back button in the Family Settings section.</li>\n\n\n\n<li>Addressed the issue of inverted titles for storage and memory settings.</li>\n\n\n\n<li>Enabled device settings notes for Homey Pro 2016 - 2019.</li>\n</ul>",
+    "descriptionText": "- Resolved an issue where the simultaneous use of a backup or an OTA update, along with an experimental Homey version, could cause an infinite download progress bar.\n- Fixed a problem preventing users from saving a Flow when a card changed groups, while maintaining the same order.\n- Corrected the range slider appearance for Flow cards on Android devices.\n- Enhanced the visibility of the back button in the Family Settings section.\n- Addressed the issue of inverted titles for storage and memory settings.\n- Enabled device settings notes for Homey Pro 2016 - 2019.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.4.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Resolved an issue causing the settings for managing automatic backups to become invisible.</li>\n\n\n\n<li>Fixed a problem related to the new notes field in device settings.</li>\n</ul>",
+    "descriptionText": "- Resolved an issue causing the settings for managing automatic backups to become invisible.\n- Fixed a problem related to the new notes field in device settings.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.4.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Homey Backups now features a comprehensive list of previous backups, allowing selective removal. We've also resolved new backup creation issues for improved functionality.</li>\n\n\n\n<li>Redesigned device settings layout for improved usability. Alongside this redesign, a notes field has been integrated to facilitate better organization, while also incorporating app-related information for added context.</li>\n\n\n\n<li>Creating new Flows is now easier, when you create a new Flow from within a device, it shows a new screen with Flow cards specific for that device.</li>\n\n\n\n<li>For a more inclusive and accessible experience, minor yet impactful improvements have been made, including the addition of voice over support to the Flows and About section.</li>\n\n\n\n<li>The Homey Premium dialog has undergone a series of improvements.</li>\n\n\n\n<li>Stability Enhancement: Addressed app crashing problems on Android and improved startup time.</li>\n</ul>",
+    "descriptionText": "- Homey Backups now features a comprehensive list of previous backups, allowing selective removal. We've also resolved new backup creation issues for improved functionality.\n- Redesigned device settings layout for improved usability. Alongside this redesign, a notes field has been integrated to facilitate better organization, while also incorporating app-related information for added context.\n- Creating new Flows is now easier, when you create a new Flow from within a device, it shows a new screen with Flow cards specific for that device.\n- For a more inclusive and accessible experience, minor yet impactful improvements have been made, including the addition of voice over support to the Flows and About section.\n- The Homey Premium dialog has undergone a series of improvements.\n- Stability Enhancement: Addressed app crashing problems on Android and improved startup time.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.3.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>We’re constantly improving Homey to be easier and more fun, our recent update takes device control to new heights. Discover new widgets in the Devices tab, starting with Lights, Activity, Speakers, and Energy – with more to follow. <br>🔗 Learn more about this new feature on our blog: https://homey.app/en-us/blog/new-ways-to-control-your-home/</li>\n\n\n\n<li>Improve overall user experience and accessibility for users using Voice-Over on iOS.</li>\n\n\n\n<li>Resolved a bug causing incorrect logout behavior for users.</li>\n\n\n\n<li>Addressed various issues that affected the usability of the application on devices with small screens.</li>\n\n\n\n<li>Fixed a specific problem encountered during the initial setup on Android, which hindered scrolling and text input.</li>\n\n\n\n<li>Rectified an issue that hindered proper zoom functionality within map views.</li>\n</ul>",
+    "descriptionText": "- We’re constantly improving Homey to be easier and more fun, our recent update takes device control to new heights. Discover new widgets in the Devices tab, starting with Lights, Activity, Speakers, and Energy – with more to follow. 🔗 Learn more about this new feature on our blog: https://homey.app/en-us/blog/new-ways-to-control-your-home/\n- Improve overall user experience and accessibility for users using Voice-Over on iOS.\n- Resolved a bug causing incorrect logout behavior for users.\n- Addressed various issues that affected the usability of the application on devices with small screens.\n- Fixed a specific problem encountered during the initial setup on Android, which hindered scrolling and text input.\n- Rectified an issue that hindered proper zoom functionality within map views.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.2.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixes an issue with starting advanced Flows from Siri shortcuts</li>\n\n\n\n<li>Fixes crash in adding zones in setup, and push notifications.</li>\n</ul>",
+    "descriptionText": "- Fixes an issue with starting advanced Flows from Siri shortcuts\n- Fixes crash in adding zones in setup, and push notifications.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.2.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>We’ve added Dark mode! Many of you have been asking for this, and now you can enable Dark mode in the app or let it automatically follow your operating system’s appearance settings. Simply go to “More → Appearance” to customize your preference.</li>\n\n\n\n<li>An option to select text (string) capabilities as custom device capability for devices which support these, also has been added.</li>\n</ul>",
+    "descriptionText": "- We’ve added Dark mode! Many of you have been asking for this, and now you can enable Dark mode in the app or let it automatically follow your operating system’s appearance settings. Simply go to “More → Appearance” to customize your preference.\n- An option to select text (string) capabilities as custom device capability for devices which support these, also has been added.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.1.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for Matter on Homey Pro (2023 — 2026) and Homey Pro mini, note that your device should also be on iOS 16.5+ or Android 8+ with the latest Play Services and that Homey Pro should be updated to at least firmware v10.0.0-rc114.</li>\n\n\n\n<li>Updated the Android app icon.</li>\n\n\n\n<li>Added a \"Homey Pro Found\" popup for Cloud users in the Devices section.</li>\n\n\n\n<li>Fixed an issue with apps not being sorted correctly.</li>\n\n\n\n<li>Updated the account and \"My Homey\" selection for improved usability.</li>\n\n\n\n<li>Updated the layout of push notifications for a better visual experience.</li>\n\n\n\n<li>Enhanced the layout of the home \"header\" for improved aesthetics.</li>\n\n\n\n<li>Updated the layout of the presence popup and fixed an issue with it autoclosing.</li>\n\n\n\n<li>Added device images to the \"add device\" feature in the Devices section.</li>\n\n\n\n<li>Updated the \"My Homey\" selection screen with an added animation.</li>\n\n\n\n<li>Fixed an issue with \"empty\" notifications in the timeline settings.</li>\n\n\n\n<li>Implemented a potential fix for missing favorite flows on iOS/WatchOS.</li>\n\n\n\n<li>Fixed a device-related issue that caused the app to crash when adding a device.</li>\n</ul>",
+    "descriptionText": "- Added support for Matter on Homey Pro (2023 — 2026) and Homey Pro mini, note that your device should also be on iOS 16.5+ or Android 8+ with the latest Play Services and that Homey Pro should be updated to at least firmware v10.0.0-rc114.\n- Updated the Android app icon.\n- Added a \"Homey Pro Found\" popup for Cloud users in the Devices section.\n- Fixed an issue with apps not being sorted correctly.\n- Updated the account and \"My Homey\" selection for improved usability.\n- Updated the layout of push notifications for a better visual experience.\n- Enhanced the layout of the home \"header\" for improved aesthetics.\n- Updated the layout of the presence popup and fixed an issue with it autoclosing.\n- Added device images to the \"add device\" feature in the Devices section.\n- Updated the \"My Homey\" selection screen with an added animation.\n- Fixed an issue with \"empty\" notifications in the timeline settings.\n- Implemented a potential fix for missing favorite flows on iOS/WatchOS.\n- Fixed a device-related issue that caused the app to crash when adding a device.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.0.3",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Resolved padding and text clipping issues, improving the visual layout and readability.</li>\n\n\n\n<li>Implemented a potential fix for the problem of missing favorite Flows, ensuring they are now properly displayed.</li>\n\n\n\n<li>Updated zone icons to provide a refreshed and updated look.</li>\n\n\n\n<li>Fixed an issue related to the display of \"Homey Premium\" text in the Energy section.</li>\n\n\n\n<li>Fixed an issue with the opacity of the header when opening a device.</li>\n</ul>",
+    "descriptionText": "- Resolved padding and text clipping issues, improving the visual layout and readability.\n- Implemented a potential fix for the problem of missing favorite Flows, ensuring they are now properly displayed.\n- Updated zone icons to provide a refreshed and updated look.\n- Fixed an issue related to the display of \"Homey Premium\" text in the Energy section.\n- Fixed an issue with the opacity of the header when opening a device.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.0.2",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved the readability of device sensor values for easier interpretation.</li>\n\n\n\n<li>Fixed an issue in the settings where the save action was not functioning correctly.</li>\n\n\n\n<li>Corrected the locale settings for time (AM/PM) to ensure accurate time representation.</li>\n\n\n\n<li>Made improvements to the Homey setup process specifically for tablet devices.</li>\n\n\n\n<li>Resolved a crash that occurred when searching for devices.</li>\n\n\n\n<li>Fixed a bug in Flows where replacing an 'Else' card caused it to revert back to a regular 'Then' card.</li>\n\n\n\n<li>Addressed an issue where saving a Flow to another folder was not working as intended.</li>\n\n\n\n<li>Fixed folder creation issues: selecting the wrong location when creating a folder within another folder, and inability to choose a newly created folder as the location when saving a new Flow.</li>\n\n\n\n<li>Resolved an issue where canceling the \"Replace card\" action removed the existing card.</li>\n\n\n\n<li>Updated the closing Flow text for clarity.</li>\n\n\n\n<li>Fixed issues with text clipping in advanced device settings and Flow card help text.</li>\n\n\n\n<li>Fixed an issue where a text field could not be emptied.</li>\n\n\n\n<li>Fixed an issue where canceling color selection in Flows was not working.</li>\n\n\n\n<li>Resolved an issue where negative numbers could not be entered in Flow cards.</li>\n</ul>",
+    "descriptionText": "- Improved the readability of device sensor values for easier interpretation.\n- Fixed an issue in the settings where the save action was not functioning correctly.\n- Corrected the locale settings for time (AM/PM) to ensure accurate time representation.\n- Made improvements to the Homey setup process specifically for tablet devices.\n- Resolved a crash that occurred when searching for devices.\n- Fixed a bug in Flows where replacing an 'Else' card caused it to revert back to a regular 'Then' card.\n- Addressed an issue where saving a Flow to another folder was not working as intended.\n- Fixed folder creation issues: selecting the wrong location when creating a folder within another folder, and inability to choose a newly created folder as the location when saving a new Flow.\n- Resolved an issue where canceling the \"Replace card\" action removed the existing card.\n- Updated the closing Flow text for clarity.\n- Fixed issues with text clipping in advanced device settings and Flow card help text.\n- Fixed an issue where a text field could not be emptied.\n- Fixed an issue where canceling color selection in Flows was not working.\n- Resolved an issue where negative numbers could not be entered in Flow cards.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.0.1",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved error reporting settings in Sentry for better error tracking and analysis.</li>\n\n\n\n<li>Enhanced the ability to switch between or remove Homeys even when they are offline.</li>\n\n\n\n<li>Replaced the play/pause icon in device indicators with an equalizer.</li>\n\n\n\n<li>Made improvements to the layout for adding drivers on tablets, enhancing the user experience.</li>\n\n\n\n<li>Fixed an issue that caused the app to crash when viewing the Empty energy view.</li>\n\n\n\n<li>Resolved a problem with app tile backgrounds that caused flickering or unnecessary rerendering.</li>\n\n\n\n<li>Added a missing error message for cases where app installs fail.</li>\n</ul>",
+    "descriptionText": "- Improved error reporting settings in Sentry for better error tracking and analysis.\n- Enhanced the ability to switch between or remove Homeys even when they are offline.\n- Replaced the play/pause icon in device indicators with an equalizer.\n- Made improvements to the layout for adding drivers on tablets, enhancing the user experience.\n- Fixed an issue that caused the app to crash when viewing the Empty energy view.\n- Resolved a problem with app tile backgrounds that caused flickering or unnecessary rerendering.\n- Added a missing error message for cases where app installs fail.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  },
+  {
+    "version": "7.0.0",
+    "date": "2026-09-19",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>The all-new Homey app is here! We've refreshed the design, increased the performance, and made everything feel smoother — all for a better smart home experience.</li>\n</ul>",
+    "descriptionText": "- The all-new Homey app is here! We've refreshed the design, increased the performance, and made everything feel smoother — all for a better smart home experience.",
+    "channel": null,
+    "firstSeenAt": "2026-09-19T14:42:38.600Z"
+  }
+]
