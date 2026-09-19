@@ -6,6 +6,20 @@
 <title>Homey Firmware &amp; Version Tracker</title>
 <meta name="description" content="Unofficial changelog tracker for Homey Pro, Homey Pro (2016-2019), Homey Cloud, and the Homey Mobile &amp; Web apps." />
 <link rel="icon" href="data:," />
+<script>
+  // Applied before first paint so there's no flash of the wrong theme.
+  // app.js wires up the actual toggle button and click handling.
+  (function () {
+    try {
+      var stored = localStorage.getItem("homey-theme");
+      if (stored === "dark" || stored === "light") {
+        document.documentElement.setAttribute("data-theme", stored);
+      }
+    } catch (err) {
+      /* ignore - falls back to the OS-level prefers-color-scheme */
+    }
+  })();
+</script>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,10 +29,30 @@
       <h1>Homey Firmware &amp; Version Tracker</h1>
       <p class="subtitle">Unofficial changelog archive, refreshed automatically from Athom's own update feeds.</p>
     </div>
-    <div class="search-wrap">
-      <label class="visually-hidden" for="search">Search versions and changelogs</label>
-      <input id="search" type="search" placeholder="Search version numbers or changelog text&hellip;" autocomplete="off" />
-      <span id="search-count" class="search-count" aria-live="polite"></span>
+    <div class="header-controls">
+      <div class="search-wrap">
+        <label class="visually-hidden" for="search">Search versions and changelogs</label>
+        <input id="search" type="search" placeholder="Search version numbers or changelog text&hellip;" autocomplete="off" />
+        <span id="search-count" class="search-count" aria-live="polite"></span>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="4.2"></circle>
+          <g stroke-linecap="round">
+            <line x1="12" y1="1.5" x2="12" y2="4.2"></line>
+            <line x1="12" y1="19.8" x2="12" y2="22.5"></line>
+            <line x1="1.5" y1="12" x2="4.2" y2="12"></line>
+            <line x1="19.8" y1="12" x2="22.5" y2="12"></line>
+            <line x1="4.4" y1="4.4" x2="6.3" y2="6.3"></line>
+            <line x1="17.7" y1="17.7" x2="19.6" y2="19.6"></line>
+            <line x1="4.4" y1="19.6" x2="6.3" y2="17.7"></line>
+            <line x1="17.7" y1="6.3" x2="19.6" y2="4.4"></line>
+          </g>
+        </svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M20.5 14.7A8.5 8.5 0 1 1 9.3 3.5a7 7 0 0 0 11.2 11.2Z"></path>
+        </svg>
+      </button>
     </div>
   </div>
 </header>

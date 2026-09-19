@@ -87,6 +87,3 @@ same as GitHub Pages serves it.)
   `data/*.json` file untouched in that case (logged as a warning in the
   Action run) rather than overwriting good history with nothing, but you'll
   need to update the scraper's selectors.
-
-
-

@@ -17,8 +17,16 @@
   color-scheme: light dark;
 }
 
+/*
+ * Theme resolution order:
+ *  1. :root defaults above = light theme.
+ *  2. OS-level dark preference applies automatically, UNLESS the visitor
+ *     has explicitly picked "light" with the toggle (data-theme="light").
+ *  3. An explicit choice from the toggle (data-theme="dark"/"light"),
+ *     stored in localStorage, always wins over the OS preference.
+ */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #14161a;
     --surface: #1c1f25;
     --border: #2b2f37;
@@ -34,6 +42,23 @@
     --badge-discovered-text: #f0b054;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
   }
+}
+
+:root[data-theme="dark"] {
+  --bg: #14161a;
+  --surface: #1c1f25;
+  --border: #2b2f37;
+  --text: #eef0f3;
+  --text-muted: #9aa1ac;
+  --accent: #5b9bff;
+  --accent-soft: #1c2740;
+  --tab-active-bg: #eef0f3;
+  --tab-active-text: #14161a;
+  --badge-official-bg: #123422;
+  --badge-official-text: #6fdb96;
+  --badge-discovered-bg: #3a2a10;
+  --badge-discovered-text: #f0b054;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
 }
 
 * {
@@ -87,6 +112,12 @@ body {
   font-size: 0.9rem;
 }
 
+.header-controls {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
 .search-wrap {
   position: relative;
   min-width: 260px;
@@ -115,6 +146,61 @@ body {
   font-size: 0.78rem;
   color: var(--text-muted);
   min-height: 1em;
+}
+
+.theme-toggle {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.theme-toggle .icon {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.theme-toggle .icon-moon {
+  display: none;
+  fill: currentColor;
+  stroke: none;
+}
+
+/* Sun icon shown while in light mode; swap to the moon once dark is active. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .icon-sun {
+    display: none;
+  }
+  :root:not([data-theme="light"]) .theme-toggle .icon-moon {
+    display: inline-flex;
+  }
+}
+:root[data-theme="dark"] .theme-toggle .icon-sun {
+  display: none;
+}
+:root[data-theme="dark"] .theme-toggle .icon-moon {
+  display: inline-flex;
 }
 
 .tabs {

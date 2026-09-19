@@ -4,12 +4,88 @@
   const searchEl = document.getElementById("search");
   const searchCountEl = document.getElementById("search-count");
   const lastUpdatedEl = document.getElementById("last-updated");
+  const themeToggleBtn = document.getElementById("theme-toggle");
 
   const state = {
     sources: [], // [{ id, label, file, entries }]
     activeId: null,
     query: "",
   };
+
+  // --- Theme toggle (upper-right button) ------------------------------
+  const THEME_KEY = "homey-theme";
+
+  function getStoredTheme() {
+    try {
+      return localStorage.getItem(THEME_KEY);
+    } catch (err) {
+      return null;
+    }
+  }
+
+  function storeTheme(value) {
+    try {
+      localStorage.setItem(THEME_KEY, value);
+    } catch (err) {
+      /* private browsing / blocked storage - just skip persisting */
+    }
+  }
+
+  function systemPrefersDark() {
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  }
+
+  function resolveInitialTheme() {
+    const stored = getStoredTheme();
+    if (stored === "dark" || stored === "light") return stored;
+    return systemPrefersDark() ? "dark" : "light";
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+    if (themeToggleBtn) {
+      themeToggleBtn.setAttribute("aria-pressed", String(theme === "dark"));
+      themeToggleBtn.setAttribute(
+        "aria-label",
+        theme === "dark" ? "Switch to light theme" : "Switch to dark theme"
+      );
+    }
+  }
+
+  applyTheme(resolveInitialTheme());
+
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener("click", () => {
+      const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      applyTheme(next);
+      storeTheme(next);
+    });
+  }
+
+  // --- Sorting ----------------------------------------------------------
+  // Always show newest first, regardless of the order the JSON files
+  // happen to be in - compares on "date" (YYYY-MM-DD) and falls back to a
+  // numeric version compare when dates tie or are missing.
+  function compareVersionsDesc(a, b) {
+    const pa = String(a).match(/\d+/g)?.map(Number) ?? [];
+    const pb = String(b).match(/\d+/g)?.map(Number) ?? [];
+    const len = Math.max(pa.length, pb.length);
+    for (let i = 0; i < len; i++) {
+      const na = pa[i] ?? 0;
+      const nb = pb[i] ?? 0;
+      if (na !== nb) return nb - na;
+    }
+    return String(b).localeCompare(String(a));
+  }
+
+  function sortNewestFirst(entries) {
+    return [...entries].sort((a, b) => {
+      const da = a.date || "";
+      const db = b.date || "";
+      if (da !== db) return da < db ? 1 : -1;
+      return compareVersionsDesc(a.version, b.version);
+    });
+  }
 
   function escapeHtml(str) {
     return String(str)
@@ -50,7 +126,7 @@
 
     state.sources = manifest.sources.map((s, i) => ({
       ...s,
-      entries: results[i].status === "fulfilled" ? results[i].value : [],
+      entries: sortNewestFirst(results[i].status === "fulfilled" ? results[i].value : []),
       loadFailed: results[i].status === "rejected",
     }));
 
