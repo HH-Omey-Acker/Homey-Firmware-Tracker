@@ -5,7 +5,11 @@ import {
   fetchHomeyPro2016to2019,
   fetchHomeyCloud,
 } from "./fetch-api-sources.mjs";
-import { scrapeMobileAppChangelog, scrapeWebAppChangelog } from "./scrape-wiki.mjs";
+import {
+  scrapeMobileAppChangelog,
+  scrapeWebAppChangelog,
+  scrapeHomeySHSChangelog,
+} from "./scrape-wiki.mjs";
 import { loadExisting, mergeEntries, saveChangelog } from "./lib/store.mjs";
 import { writeFile } from "node:fs/promises";
 
@@ -37,6 +41,11 @@ const SOURCES = [
     id: "homey-web-app",
     label: "Homey Web App",
     fetcher: scrapeWebAppChangelog,
+  },
+  {
+    id: "homey-shs",
+    label: "Homey SHS (Self-Hosted Server)",
+    fetcher: scrapeHomeySHSChangelog,
   },
 ];
 

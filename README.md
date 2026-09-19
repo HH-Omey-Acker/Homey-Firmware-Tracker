@@ -12,6 +12,7 @@ Tabs / data sources:
 | Homey Cloud | `https://ota-api.homeycloud.net/api/v1/changelog?channel=stable` | Yes (`createdAt`) |
 | Homey Mobile App | scraped from `homey.app/en-us/wiki/homey-mobile-app-changelog` | No – discovered date |
 | Homey Web App | scraped from `homey.app/en-us/wiki/homey-web-app-changelog` | No – discovered date |
+| Homey SHS (Self-Hosted Server) | scraped from `https://ota-api.homeyshs.net/changelog.html` | No – discovered date |
 
 Homey Bridge is intentionally left out — Athom doesn't publish a changelog for it.
 
@@ -81,9 +82,14 @@ same as GitHub Pages serves it.)
   add a fetcher/scraper following the pattern in `scripts/fetch-api-sources.mjs`
   or `scripts/scrape-wiki.mjs`, register it in `SOURCES` in
   `scripts/update-all.mjs`, and seed `data/homey-bridge.json` with `[]`.
-- **If the wiki page structure changes**, `scrapeMobileAppChangelog` /
-  `scrapeWebAppChangelog` in `scripts/scrape-wiki.mjs` will start returning
-  zero entries; `update-all.mjs` deliberately leaves the existing
-  `data/*.json` file untouched in that case (logged as a warning in the
-  Action run) rather than overwriting good history with nothing, but you'll
-  need to update the scraper's selectors.
+- **If a scraped page's structure changes**, `scrapeMobileAppChangelog` /
+  `scrapeWebAppChangelog` / `scrapeHomeySHSChangelog` in
+  `scripts/scrape-wiki.mjs` will start returning zero entries;
+  `update-all.mjs` deliberately leaves the existing `data/*.json` file
+  untouched in that case (logged as a warning in the Action run) rather
+  than overwriting good history with nothing, but you'll need to update the
+  scraper's selectors. All three share one `scrapePage()` helper: it finds
+  every heading that looks like a version number and treats everything up
+  to the *next* such heading as that version's description, so category
+  subheadings inside an entry (e.g. SHS's "Core" / "Security" sections)
+  don't get mistaken for version boundaries.
