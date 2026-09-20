@@ -7,6 +7,11 @@
       "file": "homey-pro-mini.json"
     },
     {
+      "id": "homey-shs",
+      "label": "Homey SHS (Self-Hosted Server)",
+      "file": "homey-shs.json"    
+    },
+    {
       "id": "homey-pro-2016-2019",
       "label": "Homey Pro (2016 – 2019)",
       "file": "homey-pro-2016-2019.json"
@@ -25,11 +30,7 @@
       "id": "homey-web-app",
       "label": "Homey Web App",
       "file": "homey-web-app.json"
-    },
-    {
-      "id": "homey-shs",
-      "label": "Homey SHS (Self-Hosted Server)",
-      "file": "homey-shs.json"
+
     }
   ]
 }
