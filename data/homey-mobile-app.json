@@ -1,5 +1,14 @@
 [
   {
+    "version": "10.1.2",
+    "date": "2026-09-24",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added in-app account management.</li>\n\n\n\n<li>Fixed picker initial scroll positioning.</li>\n\n\n\n<li>Fixed several navigation and layout issues in device lists, menus, and sheets.</li>\n</ul>",
+    "descriptionText": "- Added in-app account management.\n- Fixed picker initial scroll positioning.\n- Fixed several navigation and layout issues in device lists, menus, and sheets.",
+    "channel": null,
+    "firstSeenAt": "2026-09-24T17:13:16.130Z"
+  },
+  {
     "version": "10.1.1",
     "date": "2026-01-01",
     "dateSource": "discovered",

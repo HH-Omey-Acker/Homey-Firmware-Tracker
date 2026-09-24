@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.9",
+    "date": "2026-09-24",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Fixed default-colored buttons (like Cancel) showing unreadable dark text in dark mode.</li>\n<li>Fixed the delete action on a Timeline notification staying hidden after deleting a notification shifted the row under the pointer.</li>\n<li>Fixed starting a firmware update on a device that isn't ready or available; a message now explains to wait and try again.</li>\n<li>Aligned device update status labels and the \"no changelog available\" message with the mobile app.</li>\n<li>Fixed incorrect flow manager names in several languages.</li>\n</ul>",
+    "descriptionText": "- Fixed default-colored buttons (like Cancel) showing unreadable dark text in dark mode.\n- Fixed the delete action on a Timeline notification staying hidden after deleting a notification shifted the row under the pointer.\n- Fixed starting a firmware update on a device that isn't ready or available; a message now explains to wait and try again.\n- Aligned device update status labels and the \"no changelog available\" message with the mobile app.\n- Fixed incorrect flow manager names in several languages.",
+    "channel": null,
+    "firstSeenAt": "2026-09-24T17:13:17.472Z"
+  },
+  {
     "version": "1.18.8",
     "date": "2026-01-01",
     "dateSource": "discovered",
