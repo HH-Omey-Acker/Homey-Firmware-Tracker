@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.1-rc.6",
+    "date": "2026-09-24",
+    "dateSource": "discovered",
+    "description": "<p><strong>Core</strong></p>\n<p>Improved diagnostic and troubleshooting capabilities for Zigbee and Thread.</p>",
+    "descriptionText": "Core \n Improved diagnostic and troubleshooting capabilities for Zigbee and Thread.",
+    "channel": "beta",
+    "firstSeenAt": "2026-09-24T11:48:22.545Z"
+  },
+  {
     "version": "13.5.1-rc.5",
     "date": "2026-09-22",
     "dateSource": "discovered",
