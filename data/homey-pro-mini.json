@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.1-rc.7",
+    "date": "2026-09-25",
+    "dateSource": "discovered",
+    "description": "<p><strong>Zwave</strong></p>\n<ul>\n<li>Fix in Z-Wave Security S2 for Zooz devices</li>\n</ul>",
+    "descriptionText": "Zwave \n \n- Fix in Z-Wave Security S2 for Zooz devices",
+    "channel": "beta",
+    "firstSeenAt": "2026-09-25T11:53:01.526Z"
+  },
+  {
     "version": "13.5.1-rc.6",
     "date": "2026-09-24",
     "dateSource": "discovered",
