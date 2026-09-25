@@ -23,14 +23,19 @@ const SOURCES = [
     fetcher: fetchHomeyProMini,
   },
   {
-    id: "homey-pro-2016-2019",
-    label: "Homey Pro (2016 – 2019)",
-    fetcher: fetchHomeyPro2016to2019,
+    id: "homey-shs",
+    label: "Homey SHS (Self-Hosted Server)",
+    fetcher: scrapeHomeySHSChangelog,
   },
   {
     id: "homey-cloud",
     label: "Homey Cloud",
     fetcher: fetchHomeyCloud,
+  },
+  {
+    id: "homey-pro-2016-2019",
+    label: "Homey Pro (2016 – 2019)",
+    fetcher: fetchHomeyPro2016to2019,
   },
   {
     id: "homey-mobile-app",
@@ -41,11 +46,6 @@ const SOURCES = [
     id: "homey-web-app",
     label: "Homey Web App",
     fetcher: scrapeWebAppChangelog,
-  },
-  {
-    id: "homey-shs",
-    label: "Homey SHS (Self-Hosted Server)",
-    fetcher: scrapeHomeySHSChangelog,
   },
 ];
 
