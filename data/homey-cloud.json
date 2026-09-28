@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.1",
+    "date": "2026-09-28",
+    "dateSource": "official",
+    "description": "<p>Core<br>• Security fixes.<br><br>Devices<br>• Fixes an issue where changes to a device group's members were not saved when its icon was changed at the same time.<br>• Fixes an issue where removing a device from a group could leave its group membership inconsistent.<br><br>Flow<br>• Fixes an issue that caused mismatched Flow cards value placeholders to be displayed in the Web App.<br>• Fixes an issue where data passed when starting an Advanced Flow through the API was ignored.<br><br>Moods<br>• Fixes an issue where a Mood could fail to determine its Zone when a device referenced a missing Zone.<br><br>Apps<br>• Fixes an issue that could cause Homey to freeze when starting apps with an extreme amount of drivers and Flow cards.</p><p>Z-Wave<br>• Fixes an issue with Z-Wave Security S2 for Zooz devices.</p>",
+    "descriptionText": "Core • Security fixes. Devices • Fixes an issue where changes to a device group's members were not saved when its icon was changed at the same time. • Fixes an issue where removing a device from a group could leave its group membership inconsistent. Flow • Fixes an issue that caused mismatched Flow cards value placeholders to be displayed in the Web App. • Fixes an issue where data passed when starting an Advanced Flow through the API was ignored. Moods • Fixes an issue where a Mood could fail to determine its Zone when a device referenced a missing Zone. Apps • Fixes an issue that could cause Homey to freeze when starting apps with an extreme amount of drivers and Flow cards.\n Z-Wave • Fixes an issue with Z-Wave Security S2 for Zooz devices.",
+    "channel": "stable",
+    "firstSeenAt": "2026-09-28T23:18:13.081Z"
+  },
+  {
     "version": "13.5.0",
     "date": "2026-09-07",
     "dateSource": "official",
