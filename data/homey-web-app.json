@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.11",
+    "date": "2026-09-29",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved the main navigation: search, notifications, and your profile menu now live in the navigation bar, with Appearance and Presence available from the profile menu.</li>\n<li>Improved the Presence dialog so changes are saved instantly.</li>\n<li>Improved the search dialog with a narrower layout and clearer highlighting and focus of results.</li>\n<li>Improved keyboard focus visibility in context menus and radio options.</li>\n<li>Fixed Insights downloads using the owner's name in the file name.</li>\n<li>Fixed the spacing between Insights items.</li>\n</ul>",
+    "descriptionText": "- Improved the main navigation: search, notifications, and your profile menu now live in the navigation bar, with Appearance and Presence available from the profile menu.\n- Improved the Presence dialog so changes are saved instantly.\n- Improved the search dialog with a narrower layout and clearer highlighting and focus of results.\n- Improved keyboard focus visibility in context menus and radio options.\n- Fixed Insights downloads using the owner's name in the file name.\n- Fixed the spacing between Insights items.",
+    "channel": null,
+    "firstSeenAt": "2026-09-29T22:17:33.818Z"
+  },
+  {
     "version": "1.18.10",
     "date": "2026-09-25",
     "dateSource": "discovered",
