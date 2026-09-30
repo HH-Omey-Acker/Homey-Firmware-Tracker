@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.12",
+    "date": "2026-09-30",
+    "dateSource": "discovered",
+    "description": "September 30, 2026\n<ul>\n<li>Fixed the Notifications, Presence, and Appearance dialogs closing and reopening while the page refreshes.</li>\n<li>Fixed the profile menu showing light scrollbars in dark mode.</li>\n</ul>",
+    "descriptionText": "September 30, 2026\n \n- Fixed the Notifications, Presence, and Appearance dialogs closing and reopening while the page refreshes.\n- Fixed the profile menu showing light scrollbars in dark mode.",
+    "channel": null,
+    "firstSeenAt": "2026-09-30T22:18:00.984Z"
+  },
+  {
     "version": "1.18.11",
     "date": "2026-09-29",
     "dateSource": "discovered",
