@@ -1533,8 +1533,8 @@
     "version": "1.8.17",
     "date": "2026-01-01",
     "dateSource": "discovered",
-    "description": "November 15, 2022\n<p><strong>Added</strong></p>\n<p><strong>Changed</strong></p>\n<ul>\n<li>Improved device color picker with click anywhere functionality to update color</li>\n<li>Improved device color picker with update only hue or saturation by pressing shift/cmd key</li>\n<li>Improved device color picker with selected color visible in drag button.</li>\n</ul>\n<p><strong>Fixed</strong></p>\n<ul>\n<li>Fixed device color picker for Firefox browser</li>\n</ul>\n<p><strong>Other</strong></p>",
-    "descriptionText": "November 15, 2022\n Added \n Changed \n \n- Improved device color picker with click anywhere functionality to update color\n- Improved device color picker with update only hue or saturation by pressing shift/cmd key\n- Improved device color picker with selected color visible in drag button.\n Fixed \n \n- Fixed device color picker for Firefox browser\n Other",
+    "description": "November 15, 2022\nAdded\nChanged\n<ul>\n<li>Improved device color picker with click anywhere functionality to update color</li>\n<li>Improved device color picker with update only hue or saturation by pressing shift/cmd key</li>\n<li>Improved device color picker with selected color visible in drag button.</li>\n</ul>\nFixed\n<ul>\n<li>Fixed device color picker for Firefox browser</li>\n</ul>\nOther",
+    "descriptionText": "November 15, 2022\nAdded\nChanged\n \n- Improved device color picker with click anywhere functionality to update color\n- Improved device color picker with update only hue or saturation by pressing shift/cmd key\n- Improved device color picker with selected color visible in drag button.\nFixed\n \n- Fixed device color picker for Firefox browser\nOther",
     "channel": null,
     "firstSeenAt": "2026-09-19T14:42:40.520Z"
   },
