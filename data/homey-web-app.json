@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.13",
+    "date": "2026-10-08",
+    "dateSource": "discovered",
+    "description": "October 8, 2026\nWhat's Changed\n<ul>\n<li>Fixed the profile menu and the add menu not closing when you click another button in the navigation bar or open search.</li>\n<li>Fixed accepting a Homey invitation failing after signing in.</li>\n<li>Improved the placement of the delete buttons in the Notifications dialog, so clicking next to a button no longer deletes a notification.</li>\n<li>Added an indicator to My Account in the profile menu to show it opens in a new window.</li>\n<li>Fixed the name of Polish in the language selector.</li>\n</ul>",
+    "descriptionText": "October 8, 2026\nWhat's Changed\n \n- Fixed the profile menu and the add menu not closing when you click another button in the navigation bar or open search.\n- Fixed accepting a Homey invitation failing after signing in.\n- Improved the placement of the delete buttons in the Notifications dialog, so clicking next to a button no longer deletes a notification.\n- Added an indicator to My Account in the profile menu to show it opens in a new window.\n- Fixed the name of Polish in the language selector.",
+    "channel": null,
+    "firstSeenAt": "2026-10-08T13:32:43.698Z"
+  },
+  {
     "version": "1.18.12",
     "date": "2026-09-30",
     "dateSource": "discovered",

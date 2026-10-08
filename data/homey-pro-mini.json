@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.2-rc.4",
+    "date": "2026-10-08",
+    "dateSource": "discovered",
+    "description": "<p><strong>Core</strong></p><ul><li><p>Improves error handling when Homey's name exceeds the maximum length.</p></li></ul><p><strong>Flow</strong></p><ul><li><p>Fixes an issue where Flows created without card groups could fail to open in the Web App or mobile app.</p></li><li><p>Fixes missing dropdown option titles in Flow cards from older apps.</p></li></ul><p><strong>Z-Wave</strong></p><ul><li><p>Fixes an issue with Z-Wave Security S2 for Zooz devices.</p></li></ul><p><strong>Apps</strong></p><ul><li><p>Improves isolation of Python apps.</p></li></ul><p><strong>Thread</strong></p><ul><li><p>Fixes an issue where all Thread devices could become unreachable due to an occasional address conflict between Zigbee and Thread.</p></li><li><p>Fixes an issue where all Thread devices could become unreachable if Homey Pro is connected to both Ethernet and Wi-Fi.</p></li><li><p>Improves reliability when multiple Thread Border Routers are on the same Thread network as Homey Pro.</p></li></ul>",
+    "descriptionText": "Core \n \n- Improves error handling when Homey's name exceeds the maximum length.\n Flow \n \n- Fixes an issue where Flows created without card groups could fail to open in the Web App or mobile app.\n- Fixes missing dropdown option titles in Flow cards from older apps.\n Z-Wave \n \n- Fixes an issue with Z-Wave Security S2 for Zooz devices.\n Apps \n \n- Improves isolation of Python apps.\n Thread \n \n- Fixes an issue where all Thread devices could become unreachable due to an occasional address conflict between Zigbee and Thread.\n- Fixes an issue where all Thread devices could become unreachable if Homey Pro is connected to both Ethernet and Wi-Fi.\n- Improves reliability when multiple Thread Border Routers are on the same Thread network as Homey Pro.",
+    "channel": "beta",
+    "firstSeenAt": "2026-10-08T13:32:33.272Z"
+  },
+  {
     "version": "13.5.1",
     "date": "2026-09-28",
     "dateSource": "discovered",
