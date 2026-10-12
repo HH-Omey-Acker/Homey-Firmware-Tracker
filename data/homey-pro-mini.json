@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.2-rc.5",
+    "date": "2026-10-12",
+    "dateSource": "discovered",
+    "description": "<p><strong>Core</strong></p>\n<ul>\n<li>Restored firmware for Homey Pro Ethernet adapters which may improve reliability.</li>\n</ul>",
+    "descriptionText": "Core \n \n- Restored firmware for Homey Pro Ethernet adapters which may improve reliability.",
+    "channel": "beta",
+    "firstSeenAt": "2026-10-12T15:28:42.116Z"
+  },
+  {
     "version": "13.5.2-rc.4",
     "date": "2026-10-08",
     "dateSource": "discovered",
