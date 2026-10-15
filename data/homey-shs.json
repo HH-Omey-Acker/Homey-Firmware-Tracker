@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.2",
+    "date": "2026-10-15",
+    "dateSource": "discovered",
+    "description": "Core\n<ul>\n<li>Limits Homey's name to 63 characters to prevent issues with local network discovery.</li>\n</ul>\nFlow\n<ul>\n<li>Fixes missing labels in Flow card dropdowns.</li>\n<li>Fixes an issue where Flows created through the API without explicit card groups could run actions incorrectly.</li>\n</ul>\nCamera Streaming\n<ul>\n<li>Updates the camera streaming component to go2rtc v1.9.14.</li>\n</ul>\nApps\n<ul>\n<li>Fixes an issue that could prevent Python apps from starting on macOS hosts using shared storage.</li>\n<li>Improves isolation of communication between Python apps and Homey.</li>\n</ul>",
+    "descriptionText": "Core\n \n- Limits Homey's name to 63 characters to prevent issues with local network discovery.\nFlow\n \n- Fixes missing labels in Flow card dropdowns.\n- Fixes an issue where Flows created through the API without explicit card groups could run actions incorrectly.\nCamera Streaming\n \n- Updates the camera streaming component to go2rtc v1.9.14.\nApps\n \n- Fixes an issue that could prevent Python apps from starting on macOS hosts using shared storage.\n- Improves isolation of communication between Python apps and Homey.",
+    "channel": null,
+    "firstSeenAt": "2026-10-15T17:02:58.541Z"
+  },
+  {
     "version": "13.5.0",
     "date": "2026-09-7",
     "dateSource": "official",

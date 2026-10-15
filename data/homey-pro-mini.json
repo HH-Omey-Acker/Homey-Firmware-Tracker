@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.2",
+    "date": "2026-10-15",
+    "dateSource": "discovered",
+    "description": "<p><strong>Core</strong></p>\n<ul>\n<li>Improves error handling when Homey's name exceeds the maximum length.</li>\n<li>Restored firmware for Homey Pro Ethernet adapters which may improve reliability.</li>\n</ul>\n<p><strong>Flow</strong></p>\n<ul>\n<li>Fixes an issue where Flows created without card groups could fail to open in the Web App or mobile app.</li>\n<li>Fixes missing dropdown option titles in Flow cards from older apps.</li>\n</ul>\n<p><strong>Z-Wave</strong></p>\n<ul>\n<li>Fixes an issue with Z-Wave Security S2 for Zooz devices.</li>\n</ul>\n<p><strong>Apps</strong></p>\n<ul>\n<li>Improves isolation of Python apps.</li>\n</ul>\n<p><strong>Thread</strong></p>\n<ul>\n<li>Fixes an issue where all Thread devices could become unreachable due to an occasional address conflict between Zigbee and Thread.</li>\n<li>Fixes an issue where all Thread devices could become unreachable if Homey Pro is connected to both Ethernet and Wi-Fi.</li>\n<li>Improves reliability when multiple Thread Border Routers are on the same Thread network as Homey Pro.</li>\n</ul>",
+    "descriptionText": "Core \n \n- Improves error handling when Homey's name exceeds the maximum length.\n- Restored firmware for Homey Pro Ethernet adapters which may improve reliability.\n Flow \n \n- Fixes an issue where Flows created without card groups could fail to open in the Web App or mobile app.\n- Fixes missing dropdown option titles in Flow cards from older apps.\n Z-Wave \n \n- Fixes an issue with Z-Wave Security S2 for Zooz devices.\n Apps \n \n- Improves isolation of Python apps.\n Thread \n \n- Fixes an issue where all Thread devices could become unreachable due to an occasional address conflict between Zigbee and Thread.\n- Fixes an issue where all Thread devices could become unreachable if Homey Pro is connected to both Ethernet and Wi-Fi.\n- Improves reliability when multiple Thread Border Routers are on the same Thread network as Homey Pro.",
+    "channel": "stable",
+    "firstSeenAt": "2026-10-15T17:02:57.531Z"
+  },
+  {
     "version": "13.5.2-rc.5",
     "date": "2026-10-12",
     "dateSource": "discovered",
