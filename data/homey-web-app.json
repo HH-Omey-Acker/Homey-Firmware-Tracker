@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.14",
+    "date": "2026-10-19",
+    "dateSource": "discovered",
+    "description": "October 19, 2026\nWhat's Changed\n<ul>\n<li>Improved security when connecting to your Homey: sign-in is now tied to the Homey you select.</li>\n</ul>\nFull Changelog",
+    "descriptionText": "October 19, 2026\nWhat's Changed\n \n- Improved security when connecting to your Homey: sign-in is now tied to the Homey you select.\nFull Changelog",
+    "channel": null,
+    "firstSeenAt": "2026-10-19T13:19:46.785Z"
+  },
+  {
     "version": "1.18.13",
     "date": "2026-10-08",
     "dateSource": "discovered",
