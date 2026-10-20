@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.15",
+    "date": "2026-10-20",
+    "dateSource": "discovered",
+    "description": "October 20, 2026\nWhat's Changed\n<ul>\n<li>Improved security when accepting an invitation to a Homey: your acceptance is now verified as coming from you.</li>\n</ul>\nFull Changelog",
+    "descriptionText": "October 20, 2026\nWhat's Changed\n \n- Improved security when accepting an invitation to a Homey: your acceptance is now verified as coming from you.\nFull Changelog",
+    "channel": null,
+    "firstSeenAt": "2026-10-20T17:09:42.503Z"
+  },
+  {
     "version": "1.18.14",
     "date": "2026-10-19",
     "dateSource": "discovered",
