@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.3",
+    "date": "2026-10-21",
+    "dateSource": "discovered",
+    "description": "Security\n<ul>\n<li>This release includes an important security fix. We recommend keeping your Homey up to date.</li>\n</ul>\nCore\n<ul>\n<li>Updates translations.</li>\n</ul>\nEnergy\n<ul>\n<li>Fixes an issue where energy reports could be duplicated or temporarily show outdated values.</li>\n</ul>\nFlow\n<ul>\n<li>Fixes the \"Set lock mode\" action card, which did not apply the selected mode.</li>\n</ul>",
+    "descriptionText": "Security\n \n- This release includes an important security fix. We recommend keeping your Homey up to date.\nCore\n \n- Updates translations.\nEnergy\n \n- Fixes an issue where energy reports could be duplicated or temporarily show outdated values.\nFlow\n \n- Fixes the \"Set lock mode\" action card, which did not apply the selected mode.",
+    "channel": null,
+    "firstSeenAt": "2026-10-21T17:14:25.415Z"
+  },
+  {
     "version": "13.5.2",
     "date": "2026-10-15",
     "dateSource": "discovered",

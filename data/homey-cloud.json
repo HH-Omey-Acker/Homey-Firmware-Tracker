@@ -1,5 +1,23 @@
 [
   {
+    "version": "13.5.3",
+    "date": "2026-10-21",
+    "dateSource": "official",
+    "description": "<p><strong>Security</strong><br><br>- This release includes an important security fix.</p>",
+    "descriptionText": "Security - This release includes an important security fix.",
+    "channel": "stable",
+    "firstSeenAt": "2026-10-21T17:14:26.835Z"
+  },
+  {
+    "version": "13.5.2",
+    "date": "2026-10-19",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong></p><ul><li><p>Improves error handling when Homey’s name exceeds the maximum length.</p></li></ul><p><strong>Flow</strong></p><ul><li><p>Fixes an issue where Flows created without card groups could fail to open in the Web App or mobile app.</p></li><li><p>Fixes missing dropdown option titles in Flow cards from older apps.</p></li></ul><p><strong>Apps</strong></p><ul><li><p>Improves isolation of Python apps.</p></li></ul><p></p>",
+    "descriptionText": "Core \n \n- Improves error handling when Homey’s name exceeds the maximum length.\n Flow \n \n- Fixes an issue where Flows created without card groups could fail to open in the Web App or mobile app.\n- Fixes missing dropdown option titles in Flow cards from older apps.\n Apps \n \n- Improves isolation of Python apps.",
+    "channel": "stable",
+    "firstSeenAt": "2026-10-21T17:14:26.835Z"
+  },
+  {
     "version": "13.5.1",
     "date": "2026-09-28",
     "dateSource": "official",
