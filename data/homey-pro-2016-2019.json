@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.3-rc.1",
+    "date": "2026-10-21",
+    "dateSource": "official",
+    "description": "<p><strong>Security</strong></p><ul><li>This release includes an important security fix. We recommend keeping your Homey up to date.</li></ul><p><strong>Core</strong></p><ul><li>Updated translations.</li></ul>",
+    "descriptionText": "Security \n \n- This release includes an important security fix. We recommend keeping your Homey up to date.\n Core \n \n- Updated translations.",
+    "channel": "beta",
+    "firstSeenAt": "2026-10-21T21:44:34.402Z"
+  },
+  {
     "version": "13.5.1",
     "date": "2026-09-14",
     "dateSource": "official",
