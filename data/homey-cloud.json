@@ -3,8 +3,8 @@
     "version": "13.5.3",
     "date": "2026-10-21",
     "dateSource": "official",
-    "description": "<p><strong>Security</strong><br><br>- This release includes an important security fix.</p>",
-    "descriptionText": "Security - This release includes an important security fix.",
+    "description": "<p><strong>Security</strong><br></p><ul><li><p>This release includes an important security fix.</p></li></ul>",
+    "descriptionText": "Security \n \n- This release includes an important security fix.",
     "channel": "stable",
     "firstSeenAt": "2026-10-21T17:14:26.835Z"
   },
