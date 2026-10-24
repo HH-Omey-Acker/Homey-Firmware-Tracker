@@ -1,5 +1,14 @@
 [
   {
+    "version": "10.1.3",
+    "date": "2026-10-24",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Updated Homey Bridge and Energy Dongle setup Flows, including clearer troubleshooting and recovery steps.</li>\n\n\n\n<li>Added two-factor authentication and password requirements when changing an email address.</li>\n</ul>",
+    "descriptionText": "- Updated Homey Bridge and Energy Dongle setup Flows, including clearer troubleshooting and recovery steps.\n- Added two-factor authentication and password requirements when changing an email address.",
+    "channel": null,
+    "firstSeenAt": "2026-10-24T11:03:59.977Z"
+  },
+  {
     "version": "10.1.2",
     "date": "2026-09-24",
     "dateSource": "discovered",
