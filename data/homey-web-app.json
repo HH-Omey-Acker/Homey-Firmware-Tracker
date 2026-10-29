@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.16",
+    "date": "2026-10-29",
+    "dateSource": "discovered",
+    "description": "October 29, 2026\nWhat's Changed\n<ul>\n<li>Improved the visibility of warning icons and the device selector arrow in device controls.</li>\n<li>Fixed the Korean language label in Settings.</li>\n</ul>\nFull Changelog",
+    "descriptionText": "October 29, 2026\nWhat's Changed\n \n- Improved the visibility of warning icons and the device selector arrow in device controls.\n- Fixed the Korean language label in Settings.\nFull Changelog",
+    "channel": null,
+    "firstSeenAt": "2026-10-29T22:46:35.574Z"
+  },
+  {
     "version": "1.18.15",
     "date": "2026-10-20",
     "dateSource": "discovered",
