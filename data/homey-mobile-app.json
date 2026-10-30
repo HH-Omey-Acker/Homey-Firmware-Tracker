@@ -1,5 +1,14 @@
 [
   {
+    "version": "10.1.4",
+    "date": "2026-10-30",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Improved safe-area handling and responsive layouts.</li>\n\n\n\n<li>Fixed Android presence, timeline, and control gestures.</li>\n\n\n\n<li>Fixed dashboard media widgets staying in sync and widgets getting stuck in a completed state.</li>\n\n\n\n<li>Improved Apple Watch app configuration and support for configurable actions.</li>\n</ul>",
+    "descriptionText": "- Improved safe-area handling and responsive layouts.\n- Fixed Android presence, timeline, and control gestures.\n- Fixed dashboard media widgets staying in sync and widgets getting stuck in a completed state.\n- Improved Apple Watch app configuration and support for configurable actions.",
+    "channel": null,
+    "firstSeenAt": "2026-10-30T12:58:30.689Z"
+  },
+  {
     "version": "10.1.3",
     "date": "2026-10-24",
     "dateSource": "discovered",
