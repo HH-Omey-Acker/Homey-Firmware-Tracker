@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.4-rc.6",
+    "date": "2026-11-02",
+    "dateSource": "discovered",
+    "description": "<p><strong>Core</strong></p><ul><li><p>Updates translations.</p></li></ul><p><strong>Zigbee</strong></p><ul><li><p>Fixes some Zigbee devices being listed as \"Unknown Node\" in Developer Tools and diagnostic reports.</p></li><li><p>Fixes an issue that could result in Thread and Zigbee being configured for different channels.</p></li></ul><p><strong>Devices</strong></p><ul><li><p>Fixes PIN protection for Google Assistant not being saved for devices.</p></li></ul><p><strong>Moods</strong></p><ul><li><p>Fixes HomeyScript not being allowed to set Moods.</p></li></ul><p><strong>Matter</strong></p><ul><li><p>Fixes Matter devices becoming unavailable when one of their endpoints is removed.</p></li><li><p>Controlling a capability of a removed endpoint now shows \"The device no longer supports this action.\".</p></li></ul>",
+    "descriptionText": "Core \n \n- Updates translations.\n Zigbee \n \n- Fixes some Zigbee devices being listed as \"Unknown Node\" in Developer Tools and diagnostic reports.\n- Fixes an issue that could result in Thread and Zigbee being configured for different channels.\n Devices \n \n- Fixes PIN protection for Google Assistant not being saved for devices.\n Moods \n \n- Fixes HomeyScript not being allowed to set Moods.\n Matter \n \n- Fixes Matter devices becoming unavailable when one of their endpoints is removed.\n- Controlling a capability of a removed endpoint now shows \"The device no longer supports this action.\".",
+    "channel": "beta",
+    "firstSeenAt": "2026-11-02T15:56:50.463Z"
+  },
+  {
     "version": "13.5.3",
     "date": "2026-10-21",
     "dateSource": "discovered",
