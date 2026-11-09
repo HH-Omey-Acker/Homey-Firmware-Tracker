@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.4",
+    "date": "2026-11-09",
+    "dateSource": "discovered",
+    "description": "Core\n<ul>\n<li>Updates translations.</li>\n<li>Minor improvements and bug fixes.</li>\n</ul>\nDevices\n<ul>\n<li>Fixes an issue where Google Assistant PIN protection settings were not saved.</li>\n</ul>\nMoods\n<ul>\n<li>Fixes an issue that prevented HomeyScript from activating Moods.</li>\n</ul>\nMatter\n<ul>\n<li>Fixes devices becoming unavailable after an endpoint is removed.</li>\n<li>Shows a clearer error when trying to control a capability whose endpoint is no longer available.</li>\n</ul>\nZigbee\n<ul>\n<li>Fixes some devices appearing as “Unknown Node” in Developer Tools and diagnostic reports.</li>\n</ul>",
+    "descriptionText": "Core\n \n- Updates translations.\n- Minor improvements and bug fixes.\nDevices\n \n- Fixes an issue where Google Assistant PIN protection settings were not saved.\nMoods\n \n- Fixes an issue that prevented HomeyScript from activating Moods.\nMatter\n \n- Fixes devices becoming unavailable after an endpoint is removed.\n- Shows a clearer error when trying to control a capability whose endpoint is no longer available.\nZigbee\n \n- Fixes some devices appearing as “Unknown Node” in Developer Tools and diagnostic reports.",
+    "channel": null,
+    "firstSeenAt": "2026-11-09T22:23:42.947Z"
+  },
+  {
     "version": "13.5.3",
     "date": "2026-10-21",
     "dateSource": "discovered",
