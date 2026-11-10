@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.17",
+    "date": "2026-11-10",
+    "dateSource": "discovered",
+    "description": "November 10, 2026\n<ul>\n<li>Improved the visibility of destructive actions in context menus.</li>\n<li>Fixed an issue that could prevent Moods from displaying when device state information was missing.</li>\n<li>Updated the Homey API.</li>\n</ul>",
+    "descriptionText": "November 10, 2026\n \n- Improved the visibility of destructive actions in context menus.\n- Fixed an issue that could prevent Moods from displaying when device state information was missing.\n- Updated the Homey API.",
+    "channel": null,
+    "firstSeenAt": "2026-11-10T19:45:22.154Z"
+  },
+  {
     "version": "1.18.16",
     "date": "2026-10-29",
     "dateSource": "discovered",
