@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.18",
+    "date": "2026-11-11",
+    "dateSource": "discovered",
+    "description": "November 11, 2026\n<ul>\n<li>Fixed an issue that prevented checking for software updates on Homey Pro (2016–2019).</li>\n</ul>",
+    "descriptionText": "November 11, 2026\n \n- Fixed an issue that prevented checking for software updates on Homey Pro (2016–2019).",
+    "channel": null,
+    "firstSeenAt": "2026-11-11T19:37:32.144Z"
+  },
+  {
     "version": "1.18.17",
     "date": "2026-11-10",
     "dateSource": "discovered",
