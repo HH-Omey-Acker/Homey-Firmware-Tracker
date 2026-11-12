@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.4",
+    "date": "2026-11-12",
+    "dateSource": "discovered",
+    "description": "<p><strong>Core</strong></p>\n<ul>\n<li>Security updates.</li>\n<li>Updates translations.</li>\n<li>Minor improvements and bugfixes.</li>\n</ul>\n<p><strong>Zigbee</strong></p>\n<ul>\n<li>Fixes some Zigbee devices being listed as \"Unknown Node\" in Developer Tools and diagnostic reports.</li>\n<li>Fixes an issue that could result in Thread and Zigbee being configured for different channels.</li>\n</ul>\n<p><strong>Devices</strong></p>\n<ul>\n<li>Fixes PIN protection for Google Assistant not being saved for devices.</li>\n</ul>\n<p><strong>Moods</strong></p>\n<ul>\n<li>Fixes HomeyScript not being allowed to set Moods.</li>\n</ul>\n<p><strong>Matter</strong></p>\n<ul>\n<li>Fixes Matter devices becoming unavailable when one of their endpoints is removed.</li>\n<li>Controlling a capability of a removed endpoint now shows \"The device no longer supports this action.\".</li>\n</ul>",
+    "descriptionText": "Core \n \n- Security updates.\n- Updates translations.\n- Minor improvements and bugfixes.\n Zigbee \n \n- Fixes some Zigbee devices being listed as \"Unknown Node\" in Developer Tools and diagnostic reports.\n- Fixes an issue that could result in Thread and Zigbee being configured for different channels.\n Devices \n \n- Fixes PIN protection for Google Assistant not being saved for devices.\n Moods \n \n- Fixes HomeyScript not being allowed to set Moods.\n Matter \n \n- Fixes Matter devices becoming unavailable when one of their endpoints is removed.\n- Controlling a capability of a removed endpoint now shows \"The device no longer supports this action.\".",
+    "channel": "stable",
+    "firstSeenAt": "2026-11-12T19:55:46.870Z"
+  },
+  {
     "version": "13.5.4-rc.7",
     "date": "2026-11-06",
     "dateSource": "discovered",

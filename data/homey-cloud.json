@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.4",
+    "date": "2026-11-12",
+    "dateSource": "official",
+    "description": "<p><strong>Core</strong><br></p><ul><li><p>Security updates.</p></li><li><p>Updates translations.</p></li><li><p>Minor improvements and bugfixes.</p></li></ul><p><br><br><strong>Zigbee</strong><br></p><ul><li><p>Fixes some Zigbee devices being listed as “Unknown Node” in Developer Tools.</p><p><br><br><strong>Devices</strong><br></p></li></ul><ul><li><p>Fixes PIN protection for Google Assistant not being saved for devices.</p></li></ul><p><br><br><strong>Moods</strong><br></p><ul><li><p>Fixes HomeyScript not being allowed to set Moods.</p></li></ul><p><br><br></p>",
+    "descriptionText": "Core \n \n- Security updates.\n- Updates translations.\n- Minor improvements and bugfixes.\n Zigbee \n \n- Fixes some Zigbee devices being listed as “Unknown Node” in Developer Tools.\n Devices \n \n- Fixes PIN protection for Google Assistant not being saved for devices.\n Moods \n \n- Fixes HomeyScript not being allowed to set Moods.",
+    "channel": "stable",
+    "firstSeenAt": "2026-11-12T19:55:49.692Z"
+  },
+  {
     "version": "13.5.3",
     "date": "2026-10-21",
     "dateSource": "official",
