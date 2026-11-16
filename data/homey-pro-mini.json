@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.5-rc.3",
+    "date": "2026-11-16",
+    "dateSource": "discovered",
+    "description": "<p><strong>Core</strong></p>\n<ul>\n<li>Updates translations.</li>\n<li>Updates the built-in web app.</li>\n<li>Various security fixes.</li>\n<li>Corrects currency for several countries.</li>\n</ul>\n<p><strong>Flow</strong></p>\n<ul>\n<li>Folders that still contain Flows or other folders can no longer be deleted.</li>\n</ul>\n<p><strong>Zigbee</strong></p>\n<ul>\n<li>Updates various components to the latest version.</li>\n<li>Various stability and performance improvements.</li>\n<li>Fixes an issue where pairing some battery-powered Zigbee devices could fail or stall.</li>\n</ul>",
+    "descriptionText": "Core \n \n- Updates translations.\n- Updates the built-in web app.\n- Various security fixes.\n- Corrects currency for several countries.\n Flow \n \n- Folders that still contain Flows or other folders can no longer be deleted.\n Zigbee \n \n- Updates various components to the latest version.\n- Various stability and performance improvements.\n- Fixes an issue where pairing some battery-powered Zigbee devices could fail or stall.",
+    "channel": "beta",
+    "firstSeenAt": "2026-11-16T22:04:09.908Z"
+  },
+  {
     "version": "13.5.4",
     "date": "2026-11-12",
     "dateSource": "discovered",

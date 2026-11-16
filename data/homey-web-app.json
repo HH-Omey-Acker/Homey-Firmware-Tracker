@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.19",
+    "date": "2026-11-16",
+    "dateSource": "discovered",
+    "description": "November 16, 2026\n<ul>\n<li>Fixed HomeyScript installation detection and added a retry option when scripts cannot be loaded.</li>\n<li>Fixed the placeholder shown when no lights are selected for a double-tap action.</li>\n</ul>",
+    "descriptionText": "November 16, 2026\n \n- Fixed HomeyScript installation detection and added a retry option when scripts cannot be loaded.\n- Fixed the placeholder shown when no lights are selected for a double-tap action.",
+    "channel": null,
+    "firstSeenAt": "2026-11-16T22:04:16.555Z"
+  },
+  {
     "version": "1.18.18",
     "date": "2026-11-11",
     "dateSource": "discovered",
