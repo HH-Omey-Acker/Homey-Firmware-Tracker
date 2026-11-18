@@ -1,5 +1,23 @@
 [
   {
+    "version": "11.0.0",
+    "date": "2026-11-18",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>🕘 Introducing Homey Schedules: Set up weekly routines for your devices.<br><br>—  For example, one Schedule can keep your kitchen lights at full brightness from sunrise to 9 AM and at 50% from 5 to 10 PM on weekdays. <br>— The Flows tab is now called Automation and brings your Flows and Schedules together. <br><br>Note: Available on Homey Pro (2023 — 2026), Homey Pro mini and Homey Self-Hosted Server with Homey software v13.5.5 or later. Coming soon to Homey Cloud.</li>\n</ul>",
+    "descriptionText": "- 🕘 Introducing Homey Schedules: Set up weekly routines for your devices. — For example, one Schedule can keep your kitchen lights at full brightness from sunrise to 9 AM and at 50% from 5 to 10 PM on weekdays. — The Flows tab is now called Automation and brings your Flows and Schedules together. Note: Available on Homey Pro (2023 — 2026), Homey Pro mini and Homey Self-Hosted Server with Homey software v13.5.5 or later. Coming soon to Homey Cloud.",
+    "channel": null,
+    "firstSeenAt": "2026-11-18T20:33:29.962Z"
+  },
+  {
+    "version": "10.2.0",
+    "date": "2026-11-18",
+    "dateSource": "discovered",
+    "description": "<ul>\n<li>Added support for iPhone Duo.</li>\n\n\n\n<li>Improved Home and Devices layouts when resizing.</li>\n\n\n\n<li>Fixed dashboard column display and widget dragging.</li>\n\n\n\n<li>Fixed saving Flows and configuring hidden lights in zone widgets.</li>\n</ul>",
+    "descriptionText": "- Added support for iPhone Duo.\n- Improved Home and Devices layouts when resizing.\n- Fixed dashboard column display and widget dragging.\n- Fixed saving Flows and configuring hidden lights in zone widgets.",
+    "channel": null,
+    "firstSeenAt": "2026-11-18T20:33:29.962Z"
+  },
+  {
     "version": "10.1.4",
     "date": "2026-10-30",
     "dateSource": "discovered",

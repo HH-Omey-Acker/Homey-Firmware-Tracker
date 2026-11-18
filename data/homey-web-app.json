@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.18.20",
+    "date": "2026-11-18",
+    "dateSource": "discovered",
+    "description": "November 18, 2026\n<ul>\n<li>Added Claude and ChatGPT to Settings and the command palette, with setup guides for connecting them to Homey.</li>\n<li>Renamed Google Assistant to Google Home and Siri Shortcuts to Shortcuts in Settings and the command palette.</li>\n</ul>",
+    "descriptionText": "November 18, 2026\n \n- Added Claude and ChatGPT to Settings and the command palette, with setup guides for connecting them to Homey.\n- Renamed Google Assistant to Google Home and Siri Shortcuts to Shortcuts in Settings and the command palette.",
+    "channel": null,
+    "firstSeenAt": "2026-11-18T20:33:31.759Z"
+  },
+  {
     "version": "1.18.19",
     "date": "2026-11-16",
     "dateSource": "discovered",

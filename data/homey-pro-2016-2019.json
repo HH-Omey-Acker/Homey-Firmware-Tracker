@@ -1,5 +1,14 @@
 [
   {
+    "version": "13.5.5",
+    "date": "2026-11-18",
+    "dateSource": "official",
+    "description": "<p><strong>Moods</strong></p><ul><li> Fixes an issue where Moods could fail to start after a Mood without devices was saved.</li></ul>",
+    "descriptionText": "Moods \n \n- Fixes an issue where Moods could fail to start after a Mood without devices was saved.",
+    "channel": "stable, beta",
+    "firstSeenAt": "2026-11-18T20:33:28.236Z"
+  },
+  {
     "version": "13.5.5-rc.1",
     "date": "2026-11-10",
     "dateSource": "official",
